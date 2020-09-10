@@ -1,0 +1,226 @@
+.banner {
+    width: 1920px;
+    height: 480px;
+}
+
+.breadcrumb_navigation {
+    width: 1920px;
+    height: 28px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding-left: 160px;
+}
+
+.the_subnavigation {
+    padding-left: 160px;
+    padding-right: 160px;
+    width: 1920px;
+    height: 60px;
+    background-color: #ffffff;
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.the_subnavigation .layui-nav {
+    background-color: #ffffff;
+    height: 58px;
+}
+
+.the_subnavigation .layui-nav .layui-this a {
+    font-family: "SourceHanSansCN-Regular";
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #111111;
+    font-weight: 600;
+}
+
+.the_subnavigation .layui-nav .layui-this:after {
+    background-color: #3469ff;
+}
+
+.face_recognition_features {
+    width: 1920px;
+    height: 323px;
+    background-color: #ffffff;
+}
+
+.title {
+    padding-top: 64px;
+    padding-bottom: 48px;
+    text-align: center;
+    font-family: "MicrosoftYaHei";
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 3px;
+    color: #111111;
+}
+
+.icon_img {
+    width: 86px;
+    height: 100px;
+}
+
+.face_recognition_features_content {
+    padding-left: 160px;
+    padding-right: 160px;
+    font-family: "MicrosoftYaHei";
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #777777;
+
+}
+
+.face_recognition_features_content pre {
+    text-indent: 32px;
+}
+
+.technological_superiority {
+    width: 1920px;
+    height: 581px;
+    background-color: #f5f5f5;
+}
+
+.technological_superiority_box_icon {
+    margin: 0 auto;
+    width: 1544px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.technological_superiority_box_icon .list {
+    width: 305px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon_title {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 23px;
+    font-family: "SourceHanSansCN-Regular";
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 36px;
+    letter-spacing: 2px;
+    color: #111111;
+}
+
+.icon_content {
+    font-family: "SourceHanSansCN-Regular";
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #111111;
+    opacity: 0.6;
+}
+
+.technological_superiority_content {
+    width: 1599px;
+    font-family: "MicrosoftYaHei";
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 36px;
+    letter-spacing: 0px;
+    color: #111111;
+    text-indent: 40px;
+    margin: 0 auto;
+    margin-top: 38px;
+}
+
+.guard_trait {
+    width: 1920px;
+    height: 665px;
+    background-color: #ffffff;
+}
+
+.guard_trait_top {
+    width: 1406px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.guard_trait_bottom {
+    width: 910px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+}
+
+.guard_trait .list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.guard_trait .list .list_title {
+    margin-top: 35px;
+}
+
+.guard_trait .list .list_title,
+.guard_trait .list .list_introductory {
+    font-family: "SourceHanSansCN-Regular";
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 36px;
+    letter-spacing: 2px;
+    color: #111111;
+}
+
+
+
+.visitor_characteristics {
+    width: 1920px;
+    height: 660px;
+    background-color: #f5f5f5;
+}
+
+.visitor_characteristics_top,
+.visitor_characteristics_bottom {
+    width: 1336px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.visitor_characteristics_bottom {
+    margin-top: 64px;
+}
+
+.visitor_characteristics .list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 315px;
+}
+
+.visitor_characteristics .list .list_title {
+    margin-top: 35px;
+}
+
+.visitor_characteristics .list .list_title,
+.visitor_characteristics .list .list_introductory {
+    font-family: "SourceHanSansCN-Regular";
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 36px;
+    letter-spacing: 2px;
+    color: #111111;
+}

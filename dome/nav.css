@@ -1,0 +1,164 @@
+.nav {
+    width: 1920px;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-left: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.nav .ban {
+    display: flex;
+    margin-left: 86px;
+}
+
+.nav .ban div {
+    text-align: center;
+    width: 112px;
+    font-family: "SourceHanSansCN-Regular";
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.nav .ban div:hover {
+    color: #000000;
+    cursor: pointer;
+}
+
+.nav .ban .active {
+    color: #000000;
+    font-weight: 600;
+}
+
+.nav .logo {
+    width: 139px;
+    height: 40px;
+}
+
+.nav .logo:hover {
+    cursor: pointer;
+}
+
+.nav .search {
+    position: absolute;
+    right: 71px;
+
+}
+
+.nav .search .search_button {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-family: "SourceHanSansCN-Light";
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 0.6;
+}
+
+.nav .search .search_button img {
+    margin-right: 6px;
+    width: 15px;
+    height: 15px;
+    opacity: 0.6;
+}
+
+.nav .search .search_button:hover {
+    cursor: pointer;
+}
+
+
+.nav .search .search_input {
+    overflow: hidden;
+    width: 247px;
+    height: 34px;
+    border-radius: 4px;
+    border: solid 1px #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav .search .search_input img {
+    opacity: 1;
+    width: 15px;
+    height: 15px;
+    margin-left: 11px;
+}
+
+.nav .search .search_input input {
+    height: 100%;
+    width: 212px;
+    background-color: #00000000;
+    color: #ffffff;
+    border: none;
+}
+
+
+.nav .tab_control {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 1920px;
+    height: 334px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    padding-top: 32px;
+}
+
+.nav .tab_control .content {
+    margin-left: 385px;
+    width: 900px;
+    height: 208px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav .tab_control .content .list {
+    width: 180px;
+}
+
+.nav .tab_control .content .list p {
+    height: 29px;
+    font-family: "SourceHanSansCN-Regular";
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #777777;
+    margin-bottom: 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.nav .tab_control .content .list .list_son a {
+    font-family: "SourceHanSansCN-Regular";
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #414141;
+}
+
+.nav .tab_control .content .list .list_son #list_son_active{
+    color: #397fff;
+}
+
+.nav .tab_control .content .list .list_son img {
+    margin-left: 5px;
+    width: 14px;
+    height: 12px;
+}
+
+.nav .tab_control .content .list .list_son {
+    margin-bottom: 16px;
+}
+
+.nav .tab_control .content .list .list_son:last-child {
+    margin-bottom: 0;
+}

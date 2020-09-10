@@ -1,0 +1,79 @@
+/* 底部 */
+#base {
+    width: 1920px;
+    height: 367px;
+    background-color: #292929;
+    /* padding-left: 360px; */
+}
+
+#base .top {
+    display: flex;
+    height: 290px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#base .logo_QR_code {
+    width: 139px;
+    text-align: center;
+    padding-top: 37px;
+    margin-left: 21px;
+}
+
+#base .logo_QR_code .QR_code {
+    margin-top: 24px;
+}
+
+#base .lists {
+    width: 890px;
+    padding-top: 43px;
+    margin-left: 120px;
+    display: flex;
+}
+
+#base .list {
+    width: 180px;
+    height: auto;
+}
+
+#base .lists .list p {
+    font-family: "SourceHanSansCN-Regular";
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #ffffff;
+    margin-bottom: 29px;
+}
+
+#base .lists .list .list_son {
+    margin-bottom: 16px;
+}
+
+#base .lists .list .list_son a{
+    font-family: "SourceHanSansCN-Regular";
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 0.6;
+}
+
+#base .bottom {
+    padding-top: 5px;
+    padding-left: 360px;
+    height: 76px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#base .bottom p{
+    margin-top: 15px;
+    font-family: "SourceHanSansCN-Regular";
+	font-size: 12px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+    color: #707070;
+    
+}
