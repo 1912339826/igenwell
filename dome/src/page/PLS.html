@@ -1,0 +1,245 @@
+<!-- 智慧人脸科技 -->
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="keywords" content="进唯智能">
+    <meta name="description" content="进唯智能">
+    <meta name="author" content="HYT722">
+    <meta name="robots" content="index,follow">
+    <!-- 禁止百度转码 -->
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- 360使用Google Chrome Frame -->
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <title>进唯智能-人员定位系统</title>
+    <link rel="stylesheet" href="../font/SourceHanSansCN-1.000/SourceHanSansCN.css">
+    <link rel="stylesheet" href="../../normalize.css">
+    <link rel="stylesheet" href="../../layui-v2.5.6/layui/css/layui.css">
+    <!-- 此引用必须在自我样式上面 -->
+    <script type="text/javascript" src="../../rem.js"></script>
+    <script src="../../layui-v2.5.6/jquery.min.js"></script>
+    <link rel="stylesheet" href="../../goToTop.css">
+    <link rel="stylesheet" href="../../nav.css">
+    <link rel="stylesheet" href="../../breadcrumb_navigation.css">
+    <link rel="stylesheet" href="../../the_subnavigation.css">
+    <link rel="stylesheet" href="../css/PLS.css">
+    <link rel="stylesheet" href="../../base.css">
+</head>
+
+<body>
+    <div id="PLS">
+        <div id="goToTop" title="回到顶部">
+            <img src="../images/goToTop_03.png" alt="">
+        </div>
+        <div class="nav" id="fixed">
+            <img src="../images/LOGO-进唯_03.png" alt="" class="logo" title="南京进唯智能科技有限公司">
+            <div class="ban">
+                <div class="ban_son" data-name="home" title="首页">首页</div>
+                <div class="active ban_son" id="product_center" data-name="home1" title="产品中心">产品中心</div>
+                <div class="ban_son" data-name="home2" title="典型场景">典型场景</div>
+                <div class="ban_son" data-name="home3" title="关于我们">关于我们</div>
+            </div>
+            <div class="search">
+                <div class="search_input layui-anim-fadein" style="display: none;">
+                    <img src="../images/search_back_03.png" alt="">
+                    <input type="text" placeholder="搜索">
+                </div>
+                <div class="search_button" title="搜索">
+                    <img src="../images/search_back_03.png" alt="">
+                    搜索
+                </div>
+            </div>
+            <div class="tab_control" style="display: none;">
+                <div class="content">
+                    <div class="list">
+                        <p>网关类</p>
+                        <div class="list_son">
+                            <a href="">物联网网关</a>
+                        </div>
+                        <div class="list_son">
+                            <a href="">智能视频分析网关</a>
+                            <img src="../images/special_tag_03.png" alt="">
+                        </div>
+                        <div class="list_son">
+                            <a href="">智能视频压缩网关</a>
+                        </div>
+                        <div class="list_son">
+                            <a href="">通信转换模件</a>
+                        </div>
+                        <div class="list_son">
+                            <a href="" id="list_son_active">人员定位设备</a>
+                        </div>
+                    </div>
+
+                    <div class="list">
+                        <p>终端类</p>
+                        <div class="list_son">
+                            <a href="">智慧人脸门禁机</a>
+                            <img src="../images/special_tag_03.png" alt="">
+                        </div>
+                        <div class="list_son">
+                            <a href="">智慧人脸访客机</a>
+                            <img src="../images/special_tag_03.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="list">
+                        <p>中间件产品</p>
+                        <div class="list_son">
+                            <a href="">物联网平台</a>
+                        </div>
+                    </div>
+
+                    <div class="list">
+                        <p>行业产品</p>
+                        <div class="list_son">
+                            <a href="">智慧校园</a>
+                        </div>
+                        <div class="list_son">
+                            <a href="">智慧工地</a>
+                        </div>
+                        <div class="list_son">
+                            <a href="">智慧仓库</a>
+                        </div>
+                        <div class="list_son">
+                            <a href="">化工安全监管</a>
+                        </div>
+                        <div class="list_son">
+                            <a href="">智慧点名</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner">
+            <img src="../images/PLS/banner_02.png" alt="">
+        </div>
+        <div class="breadcrumb_navigation">
+            <span class="layui-breadcrumb" lay-separator=">">
+                <a href="">首页</a>
+                <a><cite>通信转换模块</cite></a>
+            </span>
+        </div>
+        <div class="the_subnavigation">
+            <ul class="layui-nav" lay-filter="">
+                <li class="layui-nav-item layui-this "><a href="">基本信息</a></li>
+            </ul>
+        </div>
+
+        <div class="basic_information">
+            <div class="title">基本信息</div>
+            <div class="brief_introduction">
+                高精度人员定位系统是一套基于蓝牙的系统平台，是集人员定位、管理、信息采集、传输、分析等功能为一体的信息管理系统产品。通过在园区主干道路上部署定位基站实现信号的覆盖，并充分利用网络资源对系统功能进行深度开发，可延伸出通信联络系统、环境监测、视频监控系统，采用工业级高性能嵌入式系统，高度集成定位、监测、报警、管理等功能于一体；模块化设计，功能扩展非常方便；高度的稳定性、可靠性、安全性和高效性价比，为企业创建高效智能的应用和管理平台。
+            </div>
+            <div class="lists">
+                <div class="list">
+                    <img src="../images/PLS/pics_09.png" alt="">
+                    <div class="list_title">人员识别卡</div>
+                </div>
+                <div class="list">
+                    <img src="../images/PLS/pics_06.png" alt="">
+                    <div class="list_title">定位设备</div>
+                </div>
+                <div class="list">
+                    <img src="../images/PLS/pics_03.png" alt="">
+                    <div class="list_title">数据网关</div>
+                </div>
+                <div class="list">
+                    <img src="../images/PLS/pics_09.png" alt="">
+                    <div class="list_title">系统服务器</div>
+                </div>
+            </div>
+        </div>
+        <div class="technology_advantages">
+            <img src="../images/bg_02.png" alt="">
+        </div>
+        <!-- 底部 -->
+        <div id="base">
+            <div class="top">
+                <div class="logo_QR_code">
+                    <img src="../images/LOGO-进唯-copy_03.png" alt="" class="logo">
+                    <img src="../images/QR_code_03.png" alt="" class="QR_code">
+                </div>
+                <div class="lists">
+                    <div class="list">
+                        <p>热门产品</p>
+                        <div class="list_son">
+                            <a href="" title="智慧人脸科技">智慧人脸科技</a>
+                        </div>
+                        <div class="list_son">
+                            <a href="" title="智慧人脸门禁机">智慧人脸门禁机</a>
+                        </div>
+                        <div class="list_son">
+                            <a href="" title="智能视频分析网关">智能视频分析网关</a>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <p>网关类</p>
+                        <div class="list_son">
+                            <a href="" title="物联网网关">物联网网关</a>
+                        </div>
+                        <div class="list_son">
+                            <a href="" title="智能视频分析网关">智能视频分析网关</a>
+                        </div>
+                        <div class="list_son">
+                            <a href="" title="智能视频压缩网关">智能视频压缩网关</a>
+                        </div>
+                        <div class="list_son">
+                            <a href="" title="通信转换模件">通信转换模件</a>
+                        </div>
+                        <div class="list_son">
+                            <a href="" title="人员定位设备">人员定位设备</a>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <p>终端类</p>
+                        <div class="list_son">
+                            <a href="" title="智慧人脸门禁机">智慧人脸门禁机</a>
+                        </div>
+                        <div class="list_son">
+                            <a href="" title="智慧人脸访客机">智慧人脸访客机</a>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <p>中间件产品</p>
+                        <div class="list_son">
+                            <a href="" title="物联网平台">物联网平台</a>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <p>行业产品</p>
+                        <div class="list_son">
+                            <a href="" title="智慧校园">智慧校园</a>
+                        </div>
+                        <div class="list_son">
+                            <a href="" title="智慧工地">智慧工地</a>
+                        </div>
+                        <div class="list_son">
+                            <a href="" title="智慧仓库">智慧仓库</a>
+                        </div>
+                        <div class="list_son">
+                            <a href="" title="化工安全监管">化工安全监管</a>
+                        </div>
+                        <div class="list_son">
+                            <a href="" title="智慧点名">智慧点名</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <p>Copyright©南京进唯智能科技有限公司</p>
+                <p>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+            </div>
+        </div>
+    </div>
+    <script src="../../goToTop.js"></script>
+    <script src="../../layui-v2.5.6/layui/layui.all.js"></script>
+    <script src="../js/PLS.js"></script>
+</body>
+
+</html>

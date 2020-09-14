@@ -1,15 +1,8 @@
+$('#goToTop').hide(); //隐藏go to top按钮
 $(function () {
-    $('#goToTop').hide(); //隐藏go to top按钮
-
+    goToTop()
     $(window).scroll(function () {
-        // console.log($(this).scrollTop());
-
-        //当window的scrolltop距离大于1时，go to 
-        if ($(this).scrollTop() > 500) {
-            $('#goToTop').fadeIn();
-        } else {
-            $('#goToTop').fadeOut();
-        }
+        goToTop()
     });
     $('#goToTop').click(function () {
         $('html , body').animate({
@@ -17,3 +10,11 @@ $(function () {
         }, 'slow');
     });
 });
+
+function goToTop() {
+    if ($(window).scrollTop() > 500) {
+        $('#goToTop').fadeIn();
+    } else {
+        $('#goToTop').fadeOut();
+    }
+}

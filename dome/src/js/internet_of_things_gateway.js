@@ -24,3 +24,8 @@ $(".search_button").click(function (e) {
   $(this).hide()
   $(".search_input").show()
 });
+
+$(".layui-nav-item").click(function (e) {
+  e.preventDefault();
+  document.getElementById($(this).data().id).scrollIntoView();
+})
