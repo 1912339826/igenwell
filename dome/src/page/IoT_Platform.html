@@ -1,4 +1,4 @@
-<!-- 智慧人脸科技 -->
+<!-- 物联网网关 -->
 <!DOCTYPE html>
 <html lang="zh">
 
@@ -16,7 +16,7 @@
     <!-- 360使用Google Chrome Frame -->
     <meta name="renderer" content="webkit">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-    <title>进唯智能-人员定位系统</title>
+    <title>进唯智能-物联网平台</title>
     <link rel="stylesheet" href="../font/SourceHanSansCN-1.000/SourceHanSansCN.css">
     <link rel="stylesheet" href="../../normalize.css">
     <link rel="stylesheet" href="../../layui-v2.5.6/layui/css/layui.css">
@@ -27,12 +27,13 @@
     <link rel="stylesheet" href="../../nav.css">
     <link rel="stylesheet" href="../../breadcrumb_navigation.css">
     <link rel="stylesheet" href="../../the_subnavigation.css">
-    <link rel="stylesheet" href="../css/PLS.css">
+    <link rel="stylesheet" href="../../table.css">
+    <link rel="stylesheet" href="../css/IoT_Platform.css">
     <link rel="stylesheet" href="../../base.css">
 </head>
 
 <body>
-    <div id="PLS">
+    <div id="IoT_Platform">
         <div id="goToTop" title="回到顶部">
             <img src="../images/goToTop_03.png" alt="">
         </div>
@@ -72,7 +73,7 @@
                             <a href="">通信转换模件</a>
                         </div>
                         <div class="list_son">
-                            <a href="" id="list_son_active">人员定位设备</a>
+                            <a href="">人员定位设备</a>
                         </div>
                     </div>
 
@@ -91,7 +92,7 @@
                     <div class="list">
                         <p>中间件产品</p>
                         <div class="list_son">
-                            <a href="">物联网平台</a>
+                            <a href="" id="list_son_active">物联网平台</a>
                         </div>
                     </div>
 
@@ -117,125 +118,144 @@
             </div>
         </div>
         <div class="banner">
-            <img src="../images/PLS/banner_02.png" alt="">
+            <img src="../images/IoT_Platform/banner_02.png" alt="">
         </div>
         <div class="breadcrumb_navigation">
             <span class="layui-breadcrumb" lay-separator=">">
                 <a href="">首页</a>
-                <a><cite>人员定位系统</cite></a>
+                <a><cite>物联网平台</cite></a>
             </span>
         </div>
         <div class="the_subnavigation">
             <ul class="layui-nav" lay-filter="">
-                <li class="layui-nav-item layui-this "><a href="">基本信息</a></li>
+                <li class="layui-nav-item layui-this"><a href="">基本信息</a></li>
+                <li class="layui-nav-item" data-id="system_composition"><a href="">系统组成</a></li>
+                <li class="layui-nav-item" data-id="application_scenarios"><a href="">应用场景</a></li>
             </ul>
         </div>
-
-        <div class="basic_information">
-            <div class="title">基本信息</div>
-            <div class="brief_introduction">
-                高精度人员定位系统是一套基于蓝牙的系统平台，是集人员定位、管理、信息采集、传输、分析等功能为一体的信息管理系统产品。通过在园区主干道路上部署定位基站实现信号的覆盖，并充分利用网络资源对系统功能进行深度开发，可延伸出通信联络系统、环境监测、视频监控系统，采用工业级高性能嵌入式系统，高度集成定位、监测、报警、管理等功能于一体；模块化设计，功能扩展非常方便；高度的稳定性、可靠性、安全性和高效性价比，为企业创建高效智能的应用和管理平台。
-            </div>
-            <div class="lists">
-                <div class="list">
-                    <img src="../images/PLS/pics_09.png" alt="">
-                    <div class="list_title">人员识别卡</div>
-                </div>
-                <div class="list">
-                    <img src="../images/PLS/pics_06.png" alt="">
-                    <div class="list_title">定位设备</div>
-                </div>
-                <div class="list">
-                    <img src="../images/PLS/pics_03.png" alt="">
-                    <div class="list_title">数据网关</div>
-                </div>
-                <div class="list">
-                    <img src="../images/PLS/pics_09.png" alt="">
-                    <div class="list_title">系统服务器</div>
-                </div>
-            </div>
-        </div>
-        <div class="technology_advantages">
-            <img src="../images/bg_02.png" alt="" class="back">
+        <div class="product_overview">
             <div class="title">
-                技术优势
+                产品概述
             </div>
-            <div class="top">
-                <div class="list">
-                    <img src="../images/PLS/未标题-1_03.png" alt="">
-                    <div class="list_title">二维、三维电子地图</div>
-                </div>
-                <div class="list">
-                    <img src="../images/PLS/未标题-1_05.png" alt="">
-                    <div class="list_title">定位精度3-5米</div>
-                </div>
-                <div class="list">
-                    <img src="../images/PLS/未标题-1_07.png" alt="">
-                    <div class="list_title">人员位置实时显示</div>
-                </div>
-                <div class="list">
-                    <img src="../images/PLS/未标题-1_09.png" alt="">
-                    <div class="list_title">轨迹保存最长2年</div>
-                </div>
+            <div class="content">
+                <pre>物联网平台作为智慧园区、智慧军营、智慧厂区等智慧应用基础设施的重要组成部分，根据各智慧应用信息化现状，为提高设备利用率，避免重复建设和系统烟囱，解决各类标准及非标感知设备的接入控制痛点，通过对设施设备进行智能化改造，采用物联网网关及物联网平台集成整合新建及现有感知设备，为上层各类业务应用提供统一的数据采集和设备控制服务，为智慧应用开发商提供灵活可靠高扩展性的设备接入控制解决方案。</pre>
             </div>
             <div class="bottom">
-                <div class="list">
-                    <img src="../images/PLS/未标题-1_16.png" alt="">
-                    <div class="list_title">采用全网低功耗技术</div>
-                </div>
-                <div class="list">
-                    <img src="../images/PLS/未标题-1_19.png" alt="">
-                    <div class="list_title">人员卡可续航4个月</div>
-                </div>
-                <div class="list">
-                    <img src="../images/PLS/未标题-1_22.png" alt="">
-                    <div class="list_title">阿里云安全可靠</div>
+                <div class="son">
+                    <img src="../images/IoT_Platform/Rectangle-10_03.png" alt="" style="width: 579px;
+                    height: 152px;">
                 </div>
             </div>
         </div>
-
-        <div class="software_function">
+        <div class="product_superiority">
+            <img src="../images/IoT_Platform/3_02.png" alt="" class="back">
+            <div class="title">产品优势</div>
+            <div class="box">
+                <div class="list">
+                    <img src="../images/IoT_Platform/product_superiority_img (1).png" alt="" style="width: 72px;
+                    height: 74px;">
+                    <div class="list_title">对标准的支持</div>
+                    <div class="list_content">
+                        支持TCP/IP/UDP等标准通信协议，支持wifi、蓝牙、Zigbee、Lora等多种无线通信机制，支持RS-232、RS-485网口等标准设备联网通信接口，支持透传、直连等多种设备连接方式，支持ModBus,SNMP,韦根等多种标准通信协议。
+                    </div>
+                </div>
+                <div class="list">
+                    <img src="../images/IoT_Platform/product_superiority_img (3).png" alt="" style="width: 72px;
+                    height: 80px;">
+                    <div class="list_title">对平台的支持</div>
+                    <div class="list_content">
+                        支持多种操作系统，能够运行在Windows、Linux、麒麟等系统之上log，不依赖商业数据库平台（包括Oracle、SQL server等），不依赖任何商业容器（包括IBM
+                        WebSphere,Oracle Weblogic server等）。
+                    </div>
+                </div>
+                <div class="list">
+                    <img src="../images/IoT_Platform/product_superiority_img (2).png" alt="" style="width: 80px;
+                    height: 81px;">
+                    <div class="list_title">高可用性</div>
+                    <div class="list_content">
+                        支持7*24小时运行，支持集群扩展，具备高可用性，系统故障恢复时间4小时。
+                    </div>
+                </div>
+                <div class="list">
+                    <img src="../images/IoT_Platform/product_superiority_img (4).png" alt="" style="width: 80px;
+                    height: 80px;">
+                    <div class="list_title">高可扩展性</div>
+                    <div class="list_content">
+                        支持设备感知集成平台服务能力的水平扩展，能够通过增加服务器资源增加平台的负载能力，支持非标感知设备及通信协议的适配扩展。
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="system_composition" id="system_composition">
             <div class="title">
-                软件功能
+                系统组成
             </div>
             <div class="box">
                 <div class="list">
-                    <img src="../images/PLS/Group-1_03.png" alt="">
+                    <img src="../images/IoT_Platform/Rectangle-10-copy-3_03.png" alt="">
                     <div class="right">
-                        <div class="list_title">员工定位管理</div>
-                        <div class="list_content">对室内室外、楼层等任意位置实现高精度实时定位，人员滞岗、偏离、离岗、超员、超时等情况实时报警提示。
-                            移动轨迹实时记录，对人员消失、非法闯入特定区域等进行报警提示、对员工考勤、巡检路线等进行智能化管控。</div>
+                        <div class="list_title">感知设备集成</div>
+                        <pre>感知设备集成主要解决各类智能感知设备的统一接入和统一管理问题。感知设备集成以物联网网关为核心，提供数据的统一采集、统一配置、统一处理及设备控制指令等配置管理功能。</pre>
+                        <pre>采用基于行业标准的物联网网关来实现快速组网采集，通过感知设备集成服务，数据采集将不依赖第三方软件系统，极大提高数据采集的兼容性、集成性和可扩展性。通过业务注册、数据分发等功能，能够灵活的将采集数据应用到各应用系统，实现感知设备和应用系统的松耦合。</pre>
                     </div>
                 </div>
                 <div class="list">
-                    <img src="../images/PLS/Group-1_05.png" alt="">
+                    <img src="../images/IoT_Platform/Rectangle-10-copy-3_03.png" alt="">
                     <div class="right">
-                        <div class="list_title">考勤管理</div>
-                        <div class="list_content">实时记录显示区域内人员的实到人、到岗时间、是否到齐、缺勤人员等，实现厂区内人员自动点名、智能统计等功能。
-                            智能联动人脸/指纹/普通打卡机等设备，获取考勤所需的档案数据，自动生成打卡时间、员工编号、姓名等考勤记录。
-                        </div>
+                        <div class="list_title">设备联动控制</div>
+                        <pre>感知联动控制主要解决感知设备联动和互操作的问题。基于应用系统的感知设备联动业务需要，平台提供联动事件定义注册，事件联动触发规则及设备联动逻辑配置、事件执行日志等功能。</pre>
+                        <pre>应用系统根据业务需要定义主动或自动触发联动事件，平台依据事件定义及相关触发规则，按照联动规则执行相关感知设备联动，记录事件执行日志，返回事件执行结果。</pre>
                     </div>
                 </div>
                 <div class="list">
-                    <img src="../images/PLS/Group-1_09.png" alt="">
+                    <img src="../images/IoT_Platform/Rectangle-10-copy-3_03.png" alt="">
                     <div class="right">
-                        <div class="list_title">访客定位管理</div>
-                        <div class="list_content">对来访人员进行记录路线管控、非法闯入、偏离等管控，系统设计了对外来施工人员、访客等进行定点管控。</div>
+                        <div class="list_title">身份识别服务</div>
+                        <pre>在各类智能信息化系统建设中，将涉及IC卡、人脸识别、指纹、静脉、RFID等多种身份识别技术，这些识别技术的应用场景不同，技术体制不同，为了能够加强身份识别的权威性、可靠性和安全性，平台提供统一身份认证服务。</pre>
+                        <pre>身份识别服务基于管控人员档案统一维护管控人员的卡号、指纹、人脸特征等各项身份识别特征信息，综合运用单向、双向以及多向综合比对方式，对识别源进行认证，身份特征进行比对。</pre>
                     </div>
                 </div>
                 <div class="list">
-                    <img src="../images/PLS/Group-1_10.png" alt="">
+                    <img src="../images/IoT_Platform/Rectangle-10-copy-3_03.png" alt="">
                     <div class="right">
-                        <div class="list_title">区域管理</div>
-                        <div class="list_content">对特殊区域、特定区域、特定路线等进行设置、管控；对重点厂房可设置权限，非权限人员进入报警提示。</div>
+                        <div class="list_title">综合定位服务</div>
+                        <pre>综合定位服务基于卫星定位、RFID、门禁、人脸识别等多源数据，综合运用多源轨迹还原技术，对受控的人员和物品进行实时定位、跟踪和移动路线回放，利用先进的二三维可视化技术对人员及物品的位置进行实时监控。综合定位服务主要包括定位信号解析、定位信息显示、定位信息服务等功能。定位信号解析负责对多源位置数据的解析、转换和融合。定位信息显示负责将解析后的坐标在二三维场景上进行标识、还原以及轨迹回放。定位信息服务实现人员物品查找、区域人数统计等功能，能够基于软件集成服务平台将人员轨迹信息对外共享发布。</pre>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="application_scenarios" id="application_scenarios">
+            <div class="title">
+                应用场景
+            </div>
+            <div class="box">
                 <div class="list">
-                    <img src="../images/PLS/Group-1_13.png" alt="">
-                    <div class="right">
-                        <div class="list_title">物品管理</div>
-                        <div class="list_content">对特定物品、特定位置、偏离、消失等智能化管控</div>
-                    </div>
+                    <img src="../images/IoT_Platform/Group-11_03.png" alt="">
+                    <div class="list_title">安防管控</div>
+                </div>
+                <div class="list">
+                    <img src="../images/IoT_Platform/Group-11_03.png" alt="">
+                    <div class="list_title">智慧环保</div>
+                </div>
+                <div class="list">
+                    <img src="../images/IoT_Platform/Group-11_05.png" alt="">
+                    <div class="list_title">智慧军营</div>
+                </div>
+                <div class="list">
+                    <img src="../images/IoT_Platform/Group-11_07.png" alt="">
+                    <div class="list_title">智慧工地</div>
+                </div>
+                <div class="list">
+                    <img src="../images/IoT_Platform/Group-11_09.png" alt="">
+                    <div class="list_title">智慧校园</div>
+                </div>
+                <div class="list">
+                    <img src="../images/IoT_Platform/Group-11_11.png" alt="">
+                    <div class="list_title">智慧园区</div>
+                </div>
+                <div class="list">
+                    <img src="../images/IoT_Platform/Group-11_13.png" alt="">
+                    <div class="list_title">其他行业</div>
                 </div>
             </div>
         </div>
@@ -320,7 +340,7 @@
     </div>
     <script src="../../goToTop.js"></script>
     <script src="../../layui-v2.5.6/layui/layui.all.js"></script>
-    <script src="../js/PLS.js"></script>
+    <script src="../js/IoT_Platform.js"></script>
 </body>
 
 </html>

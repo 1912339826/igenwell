@@ -1,0 +1,222 @@
+.product_overview {
+    width: 1920px;
+}
+
+.product_overview .title {
+    text-align: center;
+    padding-top: 64px;
+    font-family: "SourceHanSansCN-Regular";
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 3px;
+    color: #000000;
+}
+
+.product_overview pre {
+    margin: 0 auto;
+    padding-top: 47px;
+    padding-bottom: 73px;
+    width: 1598px;
+    text-indent: 32px;
+    font-family: "SourceHanSansCN-Regular";
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #777777;
+}
+
+.management_platform {
+    background-color: #f5f5f5;
+    width: 1920px;
+}
+
+.management_platform .title {
+    text-align: center;
+    font-family: "MicrosoftYaHei";
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 3px;
+    color: #000000;
+    padding-top: 63px;
+    padding-bottom: 47px;
+}
+
+
+.management_platform pre {
+    width: 1599px;
+    text-align: justify;
+    font-family: "SourceHanSansCN-Regular";
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #777777;
+    text-indent: 32px;
+    margin: 0 auto;
+}
+
+.management_platform .video {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 470px;
+    width: 1920px;
+}
+
+.management_platform .video img {
+    position: absolute;
+    margin-top: 55px;
+    margin-bottom: 48px;
+    width: 396px;
+    height: 351px;
+}
+
+
+.management_platform .box {
+    width: 1600px;
+    height: 404px;
+    margin: 0 auto;
+    margin-bottom: 64px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+}
+
+.management_platform .box .list {
+    width: 320px;
+    height: 178px;
+    border-radius: 6px;
+    display: flex;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 64px;
+    margin-right: 106px;
+}
+
+
+.management_platform .box .list .left {
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    background-color: #299288;
+    font-family: "SourceHanSansCN-Bold";
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    border-radius: 50%;
+    margin-right: 17px;
+}
+
+.management_platform .box .list .right {
+    width: 200px;
+}
+
+.management_platform .box .list .list_content {
+    font-family: "SourceHanSansCN-Regular";
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #777777;
+}
+
+.management_platform .box .list .list_title {
+    font-family: "SourceHanSansCN-Regular";
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 2px;
+    color: #111111;
+    padding-bottom: 23px;
+}
+
+.management_platform .box .list .list_content span {
+    display: block;
+}
+
+.control_platform {
+    width: 1920px;
+    padding-bottom: 65px;
+}
+
+.control_platform .title {
+    font-family: "MicrosoftYaHei";
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 3px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 47px;
+}
+
+.control_platform>pre {
+    margin: 0 auto;
+    font-family: "SourceHanSansCN-Regular";
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #777777;
+    text-indent: 32px;
+    width: 1600px;
+}
+
+
+.control_platform .video {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 470px;
+    width: 1920px;
+}
+
+.control_platform .video img {
+    position: absolute;
+    margin-top: 55px;
+    margin-bottom: 48px;
+    width: 396px;
+    height: 351px;
+}
+
+.control_platform .box .lists {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.control_platform .box .top {
+    width: 1493px;
+}
+
+.control_platform .box .bottom {
+    width: 1493px;
+    padding-top: 48px;
+    justify-content: space-around;
+}
+
+.control_platform .box .lists img {
+    margin-bottom: 34px;
+}
+
+.control_platform .box .lists pre {
+    font-family: "SourceHanSansCN-Regular";
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 36px;
+    letter-spacing: 2px;
+    color: #111111;
+}

@@ -34,16 +34,16 @@
     text-indent: 32px;
 }
 
-.basic_information .lists{
+.basic_information .lists {
     display: flex;
     justify-content: space-between;
     width: 1600px;
     height: 227px;
-    margin: 0  auto;
+    margin: 0 auto;
     padding: 24px 103px 0px 103px;
 }
 
-.basic_information .lists .list{
+.basic_information .lists .list {
     text-align: center;
     height: 100%;
     display: flex;
@@ -51,17 +51,129 @@
     justify-content: space-between;
 }
 
-.basic_information .lists .list .list_title{
+.basic_information .lists .list .list_title {
+    font-family: "SourceHanSansCN-Regular";
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 2px;
+    color: #111111;
+}
+
+.technology_advantages {
+    position: relative;
+    width: 1920px;
+    height: 620px;
+}
+
+.technology_advantages .back {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+
+.technology_advantages .title {
+    padding-top: 64px;
+    padding-bottom: 56px;
+    text-align: center;
+    font-family: "SourceHanSansCN-Regular";
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 3px;
+    color: #ffffff;
+}
+
+.technology_advantages .top {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 65px;
+    text-align: center;
+    color: #ffffff;
+    width: 1412px;
+
+}
+
+.technology_advantages .top img,
+.technology_advantages .bottom img {
+    width: 86px;
+    height: 100px;
+    margin-bottom: 35px;
+}
+
+.technology_advantages .top .list div {
+    font-family: "SourceHanSansCN-Regular";
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 36px;
+    letter-spacing: 2px;
+}
+
+.technology_advantages .bottom {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    text-align: center;
+    color: #ffffff;
+    width: 1076px;
+}
+
+.technology_advantages .bottom .list div {
+    font-family: "SourceHanSansCN-Regular";
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 36px;
+    letter-spacing: 2px;
+}
+
+.software_function{
+    width: 1920px;
+    padding: 62px 160px 65px 160px;
+}
+
+.software_function .title{
+    width: 100%;
+    text-align: center;
+    font-family: "SourceHanSansCN-Regular";
+	font-size: 30px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 3px;
+	color: #111111;
+}
+
+.software_function .box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.software_function .box .list{
+    width: 740px;
+    height: 200px;
+    margin-top: 48px;
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: space-between;
+}
+
+.software_function .box .list .right{
+    padding-right: 11px;
+    padding-top: 16px;
+    width: 489px;
+}
+
+.software_function .box .list  .list_title{
     font-family: "SourceHanSansCN-Regular";
 	font-size: 20px;
 	font-weight: normal;
 	font-stretch: normal;
 	letter-spacing: 2px;
-	color: #111111;
-}
-
-.technology_advantages{
-    position: relative;
-    width: 1920px;
-	height: 620px;
+    color: #111111;
+    margin-bottom: 31px;
 }

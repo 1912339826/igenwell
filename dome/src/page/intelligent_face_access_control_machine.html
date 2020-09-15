@@ -1,0 +1,427 @@
+<!-- 物联网网关 -->
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="keywords" content="进唯智能">
+    <meta name="description" content="进唯智能">
+    <meta name="author" content="HYT722">
+    <meta name="robots" content="index,follow">
+    <!-- 禁止百度转码 -->
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- 360使用Google Chrome Frame -->
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <title>进唯智能-智慧人脸门禁机</title>
+    <link rel="stylesheet" href="../font/SourceHanSansCN-1.000/SourceHanSansCN.css">
+    <link rel="stylesheet" href="../../normalize.css">
+    <link rel="stylesheet" href="../../layui-v2.5.6/layui/css/layui.css">
+    <!-- 此引用必须在自我样式上面 -->
+    <script type="text/javascript" src="../../rem.js"></script>
+    <script src="../../layui-v2.5.6/jquery.min.js"></script>
+    <link rel="stylesheet" href="../../goToTop.css">
+    <link rel="stylesheet" href="../../nav.css">
+    <link rel="stylesheet" href="../../breadcrumb_navigation.css">
+    <link rel="stylesheet" href="../../the_subnavigation.css">
+    <link rel="stylesheet" href="../../table.css">
+    <link rel="stylesheet" href="../css/intelligent_face_access_control_machine.css">
+    <link rel="stylesheet" href="../../base.css">
+</head>
+
+<body>
+    <div id="intelligent_face_access_control_machine">
+        <div id="goToTop" title="回到顶部">
+            <img src="../images/goToTop_03.png" alt="">
+        </div>
+        <div class="nav" id="fixed">
+            <img src="../images/LOGO-进唯_03.png" alt="" class="logo" title="南京进唯智能科技有限公司">
+            <div class="ban">
+                <div class="ban_son" data-name="home" title="首页">首页</div>
+                <div class="active ban_son" id="product_center" data-name="home1" title="产品中心">产品中心</div>
+                <div class="ban_son" data-name="home2" title="典型场景">典型场景</div>
+                <div class="ban_son" data-name="home3" title="关于我们">关于我们</div>
+            </div>
+            <div class="search">
+                <div class="search_input layui-anim-fadein" style="display: none;">
+                    <img src="../images/search_back_03.png" alt="">
+                    <input type="text" placeholder="搜索">
+                </div>
+                <div class="search_button" title="搜索">
+                    <img src="../images/search_back_03.png" alt="">
+                    搜索
+                </div>
+            </div>
+            <div class="tab_control" style="display: none;">
+                <div class="content">
+                    <div class="list">
+                        <p>网关类</p>
+                        <div class="list_son">
+                            <a href="">物联网网关</a>
+                        </div>
+                        <div class="list_son">
+                            <a href="">智能视频分析网关</a>
+                            <img src="../images/special_tag_03.png" alt="">
+                        </div>
+                        <div class="list_son">
+                            <a href="">智能视频压缩网关</a>
+                        </div>
+                        <div class="list_son">
+                            <a href="">通信转换模件</a>
+                        </div>
+                        <div class="list_son">
+                            <a href="">人员定位设备</a>
+                        </div>
+                    </div>
+
+                    <div class="list">
+                        <p>终端类</p>
+                        <div class="list_son">
+                            <a href="" id="list_son_active">智慧人脸门禁机</a>
+                            <img src="../images/special_tag_03.png" alt="">
+                        </div>
+                        <div class="list_son">
+                            <a href="">智慧人脸访客机</a>
+                            <img src="../images/special_tag_03.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="list">
+                        <p>中间件产品</p>
+                        <div class="list_son">
+                            <a href="">物联网平台</a>
+                        </div>
+                    </div>
+
+                    <div class="list">
+                        <p>行业产品</p>
+                        <div class="list_son">
+                            <a href="">智慧校园</a>
+                        </div>
+                        <div class="list_son">
+                            <a href="">智慧工地</a>
+                        </div>
+                        <div class="list_son">
+                            <a href="">智慧仓库</a>
+                        </div>
+                        <div class="list_son">
+                            <a href="">化工安全监管</a>
+                        </div>
+                        <div class="list_son">
+                            <a href="">智慧点名</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner">
+            <img src="../images/intelligent_face_access_control_machine/banner_02.png" alt="">
+        </div>
+        <div class="breadcrumb_navigation">
+            <span class="layui-breadcrumb" lay-separator=">">
+                <a href="">首页</a>
+                <a><cite>智慧人脸门禁机</cite></a>
+            </span>
+        </div>
+        <div class="the_subnavigation">
+            <ul class="layui-nav" lay-filter="">
+                <li class="layui-nav-item layui-this"><a href="">基本信息</a></li>
+                <li class="layui-nav-item" data-id="specification_parameter"><a href="">规格参数</a></li>
+                <li class="layui-nav-item" data-id="application_scenarios"><a href="">应用场景</a></li>
+            </ul>
+        </div>
+        <div class="product_overview">
+            <div class="title">
+                产品概述
+            </div>
+            <div class="content">
+                <pre>动态人脸门禁系统产品采用混合光谱技术，搭载双目摄像头，能有效实现活体识别功能。以“刷脸”作为门禁的“钥匙”，避免他人利用照片、视频等作弊手段蒙混过关，能有效保障安全性。系统采用业界领先的人脸识别算法技术，达到99.7%精准识别度，不同角度、佩戴眼镜、化妆等面貌的行为改变，都不会影响其识别精准度。</pre>
+                <pre>产品提供韦根、继电器等信号输出，其既可作为人脸门禁设备独立使用，也可与人员通道闸机配套使用,实现秒级识别并开门。在离线状态下，设备也能正常使用，同时支持10000张人脸底库。此外，动态人脸门禁系统产品可选配身份证、IC卡识别模块，可用于人证比对等特殊场景。动态人脸门禁系统产品可广泛用于政府机构、部队、金融、税务、学校等多个领域。</pre>
+            </div>
+            <div class="bottom">
+                <div class="son">
+                    <img src="../images/intelligent_face_access_control_machine/未标题-2_06.png" alt="" style="width: 343px;
+                    height: 241px;">
+                    <div class="son_title">定位设备</div>
+                </div>
+                <div class="son">
+                    <img src="../images/intelligent_face_access_control_machine/未标题-2_03.png" alt="" style="width: 288px;
+                    height: 271px;">
+                    <div class="son_title">配合闸机使用</div>
+                </div>
+            </div>
+        </div>
+        <div class="technical_advantage">
+            <img src="../images/bg_02.png" alt="" class="back">
+            <div class="title">
+                技术优势
+            </div>
+            <div class="box top">
+                <div class="list">
+                    <img src="../images/intelligent_face_access_control_machine/icon_03.png" alt="">
+                    <div class="list_title">
+                        <div class="name">采用人脸识别技术</div>
+                        <div class="content">标准环境下准确率可达到99%以上</div>
+                    </div>
+                </div>
+                <div class="list">
+                    <img src="../images/intelligent_face_access_control_machine/icon_05.png" alt="">
+                    <div class="list_title">
+                        <div class="name">快速识别</div>
+                        <div class="content">单个终端设备每秒识别>=3人</div>
+                    </div>
+                </div>
+                <div class="list">
+                    <img src="../images/intelligent_face_access_control_machine/icon_07.png" alt="">
+                    <div class="list_title">
+                        <div class="name">对区域内人员进行跟踪</div>
+                        <div class="content">在大屏幕上实时显示人员信息</div>
+                    </div>
+                </div>
+            </div>
+            <div class="box bottom">
+                <div class="list">
+                    <img src="../images/intelligent_face_access_control_machine/icon_13.png" alt="">
+                    <div class="list_title">
+                        <div class="name">抓拍图像存储</div>
+                        <div class="content">多区域的联动跟踪，数据推送</div>
+                    </div>
+                </div>
+                <div class="list">
+                    <img src="../images/intelligent_face_access_control_machine/icon_16.png" alt="">
+                    <div class="list_title">
+                        <div class="name">海量数据存储</div>
+                        <div class="content">不少于500万张人脸图片和500万条访客记录</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="specification_parameter" id="specification_parameter">
+            <div class="title">
+                规格参数
+            </div>
+            <table border="1">
+                <caption>规格参数</caption>
+                <tr class="one">
+                    <td rowspan="4" class="th_">主控模块</td>
+                    <td rowspan="3" class="kernel">CPU</td>
+                    <td class="txt">双核ARM CortexA73@1.8G</td>
+                </tr>
+                <tr class="one">
+                    <td class="txt">双核ARM CortexA73@1.8G</td>
+                </tr>
+                <tr class="one">
+                    <td class="txt">双核ARM CortexA73@1.8G</td>
+                </tr>
+                <tr class="one">
+                    <td class="kernel">GPU</td>
+                    <td class="txt">双核ARM CortexA73@1.8G</td>
+                </tr>
+                <tr class="two">
+                    <td rowspan="4" class="th_">处理模块</td>
+                    <td class="kernel">CPU</td>
+                    <td class="txt">双核ARM CortexA73@1.8G</td>
+                </tr>
+                <tr class="two">
+                    <td class="kernel">CPU</td>
+                    <td class="txt">内置流媒体服务，具备16路普通网络摄像头的接入转发，提供无插件的浏览器视频播放</td>
+                </tr>
+                <tr class="two">
+                    <td class="kernel">CPU</td>
+                    <td class="txt">双核ARM CortexA73@1.8G</td>
+                </tr>
+                <tr class="two">
+                    <td class="kernel">GPU</td>
+                    <td class="txt">双核ARM CortexA73@1.8G</td>
+                </tr>
+
+                <tr class="one">
+                    <td rowspan="4" class="th_">主控模块</td>
+                    <td rowspan="3" class="kernel">CPU</td>
+                    <td class="txt">双核ARM CortexA73@1.8G</td>
+                </tr>
+                <tr class="one">
+                    <td class="txt">双核ARM CortexA73@1.8G</td>
+                </tr>
+                <tr class="one">
+                    <td class="txt">双核ARM CortexA73@1.8G</td>
+                </tr>
+                <tr class="one">
+                    <td class="kernel">GPU</td>
+                    <td class="txt">双核ARM CortexA73@1.8G</td>
+                </tr>
+                <tr class="two">
+                    <td rowspan="4" class="th_">处理模块</td>
+                    <td class="kernel">CPU</td>
+                    <td class="txt">双核ARM CortexA73@1.8G</td>
+                </tr>
+                <tr class="two">
+                    <td class="kernel">CPU</td>
+                    <td class="txt">内置流媒体服务，具备16路普通网络摄像头的接入转发，提供无插件的浏览器视频播放</td>
+                </tr>
+                <tr class="two">
+                    <td class="kernel">CPU</td>
+                    <td class="txt">双核ARM CortexA73@1.8G</td>
+                </tr>
+                <tr class="two">
+                    <td class="kernel">GPU</td>
+                    <td class="txt">双核ARM CortexA73@1.8G</td>
+                </tr>
+
+                <tr class="one">
+                    <td rowspan="4" class="th_">主控模块</td>
+                    <td rowspan="3" class="kernel">CPU</td>
+                    <td class="txt">双核ARM CortexA73@1.8G</td>
+                </tr>
+                <tr class="one">
+                    <td class="txt">双核ARM CortexA73@1.8G</td>
+                </tr>
+                <tr class="one">
+                    <td class="txt">双核ARM CortexA73@1.8G</td>
+                </tr>
+                <tr class="one">
+                    <td class="kernel">GPU</td>
+                    <td class="txt">双核ARM CortexA73@1.8G</td>
+                </tr>
+                <tr class="two">
+                    <td rowspan="4" class="th_">处理模块</td>
+                    <td class="kernel">CPU</td>
+                    <td class="txt">双核ARM CortexA73@1.8G</td>
+                </tr>
+                <tr class="two">
+                    <td class="kernel">CPU</td>
+                    <td class="txt">内置流媒体服务，具备16路普通网络摄像头的接入转发，提供无插件的浏览器视频播放</td>
+                </tr>
+                <tr class="two">
+                    <td class="kernel">CPU</td>
+                    <td class="txt">双核ARM CortexA73@1.8G</td>
+                </tr>
+                <tr class="two">
+                    <td class="kernel">GPU</td>
+                    <td class="txt">双核ARM CortexA73@1.8G</td>
+                </tr>
+            </table>
+        </div>
+        <div class="application_scenarios" id="application_scenarios">
+            <div class="title">
+                应用场景
+            </div>
+            <div class="box">
+                <div class="list">
+                    <img src="../images/intelligent_face_access_control_machine/scene_img_03.png" alt="">
+                    <div class="list_title">部队营区</div>
+                    <div class="list_content">
+                        针对部队进出营区的相关要求，智能人脸门禁真正做到了人员、证件、照片三者的统一，实现“进门刷脸、人像对应、请销假联动、访客配对、分角色授权、历史记录查询、报表汇总”等功能（可与智慧军营联网），加强了部队营区进出的有序管理，提升了部队营区哨位的工作效率。
+                    </div>
+                </div>
+                <div class="list">
+                    <img src="../images/intelligent_face_access_control_machine/scene_img_05.png" alt="">
+                    <div class="list_title">小区物业</div>
+                    <div class="list_content">
+                        针对小区进出管理这一薄弱环节，结合小区业主对于小区安全性的要求，真正做到人员、证件、照片三者统一，实现“进门刷脸、人像对应、访客配对（钟点工）、分角色授权、历史记录查询、报表汇总”等功能（可与公安局联网），有效解决了小区进出的有序管理，提升了小区物业管理和服务品质。
+                    </div>
+                </div>
+                <div class="list">
+                    <img src="../images/intelligent_face_access_control_machine/scene_img_09.png" alt="">
+                    <div class="list_title">政府机关</div>
+                    <div class="list_content">
+                        针对政府进出管理这一薄弱环节，结合政府对访客管理的相关要求，智能人脸门禁真正做到人员、证件、照片三者统一，实现“进门刷脸、人像对应、访客配对、分角色授权、历史记录查询、报表汇总”等功能（可与公安局联网），加强了政府进出的有序管理，提升了单位门卫工作效率和服务品质。
+                    </div>
+                </div>
+                <div class="list">
+                    <img src="../images/intelligent_face_access_control_machine/scene_img_10.png" alt="">
+                    <div class="list_title">执法机关</div>
+                    <div class="list_content">
+                        针对政府进出管理这一薄弱环节，结合法院对访客管理的相关要求，智能人脸门禁真正做到人员、证件、照片三者统一。实现“进门刷脸、人像对应、访客配对、分角色授权、历史记录查询、报表汇总”等功能（可与公安局联网），加强了政府进出的有序管理，提升了单位门卫工作效率和服务品质。
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 底部 -->
+        <div id="base">
+            <div class="top">
+                <div class="logo_QR_code">
+                    <img src="../images/LOGO-进唯-copy_03.png" alt="" class="logo">
+                    <img src="../images/QR_code_03.png" alt="" class="QR_code">
+                </div>
+                <div class="lists">
+                    <div class="list">
+                        <p>热门产品</p>
+                        <div class="list_son">
+                            <a href="" title="智慧人脸科技">智慧人脸科技</a>
+                        </div>
+                        <div class="list_son">
+                            <a href="" title="智慧人脸门禁机">智慧人脸门禁机</a>
+                        </div>
+                        <div class="list_son">
+                            <a href="" title="智能视频分析网关">智能视频分析网关</a>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <p>网关类</p>
+                        <div class="list_son">
+                            <a href="" title="物联网网关">物联网网关</a>
+                        </div>
+                        <div class="list_son">
+                            <a href="" title="智能视频分析网关">智能视频分析网关</a>
+                        </div>
+                        <div class="list_son">
+                            <a href="" title="智能视频压缩网关">智能视频压缩网关</a>
+                        </div>
+                        <div class="list_son">
+                            <a href="" title="通信转换模件">通信转换模件</a>
+                        </div>
+                        <div class="list_son">
+                            <a href="" title="人员定位设备">人员定位设备</a>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <p>终端类</p>
+                        <div class="list_son">
+                            <a href="" title="智慧人脸门禁机">智慧人脸门禁机</a>
+                        </div>
+                        <div class="list_son">
+                            <a href="" title="智慧人脸访客机">智慧人脸访客机</a>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <p>中间件产品</p>
+                        <div class="list_son">
+                            <a href="" title="物联网平台">物联网平台</a>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <p>行业产品</p>
+                        <div class="list_son">
+                            <a href="" title="智慧校园">智慧校园</a>
+                        </div>
+                        <div class="list_son">
+                            <a href="" title="智慧工地">智慧工地</a>
+                        </div>
+                        <div class="list_son">
+                            <a href="" title="智慧仓库">智慧仓库</a>
+                        </div>
+                        <div class="list_son">
+                            <a href="" title="化工安全监管">化工安全监管</a>
+                        </div>
+                        <div class="list_son">
+                            <a href="" title="智慧点名">智慧点名</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <p>Copyright©南京进唯智能科技有限公司</p>
+                <p>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+            </div>
+        </div>
+    </div>
+    <script src="../../goToTop.js"></script>
+    <script src="../../layui-v2.5.6/layui/layui.all.js"></script>
+    <script src="../js/intelligent_face_access_control_machine.js"></script>
+</body>
+
+</html>

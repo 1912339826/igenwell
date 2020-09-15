@@ -1,0 +1,105 @@
+.product_overview {
+    width: 1920px;
+    padding-bottom: 73px;
+}
+
+.product_overview .title {
+    text-align: center;
+    padding-top: 64px;
+    font-family: "SourceHanSansCN-Regular";
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 3px;
+    color: #000000;
+    padding-bottom: 47px;
+}
+
+.product_overview pre {
+    margin: 0 auto;
+    width: 1598px;
+    text-indent: 32px;
+    font-family: "SourceHanSansCN-Regular";
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #777777;
+}
+
+
+.system_features {
+    position: relative;
+    width: 1920px;
+    height: 635px;
+}
+
+.system_features .back {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 635px;
+}
+
+.system_features .title {
+    padding-top: 63px;
+    padding-bottom: 49px;
+    text-align: center;
+    font-family: "SourceHanSansCN-Regular";
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 3px;
+    color: #ffffff;
+}
+
+.system_features .box {
+    display: flex;
+    justify-content: space-between;
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.system_features .box .list {
+    width: 370px;
+    height: 430px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding-top: 54px;
+    padding-left: 38px;
+    padding-right: 38px;
+    text-align: center;
+}
+
+.system_features .box .list img {
+    width: 80px;
+    height: 80px;
+}
+
+
+.system_features .list_title {
+    margin-top: 39px;
+    margin-bottom: 46px;
+    font-family: "SourceHanSansCN-Regular";
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
+
+.system_features .list_content {
+    font-family: "SourceHanSansCN-Regular";
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 30px;
+	letter-spacing: 0px;
+    color: #ffffff;
+    text-align: left;
+}

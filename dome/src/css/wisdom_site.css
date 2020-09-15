@@ -1,0 +1,146 @@
+.product_overview {
+    width: 1920px;
+    padding-bottom: 73px;
+}
+
+.product_overview .title {
+    text-align: center;
+    padding-top: 64px;
+    font-family: "SourceHanSansCN-Regular";
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 3px;
+    color: #000000;
+    padding-bottom: 47px;
+}
+
+.product_overview pre {
+    margin: 0 auto;
+    
+    
+    width: 1598px;
+    text-indent: 32px;
+    font-family: "SourceHanSansCN-Regular";
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #777777;
+}
+
+.technical_advantage {
+    background-color: #f5f5f5;
+    width: 1920px;
+    padding-bottom: 50px;
+}
+
+.technical_advantage .title {
+    text-align: center;
+    font-family: "MicrosoftYaHei";
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 3px;
+    color: #000000;
+    padding-top: 63px;
+    padding-bottom: 47px;
+}
+
+
+.technical_advantage pre {
+    width: 1599px;
+    text-align: justify;
+    font-family: "SourceHanSansCN-Regular";
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #777777;
+    text-indent: 32px;
+    margin: 0 auto;
+}
+
+.technical_advantage .video {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 470px;
+    width: 1920px;
+}
+
+.technical_advantage .video img {
+    position: absolute;
+    margin-top: 55px;
+    margin-bottom: 48px;
+    width: 396px;
+    height: 351px;
+}
+
+
+.technical_advantage .box {
+    width: 1600px;
+    height: 404px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.technical_advantage .box .list {
+    width: 380px;
+    height: 178px;
+    border-radius: 6px;
+    display: flex;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 64px;
+}
+
+
+.technical_advantage .box .list .left {
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    background-color: #2f6897;
+    font-family: "SourceHanSansCN-Bold";
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    border-radius: 50%;
+    margin-right: 17px;
+}
+
+.technical_advantage .box .list .right {
+    width: 250px;
+}
+
+.technical_advantage .box .list .list_content {
+    font-family: "SourceHanSansCN-Regular";
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #777777;
+}
+
+.technical_advantage .box .list .list_title {
+    font-family: "SourceHanSansCN-Regular";
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 2px;
+    color: #111111;
+    padding-bottom: 12px;
+}
+
+.technical_advantage .box .list .list_content span {
+    display: block;
+}

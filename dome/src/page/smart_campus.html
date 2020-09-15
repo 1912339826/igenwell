@@ -1,4 +1,4 @@
-<!-- 智慧人脸科技 -->
+<!-- 物联网网关 -->
 <!DOCTYPE html>
 <html lang="zh">
 
@@ -16,7 +16,7 @@
     <!-- 360使用Google Chrome Frame -->
     <meta name="renderer" content="webkit">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-    <title>进唯智能-人员定位系统</title>
+    <title>进唯智能-智慧校园</title>
     <link rel="stylesheet" href="../font/SourceHanSansCN-1.000/SourceHanSansCN.css">
     <link rel="stylesheet" href="../../normalize.css">
     <link rel="stylesheet" href="../../layui-v2.5.6/layui/css/layui.css">
@@ -27,12 +27,13 @@
     <link rel="stylesheet" href="../../nav.css">
     <link rel="stylesheet" href="../../breadcrumb_navigation.css">
     <link rel="stylesheet" href="../../the_subnavigation.css">
-    <link rel="stylesheet" href="../css/PLS.css">
+    <link rel="stylesheet" href="../../table.css">
+    <link rel="stylesheet" href="../css/smart_campus.css">
     <link rel="stylesheet" href="../../base.css">
 </head>
 
 <body>
-    <div id="PLS">
+    <div id="smart_campus">
         <div id="goToTop" title="回到顶部">
             <img src="../images/goToTop_03.png" alt="">
         </div>
@@ -72,7 +73,7 @@
                             <a href="">通信转换模件</a>
                         </div>
                         <div class="list_son">
-                            <a href="" id="list_son_active">人员定位设备</a>
+                            <a href="">人员定位设备</a>
                         </div>
                     </div>
 
@@ -98,7 +99,7 @@
                     <div class="list">
                         <p>行业产品</p>
                         <div class="list_son">
-                            <a href="">智慧校园</a>
+                            <a href="" id="list_son_active">智慧校园</a>
                         </div>
                         <div class="list_son">
                             <a href="">智慧工地</a>
@@ -117,124 +118,158 @@
             </div>
         </div>
         <div class="banner">
-            <img src="../images/PLS/banner_02.png" alt="">
+            <img src="../images/smart_campus/banner_02.png" alt="">
         </div>
         <div class="breadcrumb_navigation">
             <span class="layui-breadcrumb" lay-separator=">">
                 <a href="">首页</a>
-                <a><cite>人员定位系统</cite></a>
+                <a><cite>智慧校园</cite></a>
             </span>
         </div>
         <div class="the_subnavigation">
             <ul class="layui-nav" lay-filter="">
-                <li class="layui-nav-item layui-this "><a href="">基本信息</a></li>
+                <li class="layui-nav-item layui-this"><a href="">基本信息</a></li>
+                <li class="layui-nav-item" data-id="management_platform"><a href="">校园人脸识别综合管理平台</a></li>
+                <li class="layui-nav-item" data-id="control_platform"><a href="">校园水电物联网综合管控平台</a></li>
             </ul>
         </div>
-
-        <div class="basic_information">
-            <div class="title">基本信息</div>
-            <div class="brief_introduction">
-                高精度人员定位系统是一套基于蓝牙的系统平台，是集人员定位、管理、信息采集、传输、分析等功能为一体的信息管理系统产品。通过在园区主干道路上部署定位基站实现信号的覆盖，并充分利用网络资源对系统功能进行深度开发，可延伸出通信联络系统、环境监测、视频监控系统，采用工业级高性能嵌入式系统，高度集成定位、监测、报警、管理等功能于一体；模块化设计，功能扩展非常方便；高度的稳定性、可靠性、安全性和高效性价比，为企业创建高效智能的应用和管理平台。
-            </div>
-            <div class="lists">
-                <div class="list">
-                    <img src="../images/PLS/pics_09.png" alt="">
-                    <div class="list_title">人员识别卡</div>
-                </div>
-                <div class="list">
-                    <img src="../images/PLS/pics_06.png" alt="">
-                    <div class="list_title">定位设备</div>
-                </div>
-                <div class="list">
-                    <img src="../images/PLS/pics_03.png" alt="">
-                    <div class="list_title">数据网关</div>
-                </div>
-                <div class="list">
-                    <img src="../images/PLS/pics_09.png" alt="">
-                    <div class="list_title">系统服务器</div>
-                </div>
-            </div>
-        </div>
-        <div class="technology_advantages">
-            <img src="../images/bg_02.png" alt="" class="back">
+        <div class="product_overview">
             <div class="title">
-                技术优势
+                产品概述
             </div>
-            <div class="top">
-                <div class="list">
-                    <img src="../images/PLS/未标题-1_03.png" alt="">
-                    <div class="list_title">二维、三维电子地图</div>
-                </div>
-                <div class="list">
-                    <img src="../images/PLS/未标题-1_05.png" alt="">
-                    <div class="list_title">定位精度3-5米</div>
-                </div>
-                <div class="list">
-                    <img src="../images/PLS/未标题-1_07.png" alt="">
-                    <div class="list_title">人员位置实时显示</div>
-                </div>
-                <div class="list">
-                    <img src="../images/PLS/未标题-1_09.png" alt="">
-                    <div class="list_title">轨迹保存最长2年</div>
-                </div>
-            </div>
-            <div class="bottom">
-                <div class="list">
-                    <img src="../images/PLS/未标题-1_16.png" alt="">
-                    <div class="list_title">采用全网低功耗技术</div>
-                </div>
-                <div class="list">
-                    <img src="../images/PLS/未标题-1_19.png" alt="">
-                    <div class="list_title">人员卡可续航4个月</div>
-                </div>
-                <div class="list">
-                    <img src="../images/PLS/未标题-1_22.png" alt="">
-                    <div class="list_title">阿里云安全可靠</div>
-                </div>
-            </div>
+            <pre>智慧校园紧贴校园管理需求，借助人工智能、机器视觉、物联网等技术，打造了一系列校园智慧化软硬件产品，解决了传统校园管理的人防、技防面临的困局和压力，基本建立与之配套的管理制度并日趋完美，使学校管理者从之前的安防管理“两眼一抹黑”、“无抓手”、“听汇报”的状态，到目前管理扁平化、可视化、智能化，学校各类数据精准汇集，人脸平台已成为学院管理的新突破，开启了学院治理的新局面，使学院治理智慧化水平登上了新台阶。</pre>
         </div>
-
-        <div class="software_function">
+        <div class="management_platform" id="management_platform">
             <div class="title">
-                软件功能
+                校园人脸识别综合管理平台
+            </div>
+            <pre>尽可能地复用校园中已安装的监控摄像机，通过纳入人脸平台统一管理，将人脸识别的抓拍范围扩大到校园的部分区域，校园安全防控在无感、静默、无人的状态下主动展开。借助海量的抓拍、识别、比对记录，使得人脸平台所承载的人员属性、行为、轨迹数据更丰富、更立体、更完善，同时借助平台的分析研判、轨迹追溯等功能对校内安全风险能够主动、提前预警，降低校园管理者的工作负荷，极大的简化了传统学生管理、人员考勤、校园安全的处理方式，并且对教学、管理与生活形成独有的创新，实现学院效益最大化。</pre>
+            <div class="video">
+                <img src="../images/smart_campus/screen.png" alt="">
             </div>
             <div class="box">
                 <div class="list">
-                    <img src="../images/PLS/Group-1_03.png" alt="">
+                    <div class="left">1</div>
                     <div class="right">
-                        <div class="list_title">员工定位管理</div>
-                        <div class="list_content">对室内室外、楼层等任意位置实现高精度实时定位，人员滞岗、偏离、离岗、超员、超时等情况实时报警提示。
-                            移动轨迹实时记录，对人员消失、非法闯入特定区域等进行报警提示、对员工考勤、巡检路线等进行智能化管控。</div>
-                    </div>
-                </div>
-                <div class="list">
-                    <img src="../images/PLS/Group-1_05.png" alt="">
-                    <div class="right">
-                        <div class="list_title">考勤管理</div>
-                        <div class="list_content">实时记录显示区域内人员的实到人、到岗时间、是否到齐、缺勤人员等，实现厂区内人员自动点名、智能统计等功能。
-                            智能联动人脸/指纹/普通打卡机等设备，获取考勤所需的档案数据，自动生成打卡时间、员工编号、姓名等考勤记录。
+                        <div class="list_title">提效率</div>
+                        <div class="list_content">
+                            <span>无感知、非配合的识别方式</span>
+                            <span>简约、高效、用户体验好</span>
+                            <span>各种场所一脸通行</span>
                         </div>
                     </div>
                 </div>
                 <div class="list">
-                    <img src="../images/PLS/Group-1_09.png" alt="">
+                    <div class="left">2</div>
                     <div class="right">
-                        <div class="list_title">访客定位管理</div>
-                        <div class="list_content">对来访人员进行记录路线管控、非法闯入、偏离等管控，系统设计了对外来施工人员、访客等进行定点管控。</div>
+                        <div class="list_title">树形象</div>
+                        <div class="list_content">
+                            <span>AI智能校园管理方式</span>
+                            <span>人工智能应用场景落地</span>
+                            <span>AI产业化落地的示范</span>
+                        </div>
                     </div>
                 </div>
                 <div class="list">
-                    <img src="../images/PLS/Group-1_10.png" alt="">
+                    <div class="left">3</div>
                     <div class="right">
-                        <div class="list_title">区域管理</div>
-                        <div class="list_content">对特殊区域、特定区域、特定路线等进行设置、管控；对重点厂房可设置权限，非权限人员进入报警提示。</div>
+                        <div class="list_title">低成本</div>
+                        <div class="list_content">
+                            <span>不挑品牌 不挑相机</span>
+                            <span>兼容复用 充分利用</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="list" style=" margin-right: 0px;">
+                    <div class="left">4</div>
+                    <div class="right">
+                        <div class="list_title">增安全</div>
+                        <div class="list_content">
+                            <span>精准识人，分类管理</span>
+                            <span>事前预警，防患未然</span>
+                            <span>实时提醒，权限清晰</span>
+                            <span>实时提醒，权限清晰</span>
+                            <span>无人值守，管理优化</span>
+                        </div>
                     </div>
                 </div>
                 <div class="list">
-                    <img src="../images/PLS/Group-1_13.png" alt="">
+                    <div class="left">5</div>
                     <div class="right">
-                        <div class="list_title">物品管理</div>
-                        <div class="list_content">对特定物品、特定位置、偏离、消失等智能化管控</div>
+                        <div class="list_title">可靠性</div>
+                        <div class="list_content">
+                            <span>技术成熟 识别准确</span>
+                            <span>容灾容错 稳定可靠</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="list">
+                    <div class="left">6</div>
+                    <div class="right">
+                        <div class="list_title">高效率</div>
+                        <div class="list_content">
+                            <span>支持多路 实时视频</span>
+                            <span>统一管理 功能齐全</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="list">
+                    <div class="left">7</div>
+                    <div class="right">
+                        <div class="list_title">开放性</div>
+                        <div class="list_content">
+                            <span>平台开放 标准统一</span>
+                            <span>多样扩展 维护性强</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="control_platform" id="control_platform">
+            <div class="title">
+                校园水电物联网综合管控平台
+            </div>
+            <pre>通过远程监控、分析、控制，实现节能降耗、预防风险、提升效能、突发处理等职能，并且与校园人脸识别平台有机结合，实现一套平台、N套应用的智慧物联网平台。通过我司物联网平台，插拔式灵活增加前端物联网传感器，实现全校用水、用电、消防等设备设施统一收集、统一控制、统一管理。</pre>
+            <div class="video">
+                <img src="../images/smart_campus/screen.png" alt="">
+            </div>
+            <div class="box">
+                <div class="lists top">
+                    <div class="list">
+                        <img src="../images/smart_campus/Technical_Advantages_2_03.png" alt="">
+                        <pre>适合追求性价比高的用户</pre>
+                    </div>
+                    <div class="list">
+                        <img src="../images/smart_campus/Technical_Advantages_2_05.png" alt="">
+                        <pre>适合100以上摄像机</pre>
+                        <pre>真正实现轨迹定位</pre>
+                    </div>
+                    <div class="list">
+                        <img src="../images/smart_campus/Technical_Advantages_2_07.png" alt="">
+                        <pre>内置人脸识别算法</pre>
+                        <pre>识别率可达99.99%</pre>
+                    </div>
+                    <div class="list">
+                        <img src="../images/smart_campus/Technical_Advantages_2_09.png" alt="">
+                        <pre>不挑摄像机品牌</pre>
+                        <pre>普通摄像机也可进行人脸识别</pre>
+                    </div>
+                </div>
+                <div class="lists bottom">
+                    <div class="list">
+                        <img src="../images/smart_campus/Technical_Advantages_2_16.png" alt="">
+                        <pre>支持复用和利旧</pre>
+                        <pre>已装摄像机也可进行人脸识别</pre>
+                    </div>
+                    <div class="list">
+                        <img src="../images/smart_campus/Technical_Advantages_2_19.png" alt="">
+                        <pre>支持标准视频协议</pre>
+                        <pre>即插即用不占额外系统资源</pre>
+                    </div>
+                    <div class="list">
+                        <img src="../images/smart_campus/Technical_Advantages_2_22.png" alt="">
+                        <pre>提供丰富对接接口</pre>
+                        <pre>降低与其他系统的对接成本</pre>
                     </div>
                 </div>
             </div>
@@ -320,7 +355,7 @@
     </div>
     <script src="../../goToTop.js"></script>
     <script src="../../layui-v2.5.6/layui/layui.all.js"></script>
-    <script src="../js/PLS.js"></script>
+    <script src="../js/smart_campus.js"></script>
 </body>
 
 </html>

@@ -1,4 +1,4 @@
-<!-- 智慧人脸科技 -->
+<!-- 物联网网关 -->
 <!DOCTYPE html>
 <html lang="zh">
 
@@ -16,7 +16,7 @@
     <!-- 360使用Google Chrome Frame -->
     <meta name="renderer" content="webkit">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-    <title>进唯智能-人员定位系统</title>
+    <title>进唯智能-智慧仓库</title>
     <link rel="stylesheet" href="../font/SourceHanSansCN-1.000/SourceHanSansCN.css">
     <link rel="stylesheet" href="../../normalize.css">
     <link rel="stylesheet" href="../../layui-v2.5.6/layui/css/layui.css">
@@ -27,12 +27,13 @@
     <link rel="stylesheet" href="../../nav.css">
     <link rel="stylesheet" href="../../breadcrumb_navigation.css">
     <link rel="stylesheet" href="../../the_subnavigation.css">
-    <link rel="stylesheet" href="../css/PLS.css">
+    <link rel="stylesheet" href="../../table.css">
+    <link rel="stylesheet" href="../css/wisdom_warehouse.css">
     <link rel="stylesheet" href="../../base.css">
 </head>
 
 <body>
-    <div id="PLS">
+    <div id="wisdom_warehouse">
         <div id="goToTop" title="回到顶部">
             <img src="../images/goToTop_03.png" alt="">
         </div>
@@ -72,7 +73,7 @@
                             <a href="">通信转换模件</a>
                         </div>
                         <div class="list_son">
-                            <a href="" id="list_son_active">人员定位设备</a>
+                            <a href="">人员定位设备</a>
                         </div>
                     </div>
 
@@ -104,7 +105,7 @@
                             <a href="">智慧工地</a>
                         </div>
                         <div class="list_son">
-                            <a href="">智慧仓库</a>
+                            <a href="" id="list_son_active">智慧仓库</a>
                         </div>
                         <div class="list_son">
                             <a href="">化工安全监管</a>
@@ -117,124 +118,52 @@
             </div>
         </div>
         <div class="banner">
-            <img src="../images/PLS/banner_02.png" alt="">
+            <img src="../images/wisdom_warehouse/banner_02.png" alt="">
         </div>
         <div class="breadcrumb_navigation">
             <span class="layui-breadcrumb" lay-separator=">">
                 <a href="">首页</a>
-                <a><cite>人员定位系统</cite></a>
+                <a><cite>智慧仓库</cite></a>
             </span>
         </div>
         <div class="the_subnavigation">
             <ul class="layui-nav" lay-filter="">
-                <li class="layui-nav-item layui-this "><a href="">基本信息</a></li>
+                <li class="layui-nav-item layui-this"><a href="">基本信息</a></li>
+                <li class="layui-nav-item" data-id="technical_advantage"><a href="">技术优势</a></li>
             </ul>
         </div>
-
-        <div class="basic_information">
-            <div class="title">基本信息</div>
-            <div class="brief_introduction">
-                高精度人员定位系统是一套基于蓝牙的系统平台，是集人员定位、管理、信息采集、传输、分析等功能为一体的信息管理系统产品。通过在园区主干道路上部署定位基站实现信号的覆盖，并充分利用网络资源对系统功能进行深度开发，可延伸出通信联络系统、环境监测、视频监控系统，采用工业级高性能嵌入式系统，高度集成定位、监测、报警、管理等功能于一体；模块化设计，功能扩展非常方便；高度的稳定性、可靠性、安全性和高效性价比，为企业创建高效智能的应用和管理平台。
-            </div>
-            <div class="lists">
-                <div class="list">
-                    <img src="../images/PLS/pics_09.png" alt="">
-                    <div class="list_title">人员识别卡</div>
-                </div>
-                <div class="list">
-                    <img src="../images/PLS/pics_06.png" alt="">
-                    <div class="list_title">定位设备</div>
-                </div>
-                <div class="list">
-                    <img src="../images/PLS/pics_03.png" alt="">
-                    <div class="list_title">数据网关</div>
-                </div>
-                <div class="list">
-                    <img src="../images/PLS/pics_09.png" alt="">
-                    <div class="list_title">系统服务器</div>
-                </div>
-            </div>
-        </div>
-        <div class="technology_advantages">
-            <img src="../images/bg_02.png" alt="" class="back">
+        <div class="product_overview">
             <div class="title">
-                技术优势
+                智慧仓库
             </div>
-            <div class="top">
-                <div class="list">
-                    <img src="../images/PLS/未标题-1_03.png" alt="">
-                    <div class="list_title">二维、三维电子地图</div>
-                </div>
-                <div class="list">
-                    <img src="../images/PLS/未标题-1_05.png" alt="">
-                    <div class="list_title">定位精度3-5米</div>
-                </div>
-                <div class="list">
-                    <img src="../images/PLS/未标题-1_07.png" alt="">
-                    <div class="list_title">人员位置实时显示</div>
-                </div>
-                <div class="list">
-                    <img src="../images/PLS/未标题-1_09.png" alt="">
-                    <div class="list_title">轨迹保存最长2年</div>
-                </div>
-            </div>
-            <div class="bottom">
-                <div class="list">
-                    <img src="../images/PLS/未标题-1_16.png" alt="">
-                    <div class="list_title">采用全网低功耗技术</div>
-                </div>
-                <div class="list">
-                    <img src="../images/PLS/未标题-1_19.png" alt="">
-                    <div class="list_title">人员卡可续航4个月</div>
-                </div>
-                <div class="list">
-                    <img src="../images/PLS/未标题-1_22.png" alt="">
-                    <div class="list_title">阿里云安全可靠</div>
-                </div>
-            </div>
+            <pre>智能仓库管理系统通过运用RFID技术，彻底改变了资产管理的模式，减少人工干预，提升盘点效率，从购置，领用、转移、盘点、维修、报废全生命周期进行无人化，全方位的准确监管。各 级相关管理人员及有关领导可快速查询、统计固定资产情况，为合理资源配置提供决策依据，实现更便捷，更高效的资产管理。</pre>
+            <pre>智能仓库管理系统可采用公有云方式部署，由管理云平台、仓库盘点子系统，仓库查询一体机子系统，仓库管理移动子系统组成。通过在仓库中安装架设RFID天线，同时在物资表面粘贴RFID标签的方式将仓库物资统一纳入系统进行管理。</pre>
         </div>
-
-        <div class="software_function">
+        <div class="system_features">
+            <img src="../images/wisdom_warehouse/bg_02.png" alt="" class="back">
             <div class="title">
-                软件功能
+                系统特点
             </div>
             <div class="box">
                 <div class="list">
-                    <img src="../images/PLS/Group-1_03.png" alt="">
-                    <div class="right">
-                        <div class="list_title">员工定位管理</div>
-                        <div class="list_content">对室内室外、楼层等任意位置实现高精度实时定位，人员滞岗、偏离、离岗、超员、超时等情况实时报警提示。
-                            移动轨迹实时记录，对人员消失、非法闯入特定区域等进行报警提示、对员工考勤、巡检路线等进行智能化管控。</div>
-                    </div>
+                    <img src="../images/wisdom_warehouse/icon_03.png" alt="">
+                    <div class="list_title">出入库无人值守</div>
+                    <div class="list_content">由于手工登记出入库演变为自主出入登记实现全程无人值守，有效的降低仓库管理成本。</div>
                 </div>
                 <div class="list">
-                    <img src="../images/PLS/Group-1_05.png" alt="">
-                    <div class="right">
-                        <div class="list_title">考勤管理</div>
-                        <div class="list_content">实时记录显示区域内人员的实到人、到岗时间、是否到齐、缺勤人员等，实现厂区内人员自动点名、智能统计等功能。
-                            智能联动人脸/指纹/普通打卡机等设备，获取考勤所需的档案数据，自动生成打卡时间、员工编号、姓名等考勤记录。
-                        </div>
-                    </div>
+                    <img src="../images/wisdom_warehouse/icon_05.png" alt="">
+                    <div class="list_title">仓库盘点智能化</div>
+                    <div class="list_content">系统可以自动匹配进行盘点， 有效的提升仓库盘点效率，同时降低仓库盘点管理成本。</div>
                 </div>
                 <div class="list">
-                    <img src="../images/PLS/Group-1_09.png" alt="">
-                    <div class="right">
-                        <div class="list_title">访客定位管理</div>
-                        <div class="list_content">对来访人员进行记录路线管控、非法闯入、偏离等管控，系统设计了对外来施工人员、访客等进行定点管控。</div>
-                    </div>
+                    <img src="../images/wisdom_warehouse/icon_10.png" alt="">
+                    <div class="list_title">物资归还精准化</div>
+                    <div class="list_content">领用人归还物资时使用安装仓库管理移动子系统的手机进行归还操作。</div>
                 </div>
                 <div class="list">
-                    <img src="../images/PLS/Group-1_10.png" alt="">
-                    <div class="right">
-                        <div class="list_title">区域管理</div>
-                        <div class="list_content">对特殊区域、特定区域、特定路线等进行设置、管控；对重点厂房可设置权限，非权限人员进入报警提示。</div>
-                    </div>
-                </div>
-                <div class="list">
-                    <img src="../images/PLS/Group-1_13.png" alt="">
-                    <div class="right">
-                        <div class="list_title">物品管理</div>
-                        <div class="list_content">对特定物品、特定位置、偏离、消失等智能化管控</div>
+                    <img src="../images/wisdom_warehouse/icon_07.png" alt="">
+                    <div class="list_title">智能钥匙柜管理</div>
+                    <div class="list_content">仓库系统通过RFID无线和标签自动实现出库（或领用）操作，并将领用人与该物资进行绑定。确保进出仓库领用人身份的合规性，杜绝“认钥匙，不认人”的情况。
                     </div>
                 </div>
             </div>
@@ -320,7 +249,7 @@
     </div>
     <script src="../../goToTop.js"></script>
     <script src="../../layui-v2.5.6/layui/layui.all.js"></script>
-    <script src="../js/PLS.js"></script>
+    <script src="../js/wisdom_warehouse.js"></script>
 </body>
 
 </html>
