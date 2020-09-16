@@ -33,3 +33,9 @@
     font-family: 'SourceHanSansCN-Regular';
     src: url('./SourceHanSansCN-Regular.otf');
 }
+
+/* 站酷庆科黄油体 */
+@font-face {
+    font-family: 'zcoolqingkehuangyouti-Regular';
+    src: url('./zcoolqingkehuangyouti-Regular.TTF');
+}
