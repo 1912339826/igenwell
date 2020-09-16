@@ -39,3 +39,8 @@
     font-family: 'zcoolqingkehuangyouti-Regular';
     src: url('./zcoolqingkehuangyouti-Regular.TTF');
 }
+
+@font-face {
+    font-family: 'MicrosoftYaHei';
+    src: url('./MicrosoftYaHei.ttf');
+}
