@@ -1,0 +1,126 @@
+.summarize {
+    width: 1920px;
+}
+
+.summarize .title {
+    text-align: center;
+    padding-top: 63px;
+    padding-bottom: 20px;
+    font-family: "SourceHanSansCN-Regular";
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 3px;
+    color: #000000;
+}
+
+.summarize .introduction {
+    width: 1600px;
+    margin: 0 auto;
+    text-indent: 32px;
+    font-family: "SourceHanSansCN-Regular";
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #777777;
+}
+
+.summarize .box {
+    margin: 0 auto;
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+    width: 1260px;
+}
+
+.summarize .box img {
+    width: 231px;
+    height: 483px;
+}
+
+.composition {
+    width: 1920px;
+    background-color: #f5f5f5;
+}
+
+.composition .title{
+    text-align: center;
+    font-family: "MicrosoftYaHei";
+	font-size: 30px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 3px;
+	color: #000000;
+    padding-top: 63px;
+    padding-bottom: 47px;
+}
+
+.composition .box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.composition .list{
+    margin-bottom: 62px;
+    text-align: center;
+    width: 504px;
+}
+
+.composition .list img{
+    width: 278px;
+	height: 244px;
+}
+
+.composition .list .list_title{
+    font-family: "SourceHanSansCN-Regular";
+	font-size: 20px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 2px;
+    color: #111111;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.composition .list span{
+    display: block;
+    font-family: "SourceHanSansCN-Regular";
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 30px;
+	letter-spacing: 0px;
+	color: #777777;
+}
+
+.sketch{
+    width: 1920px;
+    margin-bottom: 64px;
+}
+
+.sketch .title{
+    text-align: center;
+    padding-top: 63px;
+    padding-bottom: 47px;
+    font-family: "SourceHanSansCN-Regular";
+	font-size: 30px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 3px;
+	color: #000000;
+}
+
+.sketch .box{
+    text-align: center;
+}
+
+.sketch .box img{
+    width: 790px;
+	height: 350px;
+}

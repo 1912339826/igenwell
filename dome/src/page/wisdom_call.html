@@ -1,4 +1,4 @@
-<!-- 智慧人脸科技 -->
+<!-- 化工安全监管 -->
 <!DOCTYPE html>
 <html lang="zh">
 
@@ -16,7 +16,7 @@
     <!-- 360使用Google Chrome Frame -->
     <meta name="renderer" content="webkit">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-    <title>进唯智能-智慧人脸科技</title>
+    <title>进唯智能-智慧点名</title>
     <link rel="stylesheet" href="../font/SourceHanSansCN-1.000/SourceHanSansCN.css">
     <link rel="stylesheet" href="../../normalize.css">
     <link rel="stylesheet" href="../../layui-v2.5.6/layui/css/layui.css">
@@ -27,16 +27,16 @@
     <link rel="stylesheet" href="../../nav.css">
     <link rel="stylesheet" href="../../breadcrumb_navigation.css">
     <link rel="stylesheet" href="../../the_subnavigation.css">
-    <link rel="stylesheet" href="../css/intelligent_face_technology.css">
+    <link rel="stylesheet" href="../../table.css">
+    <link rel="stylesheet" href="../css/wisdom_call.css">
     <link rel="stylesheet" href="../../base.css">
 </head>
 
 <body>
-    <div id="intelligent_face_technology">
+    <div id="wisdom_call">
         <div id="goToTop" title="回到顶部">
             <img src="../images/goToTop_03.png" alt="">
         </div>
-
 
 
         <div class="nav" id="fixed">
@@ -65,17 +65,17 @@
                             <a href="internet_of_things_gateway.html">物联网网关</a>
                         </div>
                         <div class="list_son">
-                            <a href="intelligent_video_analysis_gateway.html">智能视频分析网关</a>
+                            <a  href="intelligent_video_analysis_gateway.html">智能视频分析网关</a>
                             <img src="../images/special_tag_03.png" alt="">
                         </div>
                         <div class="list_son">
                             <a href="video_compression_gateway.html">智能视频压缩网关</a>
                         </div>
                         <div class="list_son">
-                            <a  href="communication_conversion_module.html">通信转换模件</a>
+                            <a href="communication_conversion_module.html">通信转换模件</a>
                         </div>
                         <div class="list_son">
-                            <a href="PLS.html">人员定位设备</a>
+                            <a  href="PLS.html">人员定位设备</a>
                         </div>
                     </div>
 
@@ -101,7 +101,7 @@
                     <div class="list">
                         <p>行业产品</p>
                         <div class="list_son">
-                            <a href="smart_campus.html">智慧校园</a>
+                            <a  href="smart_campus.html">智慧校园</a>
                         </div>
                         <div class="list_son">
                             <a href="wisdom_site.html">智慧工地</a>
@@ -113,7 +113,7 @@
                             <a href="chemical_safety_supervision.html">化工安全监管</a>
                         </div>
                         <div class="list_son">
-                            <a href="wisdom_call.html">智慧点名</a>
+                            <a id="list_son_active" href="wisdom_call.html">智慧点名</a>
                         </div>
                     </div>
                 </div>
@@ -122,149 +122,92 @@
 
 
 
+
         <div class="banner">
-            <img src="../images/intelligent_face_technology/banner_02.png" alt="">
+            <img src="../images/wisdom_call/banner_02.png" alt="">
         </div>
         <div class="breadcrumb_navigation">
             <span class="layui-breadcrumb" lay-separator=">">
                 <a href="home.html">首页</a>
-                <a><cite>智慧人脸科技</cite></a>
+                <a href="classic_scene.html" style="display:none;" id="before_classic_scene">典型场景</a>
+                <a><cite>智慧点名</cite></a>
             </span>
         </div>
         <div class="the_subnavigation">
             <ul class="layui-nav" lay-filter="">
-                <li class="layui-nav-item layui-this "><a href="">基本信息</a></li>
+                <li class="layui-nav-item layui-this"><a href="">基本信息</a></li>
+                <li class="layui-nav-item" data-id="technical_advantage"><a href="">技术优势</a></li>
             </ul>
         </div>
-        <div class="face_recognition_features">
+
+        <div class="summarize">
             <div class="title">
-                人脸识别特性
+                系统概述
             </div>
-            <div class="face_recognition_features_content">
-                <pre>人脸识别是一种利用、分析、比较人脸视觉特征信息进行身份鉴别的计算机技术，具有自然性、非强制性和非接触性等特点。同时，人脸识别利用了人脸独一无二的特性，不易被复制；识别率高；识别速度快；在应用性能上得到了测试认可。</pre>
-                <pre>人脸识别将人员通过注册方式登记到人脸库中进行管理，方便随时了解受控区域内的人员情况，并通过黑名单库的动态分析功能，及时识别已被标示的危险人群，极大的保障了受控区域内人员安全性，大大提高了人员管理质量。</pre>
+            <div class="introduction">
+                系统利用摄像机侦测分析功能自动采集人员人脸数据,统计参加点名人数，使用事项记录装置记录组织者身份信息和点名起止时间，对照录入平台的单位人员实 力数据，自动生成在位率、到课率、参训率的精确统计,以网络智能技术督导会议制度和点名制度的落实。
+            </div>
+            <div class="box">
+                <img src="../images/wisdom_call/summarize_03.png" alt="">
+                <img src="../images/wisdom_call/summarize_05.png" alt="">
+                <img src="../images/wisdom_call/summarize_07.png" alt="">
             </div>
         </div>
-        <div class="technological_superiority">
+
+        <div class="composition">
             <div class="title">
-                技术优势
+                系统组成
             </div>
-            <div class="technological_superiority_box_icon">
+            <div class="box">
                 <div class="list">
-                    <img src="../images/intelligent_face_technology/intelligent_face_technology (1).png"
-                        class="icon_img" alt="">
-                    <div class="icon_title">唯一性</div>
-                    <div class="icon_content">每个人都有一张脸，且无法被复制、仿冒，因此安全性更高。</div>
+                    <img src="../images/wisdom_call/constitute_03.png" alt="">
+                    <div class="list_title">人脸采集终端</div>
+                    <span>采集人脸照片，</span>
+                    <span>包括联网/离线两种采集模式。</span>
                 </div>
                 <div class="list">
-                    <img src="../images/intelligent_face_technology/intelligent_face_technology (2).png"
-                        class="icon_img" alt="">
-                    <div class="icon_title">自然性好</div>
-                    <div class="icon_content">人脸识别技术同人类（甚至其它生物）进行个体识别时所利用的生物特征相同，其他生物特征如指纹、虹膜不具备这个特征。</div>
+                    <img src="../images/wisdom_call/constitute_05.png" alt="">
+                    <div class="list_title">点名事项终端</div>
+                    <span>部署网上点名APP，支持在线实时点名；</span>
+                    <span>支持前端人脸识别验证；</span>
+                    <span>集成语音模块，支持语音播报。</span>
                 </div>
                 <div class="list">
-                    <img src="../images/intelligent_face_technology/intelligent_face_technology (3).png"
-                        class="icon_img" alt="">
-                    <div class="icon_title">简单方便</div>
-                    <div class="icon_content">无需携带卡，识别速度快，操作简单便捷。</div>
+                    <img src="../images/wisdom_call/constitute_05-03.png" alt="">
+                    <div class="list_title">Web中心平台</div>
+                    <span>人脸识别平台管理和系统后台管理，包括：</span>
+                    <span>组织、人员、用户、菜单权限、数据字典等；</span>
+                    <span>支持网上点名数据查询与统计功能。</span>
                 </div>
                 <div class="list">
-                    <img src="../images/intelligent_face_technology/intelligent_face_technology (4).png"
-                        class="icon_img" alt="">
-                    <div class="icon_title">非接触性</div>
-                    <div class="icon_content">无需接触设备，不用担心病毒传染，既卫生，又安全。</div>
-                </div>
-            </div>
-            <div class="technological_superiority_content">
-                因此如果将人脸识别技术广泛应用于门禁系统的身份识别系统中，将大大提高门禁系统运行的安全性和可靠性，最大程度上降低通过身份冒充进入某种场所进行不法犯罪活动的可能性，极大减少了门禁安全系统中现存及潜在的技术漏洞、隐患和风险。
-            </div>
-        </div>
-        <div class="guard_trait">
-            <div class="title">
-                门禁系统产品特点
-            </div>
-            <div class="guard_trait_top">
-                <div class="list">
-                    <img src="../images/intelligent_face_technology/intelligent_face_technology (5).png"
-                        class="icon_img" alt="">
-                    <div class="list_title">采用人脸识别技术</div>
-                    <div class="list_introductory">标准环境下准确率可达到99%以上</div>
+                    <img src="../images/wisdom_call/constitute_05.png" alt="">
+                    <div class="list_title">实时显示大屏</div>
+                    <span>点名时，实时展示人员点名的终端显示设备；</span>
+                    <span>PC显示器/电视屏/安卓移动设备屏</span>
                 </div>
                 <div class="list">
-                    <img src="../images/intelligent_face_technology/intelligent_face_technology (6).png"
-                        class="icon_img" alt="">
-                    <div class="list_title">快速识别</div>
-                    <div class="list_introductory">单个终端设备每秒识别>=3人</div>
+                    <img src="../images/wisdom_call/constitute_05.png" alt="">
+                    <div class="list_title">视频处理网关</div>
+                    <span>获取布控摄像头抓拍的人脸图片，</span>
+                    <span>进行人脸比对和识别验证。</span>
                 </div>
                 <div class="list">
-                    <img src="../images/intelligent_face_technology/intelligent_face_technology (7).png"
-                        class="icon_img" alt="">
-                    <div class="list_title">对区域内人员进行跟踪</div>
-                    <div class="list_introductory">在大屏幕上实时显示人员信息</div>
-                </div>
-            </div>
-            <div class="guard_trait_bottom">
-                <div class="list">
-                    <img src="../images/intelligent_face_technology/intelligent_face_technology (8).png"
-                        class="icon_img" alt="">
-                    <div class="list_title">抓拍图像存储</div>
-                    <div class="list_introductory">多区域的联动跟踪，数据推送</div>
-                </div>
-                <div class="list">
-                    <img src="../images/intelligent_face_technology/intelligent_face_technology (9).png"
-                        class="icon_img" alt="">
-                    <div class="list_title">海量数据存储</div>
-                    <div class="list_introductory">不少于500万张人脸图片和500万条访客记录</div>
+                    <img src="../images/wisdom_call/constitute_05.png" alt="">
+                    <div class="list_title">布控摄像头</div>
+                    <span>具有人脸抓拍功能的摄像头。</span>
                 </div>
             </div>
         </div>
-        <div class="visitor_characteristics">
+        <div class="sketch">
             <div class="title">
-                访客系统产品特点
+                人员点名示意图
             </div>
-            <div class="visitor_characteristics_top">
-                <div class="list">
-                    <img src="../images/intelligent_face_technology/intelligent_face_technology (10).png"
-                        class="icon_img" alt="">
-                    <div class="list_title">支持双屏异显</div>
-                    <div class="list_introductory">前置200万像素摄像头</div>
-                </div>
-                <div class="list">
-                    <img src="../images/intelligent_face_technology/intelligent_face_technology (11).png"
-                        class="icon_img" alt="">
-                    <div class="list_title">业界领先的识别算法</div>
-                    <div class="list_introductory">人脸识别精确度达到99.99%</div>
-                </div>
-                <div class="list">
-                    <img src="../images/intelligent_face_technology/intelligent_face_technology (12).png"
-                        class="icon_img" alt="">
-                    <div class="list_title">支持在离线状态下使用</div>
-                    <div class="list_introductory">同时支持10000张人脸底库</div>
-                </div>
-            </div>
-            <div class="visitor_characteristics_bottom">
-                <div class="list">
-                    <img src="../images/intelligent_face_technology/intelligent_face_technology (13).png"
-                        class="icon_img" alt="">
-                    <div class="list_title">配备NFC设备</div>
-                    <div class="list_introductory">兼具身份证、IC卡读取功能</div>
-                </div>
-                <div class="list">
-                    <img src="../images/intelligent_face_technology/intelligent_face_technology (14).png"
-                        class="icon_img" alt="">
-                    <div class="list_title">配备热敏打印机</div>
-                    <div class="list_introductory">可用于打印具有二维码的访客条</div>
-                </div>
-                <div class="list">
-                    <img src="../images/intelligent_face_technology/intelligent_face_technology (15).png"
-                        class="icon_img" alt="">
-                    <div class="list_title">支持扩展</div>
-                    <div class="list_introductory">可与第三方系统（例如OA）对接</div>
-                </div>
+            <div class="box">
+                <img src="../images/wisdom_call/sketch_map_03.png" alt="">
             </div>
         </div>
-         <!-- 底部 -->
-         <div id="base">
+        <!-- 底部 -->
+        <div id="base">
             <div class="top">
                 <div class="logo_QR_code">
                     <img src="../images/LOGO-进唯-copy_03.png" alt="" class="logo">
@@ -344,7 +287,7 @@
     </div>
     <script src="../../goToTop.js"></script>
     <script src="../../layui-v2.5.6/layui/layui.all.js"></script>
-    <script src="../js/intelligent_face_technology.js"></script>
+    <script src="../js/wisdom_call.js"></script>
 </body>
 
 </html>

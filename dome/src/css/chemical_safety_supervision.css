@@ -1,0 +1,136 @@
+.flow{
+    width: 1920px;
+    padding-bottom: 64px;
+}
+
+.flow .title{
+    padding-top: 63px;
+    padding-bottom: 77px;
+    text-align: center;
+    font-family: "MicrosoftYaHei";
+	font-size: 30px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 3px;
+	color: #111111;
+}
+
+.flow .img_box{
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.flow .img_box img{
+    width: 397px;
+	height: 351px;
+}
+
+.flow .flow_box{
+    width: 1440px;
+    margin: 0 auto;
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 53px;
+    padding-right: 53px;
+}
+
+.flow .flow_box  .list{
+    text-align: center;
+}
+
+.flow .flow_box  .TAG{
+    padding-top: 44px;
+}
+
+.flow .flow_box .list_title{
+    margin-top: 35px;
+    text-align: center;
+    font-family: "SourceHanSansCN-Regular";
+	font-size: 20px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 36px;
+	letter-spacing: 2px;
+	color: #111111;
+}
+
+
+.advantages{
+    position: relative;
+    width: 1920px;
+	height: 718px;
+}
+
+.advantages .back{
+    position: absolute;
+    width: 1920px;
+    height: 718px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.advantages .title{
+    text-align: center;
+    padding-top: 60px;
+    font-family: "SourceHanSansCN-Regular";
+	font-size: 30px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 3px;
+    color: #ffffff;
+    padding-bottom: 45px;
+}
+
+.advantages .box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages .top{
+    width: 1305px;
+    margin: 0 auto;
+    margin-bottom: 57px;
+}
+
+.advantages .bottom{
+    width: 772px;
+    margin: 0 auto;
+}
+
+.advantages .list{
+    width: 220px;
+    text-align: center;
+}
+
+.advantages .list img{
+    width: 86px;
+	height: 100px;
+}
+
+.advantages .list .list_title{
+    font-family: "SourceHanSansCN-Regular";
+	font-size: 20px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 2px;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.advantages .list span{
+    display: block;
+    font-family: "SourceHanSansCN-Regular";
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 30px;
+	letter-spacing: 0px;
+	color: #ffffff;
+	opacity: 0.6;
+}

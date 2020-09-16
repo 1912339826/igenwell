@@ -1,0 +1,33 @@
+About_Us 关于我们
+
+chemical_safety_supervision 化工安全监管
+
+classic_scene  典型场景
+
+communication_conversion_module  通信转换模块
+
+home 首页
+
+intelligent_face_access_control_machine   智慧人脸门禁机
+
+intelligent_face_technology  智慧人脸科技
+
+intelligent_face_visits_on_passenger_planes  智慧人脸访客机
+
+intelligent_video_analysis_gateway  智能视频分析网关
+
+internet_of_things_gateway  物联网网关
+
+IoT_Platform  物联网平台
+
+PLS  人员定位系统
+
+smart_campus  智慧校园
+
+video_compression_gateway  视频压缩网关
+
+wisdom_call  智慧点名
+
+wisdom_site  智慧工地
+
+wisdom_warehouse  智慧仓库

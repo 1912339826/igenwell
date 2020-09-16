@@ -1,4 +1,4 @@
-$("#IoT_Platform").click(function (e) {
+$("#classic_scene").click(function (e) {
     e.preventDefault();
     $(".tab_control").hide()
   });
@@ -24,15 +24,9 @@ $("#IoT_Platform").click(function (e) {
     $(this).hide()
     $(".search_input").show()
   });
+
   
-  $(".layui-nav-item").click(function (e) {
-    e.preventDefault();
-    document.getElementById($(this).data().id).scrollIntoView();
-  })
-
-
-    
 $(".to_page").click(function (e) { 
   e.preventDefault();
-  window.location.href = $(this).data().name
+  window.location.href = `${$(this).data().name}?before=classic_scene`
 });

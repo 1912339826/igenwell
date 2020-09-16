@@ -1,4 +1,4 @@
-$("#IoT_Platform").click(function (e) {
+$("#wisdom_call").click(function (e) {
     e.preventDefault();
     $(".tab_control").hide()
   });
@@ -29,10 +29,3 @@ $("#IoT_Platform").click(function (e) {
     e.preventDefault();
     document.getElementById($(this).data().id).scrollIntoView();
   })
-
-
-    
-$(".to_page").click(function (e) { 
-  e.preventDefault();
-  window.location.href = $(this).data().name
-});

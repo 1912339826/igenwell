@@ -1,0 +1,75 @@
+.typical_scenario {
+    width: 1920px;
+    margin-bottom: 83px;
+}
+
+.typical_scenario .title {
+    text-align: center;
+    padding-top: 63px;
+    padding-bottom: 47px;
+    font-family: "SourceHanSansCN-Light";
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 3px;
+    color: #000000;
+}
+
+.typical_scenario .box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1600px;
+    margin: 0 auto;
+    
+}
+
+.typical_scenario .box .list {
+    position: relative;
+    width: 504px;
+    height: 300px;
+    margin-bottom: 45px;
+}
+
+.typical_scenario .box .list:hover{
+    cursor: pointer;
+}
+
+.typical_scenario .box .list img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 504px;
+    height: 300px;
+}
+
+.typical_scenario .box .list .list_content{
+    position: absolute;
+    top: 188px;
+    width: 100%;
+    padding-left: 24px;
+    padding-right: 37px;
+}
+
+.typical_scenario .box .list .list_content .list_title{
+    font-family: "MicrosoftYaHei-Bold";
+	font-size: 20px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 2px;
+	color: #ffffff;
+	box-shadow: 0px 2px 4px 0px 
+        rgba(0, 0, 0, 0.5);
+        margin-bottom: 24px;
+}
+
+.typical_scenario .box .list .list_content span{
+    font-family: "MicrosoftYaHei";
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 24px;
+	letter-spacing: 0px;
+	color: #ffffff;
+}
