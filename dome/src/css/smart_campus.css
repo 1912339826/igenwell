@@ -62,14 +62,15 @@
 
 .management_platform .video {
     position: relative;
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    text-align: center;
+    /* justify-content: center; */
     height: 470px;
     width: 1920px;
 }
 
 .management_platform .video img {
-    position: absolute;
+    position: relative;
     margin-top: 55px;
     margin-bottom: 48px;
     width: 396px;
@@ -176,14 +177,15 @@
 
 .control_platform .video {
     position: relative;
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    text-align: center;
+    /* justify-content: center; */
     height: 470px;
     width: 1920px;
 }
 
 .control_platform .video img {
-    position: absolute;
+    position: relative;
     margin-top: 55px;
     margin-bottom: 48px;
     width: 396px;

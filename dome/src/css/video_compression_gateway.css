@@ -85,7 +85,7 @@
 .product_feature .box .list {
     width: 370px;
     height: 420px;
-    background-color: #ffffffde;
+    background-color: rgba(255, 255, 255, 0.871);
     box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
     padding: 58px 38px 54px 37px;
@@ -115,6 +115,7 @@
     line-height: 30px;
     letter-spacing: 0px;
     color: #777777;
+    width: 100%;
 }
 
 .specification_parameter {

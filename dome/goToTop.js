@@ -12,7 +12,7 @@ $(function () {
     $(".ban_son").click(function (e) {
         e.preventDefault();
         if ($(this).data().name != "product_center") {
-            window.location.href = `${$(this).data().name}.html`
+            window.location.href = $(this).data().name + ".html"
         }
     });
     // 解决当前项目a标签无法跳转的问题。。。。
