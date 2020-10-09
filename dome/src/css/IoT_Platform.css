@@ -143,6 +143,11 @@
     justify-content: space-between;
 }
 
+.system_composition .box .list img{
+    width: 399px;
+    height: 240px;
+}
+
 .system_composition .box .list .right{
     width: 1076px;
 }
