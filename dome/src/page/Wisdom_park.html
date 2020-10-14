@@ -1,4 +1,4 @@
-<!-- 物联网网关 -->
+<!-- 化工安全监管 -->
 <!DOCTYPE html>
 <html lang="zh">
 
@@ -17,7 +17,7 @@
     <!-- 360使用Google Chrome Frame -->
     <meta name="renderer" content="webkit">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-    <title>进唯智能-智慧仓库</title>
+    <title>进唯智能-智慧园区</title>
     <link rel="stylesheet" href="../font/SourceHanSansCN-1.000/SourceHanSansCN.css">
     <link rel="stylesheet" href="../../normalize.css">
     <link rel="stylesheet" href="../../layui-v2.5.6/layui/css/layui.css">
@@ -27,13 +27,14 @@
     <link rel="stylesheet" href="../../goToTop.css">
     <link rel="stylesheet" href="../../nav.css">
     <link rel="stylesheet" href="../../breadcrumb_navigation.css">
+    <link rel="stylesheet" href="../../the_subnavigation.css">
     <link rel="stylesheet" href="../../table.css">
-    <link rel="stylesheet" href="../css/wisdom_warehouse.css">
+    <link rel="stylesheet" href="../css/chemical_safety_supervision.css">
     <link rel="stylesheet" href="../../base.css">
 </head>
 
 <body>
-    <div id="wisdom_warehouse">
+    <div id="chemical_safety_supervision">
         <div id="goToTop" title="回到顶部">
             <img src="../images/goToTop_03.png" alt="">
         </div>
@@ -47,7 +48,6 @@
                 <div class="ban_son" data-name="classic_scene" title="典型场景">典型场景</div>
                 <div class="ban_son" data-name="About_Us" title="关于我们">关于我们</div>
             </div>
-
             <div class="tab_control" style="display: none;">
                 <div class="content">
                     <div class="list">
@@ -98,7 +98,7 @@
                             <a href="wisdom_site.html">智慧工地</a>
                         </div>
                         <div class="list_son">
-                            <a id="list_son_active" href="wisdom_warehouse.html">智慧仓库</a>
+                            <a href="wisdom_warehouse.html">智慧仓库</a>
                         </div>
                         <div class="list_son">
                             <a href="chemical_safety_supervision.html">化工安全监管</a>
@@ -111,98 +111,105 @@
             </div>
         </div>
 
+
+
+
+
         <div class="banner">
-            <img src="../images/wisdom_warehouse/banner_02.png" alt="" style="width: 100vw;">
+            <img src="../images/chemical_safety_supervision/banner_02.png" alt="" style="width: 100vw;">
         </div>
         <div class="breadcrumb_navigation">
             <span class="layui-breadcrumb" lay-separator=">">
                 <a href="home.html">首页</a>
                 <a href="classic_scene.html" style="display:none;" id="before_classic_scene">典型场景</a>
-                <a><cite>智慧仓库</cite></a>
+                <a><cite>智慧园区</cite></a>
             </span>
         </div>
-        <div style="border-top: 1px solid #eeeeee;width: 1920px;"></div>
-        <div class="product_overview">
-            <div class="title">
-                智慧仓库
-            </div>
-            <pre>智能仓库管理系统通过运用RFID技术，彻底改变了资产管理的模式，减少人工干预，提升盘点效率，从购置，领用、转移、盘点、维修、报废全生命周期进行无人化，全方位的准确监管。各 级相关管理人员及有关领导可快速查询、统计固定资产情况，为合理资源配置提供决策依据，实现更便捷，更高效的资产管理。</pre>
-            <pre>智能仓库管理系统可采用公有云方式部署，由管理云平台、仓库盘点子系统，仓库查询一体机子系统，仓库管理移动子系统组成。通过在仓库中安装架设RFID天线，同时在物资表面粘贴RFID标签的方式将仓库物资统一纳入系统进行管理。</pre>
+        <div class="the_subnavigation">
+            <ul class="layui-nav" lay-filter="">
+                <li class="layui-nav-item layui-this"><a href="">基本信息</a></li>
+                <li class="layui-nav-item" data-id="advantages"><a href="">平台优点</a></li>
+            </ul>
         </div>
-
-        <div class="" style="text-align: center;">
-            <img src="../images/wisdom_warehouse/1.png" alt="" style="width: 52.65625vw;height: 30.10416666666667vw;padding-bottom: 2vw;">
+        <div class="flow">
+            <div class="title">监管业务全流程</div>
+            <div class="img_box">
+                <img src="../images/chemical_safety_supervision/screen_03.png" alt="">
+                <img src="../images/chemical_safety_supervision/screen_05.png" alt="">
+                <img src="../images/chemical_safety_supervision/screen_07.png" alt="">
+            </div>
+            <div class="flow_box">
+                <div class="list">
+                    <img src="../images/chemical_safety_supervision/icon_111_03.png" alt="">
+                    <div class="list_title">全流程管理</div>
+                </div>
+                <div class="list TAG">
+                    <img src="../images/chemical_safety_supervision/Ellipse_03.png" alt="">
+                </div>
+                <div class="list">
+                    <img src="../images/chemical_safety_supervision/icon_111_05.png" alt="">
+                    <div class="list_title">重大危险源</div>
+                </div>
+                <div class="list TAG">
+                    <img src="../images/chemical_safety_supervision/Ellipse_03.png" alt="">
+                </div>
+                <div class="list">
+                    <img src="../images/chemical_safety_supervision/icon_111_07.png" alt="">
+                    <div class="list_title">在岗在位</div>
+                </div>
+                <div class="list TAG">
+                    <img src="../images/chemical_safety_supervision/Ellipse_03.png" alt="">
+                </div>
+                <div class="list">
+                    <img src="../images/chemical_safety_supervision/icon_111_09.png" alt="">
+                    <div class="list_title">企业安全分色</div>
+                </div>
+                <div class="list TAG">
+                    <img src="../images/chemical_safety_supervision/Ellipse_03.png" alt="">
+                </div>
+                <div class="list">
+                    <img src="../images/chemical_safety_supervision/icon_111_11.png" alt="">
+                    <div class="list_title">可燃有毒气体</div>
+                </div>
+            </div>
         </div>
-
-        <div class="system_features">
-            <img src="../images/wisdom_warehouse/bg_02.png" alt="" class="back">
+        <div class="advantages" id="advantages">
+            <img src="../images/chemical_safety_supervision/bg_02.png" alt="" class="back">
             <div class="title">
-                系统特点
+                平台优点
             </div>
-            <div class="box">
+            <div class="box top">
                 <div class="list">
-                    <img src="../images/wisdom_warehouse/icon_03.png" alt="">
-                    <div class="list_title">出入库无人值守</div>
-                    <div class="list_content">由于手工登记出入库演变为自主出入登记实现全程无人值守，有效的降低仓库管理成本。</div>
+                    <img src="../images/chemical_safety_supervision/icon_03.png" alt="">
+                    <div class="list_title">便捷管理对外完全数据</div>
+                    <span>对接园区平台</span>
+                    <span>对接省监管平台</span>
                 </div>
                 <div class="list">
-                    <img src="../images/wisdom_warehouse/icon_05.png" alt="">
-                    <div class="list_title">仓库盘点智能化</div>
-                    <div class="list_content">系统可以自动匹配进行盘点， 有效的提升仓库盘点效率，同时降低仓库盘点管理成本。</div>
+                    <img src="../images/chemical_safety_supervision/icon_05.png" alt="">
+                    <div class="list_title">提升安全管理效率</div>
+                    <span>安全数据统计</span>
+                    <span>关键业务跟踪</span>
                 </div>
                 <div class="list">
-                    <img src="../images/wisdom_warehouse/icon_10.png" alt="">
-                    <div class="list_title">物资归还精准化</div>
-                    <div class="list_content">领用人归还物资时使用安装仓库管理移动子系统的手机进行归还操作。</div>
-                </div>
-                <div class="list">
-                    <img src="../images/wisdom_warehouse/icon_07.png" alt="">
-                    <div class="list_title">智能钥匙柜管理</div>
-                    <div class="list_content">仓库系统通过RFID无线和标签自动实现出库（或领用）操作，并将领用人与该物资进行绑定。确保进出仓库领用人身份的合规性，杜绝“认钥匙，不认人”的情况。
-                    </div>
+                    <img src="../images/chemical_safety_supervision/icon_07.png" alt="">
+                    <div class="list_title">助力企业信息化达标</div>
+                    <span>符合省标准文件</span>
+                    <span>助力企业达标</span>
                 </div>
             </div>
-        </div>
-        <div class="technical_advantage" id="technical_advantage">
-            <div class="title">
-                技术优势
-            </div>
-            <div class="box">
+            <div class="box bottom">
                 <div class="list">
-                    <div class="left">1</div>
-                    <div class="right">
-                        <!-- <div class="list_title">防风险</div> -->
-                        <div class="list_content">
-                            <span>提供全供应链条可溯源功能，通过产品唯一的编号，可逆向追踪库存中每个产品的信息。</span>
-                        </div>
-                    </div>
+                    <img src="../images/chemical_safety_supervision/icon_13.png" alt="">
+                    <div class="list_title">提升企业本质安全水平</div>
+                    <span>全流程闭环跟踪</span>
+                    <span>安全责任落实</span>
                 </div>
                 <div class="list">
-                    <div class="left">2</div>
-                    <div class="right">
-                        <!-- <div class="list_title">提效能</div> -->
-                        <div class="list_content">
-                            <span>通过RFID标签进行仓储作业及跟踪商品，避免人工识别导致的失误；仓库作业人员使用手持终端扫描标签，按照系统预定的规范进行操作，全面提升作业效率。</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="list">
-                    <div class="left">3</div>
-                    <div class="right">
-                        <!-- <div class="list_title">降成本</div> -->
-                        <div class="list_content">
-                            <span>提供强大的多角度的库存管理功能，可以满足不同角色对库存管理的不同需求；不管是收货、上架、拣货和发货，还是仓库内的移库、盘点和调拨，系统都提供了完整的交易历史；可以随时了解仓库内发生的所有业务活动。</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="list" style=" margin-right: 0px;">
-                    <div class="left">4</div>
-                    <div class="right">
-                        <!-- <div class="list_title">促生产</div> -->
-                        <div class="list_content">
-                            <span>具备预警功能，可在系统内设置预警项，例如仓库安全库存数量，当产品库存数量库存不足或超量时会有预警提醒。</span>
-                        </div>
-                    </div>
+                    <img src="../images/chemical_safety_supervision/icon_16.png" alt="">
+                    <div class="list_title">提高企业事故防控能力</div>
+                    <span>视频监督 隐患排查</span>
+                    <span>安全记录 作业监督</span>
                 </div>
             </div>
         </div>
@@ -287,7 +294,7 @@
     </div>
     <script src="../../goToTop.js"></script>
     <script src="../../layui-v2.5.6/layui/layui.all.js"></script>
-    <script src="../js/wisdom_warehouse.js"></script>
+    <script src="../js/chemical_safety_supervision.js"></script>
 </body>
 
 </html>

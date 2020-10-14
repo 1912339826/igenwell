@@ -18,9 +18,21 @@ table caption {
     color: #ffffff;
 }
 
+table .caption {
+    text-align: center;
+    background-color: #505050;
+    height: 2.5vw;
+    line-height: 2.5vw;
+    font-family: "MicrosoftYaHei";
+    font-size: 0.06rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #ffffff;
+}
+
 table .th_ {
     width: 10.12vw;
-    height: 9.84vw;
     text-align: center;
     font-family: "MicrosoftYaHei";
     font-size: 0.06rem;
@@ -29,6 +41,10 @@ table .th_ {
     letter-spacing: 0px;
     color: #000000;
     font-weight: 600;
+}
+
+table td {
+    height: 2.5vw;
 }
 
 table .kernel {

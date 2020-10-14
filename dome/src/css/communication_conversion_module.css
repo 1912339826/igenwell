@@ -115,3 +115,133 @@
     color: #111111;
     margin-top: 1.8vw;
 }
+
+.product_overview {
+    width: 100vw;
+}
+
+.product_overview .title {
+    text-align: center;
+    padding-top: 3.2vw;
+    padding-bottom: 2.4vw;
+    font-family: "SourceHanSansCN-Regular";
+    font-size: 0.12rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 3px;
+    color: #111111;
+}
+
+.product_overview .content {
+    width: 82.6vw;
+    margin: 0 auto;
+}
+
+.product_overview .content pre {
+    text-indent: 0.12rem;
+    font-family: "SourceHanSansCN-Regular";
+    font-size: 0.06rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 1.56vw;
+    letter-spacing: 0px;
+    color: #777777;
+}
+
+.product_overview .bottom {
+    width: 75vw;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.product_overview .bottom .son {
+    width: 55.45vw;
+    text-align: center;
+    padding-top: 2vw;
+    height: 18.8vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.technical_advantage {
+    position: relative;
+    width: 100vw;
+    height: 35.4vw;
+    margin-top: 5.2vw;
+}
+
+
+.technical_advantage .back {
+    position: absolute;
+    width: 100vw;
+    height: 35.4vw;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+
+.technical_advantage .title {
+    padding-top: 3.3vw;
+    padding-bottom: 2.9vw;
+    text-align: center;
+    font-family: "SourceHanSansCN-Regular";
+    font-size: 0.12rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 3px;
+    color: #ffffff;
+}
+
+.technical_advantage .box {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 72.65vw;
+}
+
+.technical_advantage .box .list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 18.8vw;
+}
+
+.technical_advantage .box .list img{
+    width: 4.48vw;
+	height: 5.21vw;
+}
+
+.technical_advantage .box .list .list_title {
+    font-family: "SourceHanSansCN-Regular";
+    font-size: 0.08rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 1.875vw;
+    letter-spacing: 2px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 1.8vw;
+}
+
+.technical_advantage .bottom {
+    margin-top: 3.3vw;
+}
+
+.specification_parameter {
+    padding-top: 3.2vw;
+    padding-bottom: 3.4vw;
+    width: 100vw;
+}
+
+.specification_parameter .title {
+    font-family: "MicrosoftYaHei";
+    font-size: 0.12rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 3px;
+    color: #000000;
+    text-align: center;
+    padding-bottom: 2.5vw;
+}

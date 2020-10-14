@@ -31,3 +31,5 @@ wisdom_call  智慧点名
 wisdom_site  智慧工地
 
 wisdom_warehouse  智慧仓库
+
+Wisdom_park  智慧园区

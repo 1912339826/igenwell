@@ -1,21 +1,21 @@
 .banner {
-    width: 1920px;
-    height: 480px;
+    width: 100vw;
+    height: 25vw;
 }
 
 
 .face_recognition_features {
-    width: 1920px;
-    height: 323px;
+    width: 100vw;
+    height: 16.8vw;
     background-color: #ffffff;
 }
 
 .title {
-    padding-top: 64px;
-    padding-bottom: 48px;
+    padding-top: 3.3vw;
+    padding-bottom: 2.5vw;
     text-align: center;
     font-family: "MicrosoftYaHei";
-    font-size: 30px;
+    font-size: 0.12rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 3px;
@@ -23,42 +23,42 @@
 }
 
 .icon_img {
-    width: 86px;
-    height: 100px;
+    width: 4.47vw;
+    height: 5.2vw;
 }
 
 .face_recognition_features_content {
-    padding-left: 160px;
-    padding-right: 160px;
+    padding-left: 8.3vw;
+    padding-right: 8.3vw;
     font-family: "MicrosoftYaHei";
-    font-size: 16px;
+    font-size: 0.06rem;
     font-weight: normal;
     font-stretch: normal;
-    line-height: 30px;
+    line-height: 1.5625vw;
     letter-spacing: 0px;
     color: #777777;
 
 }
 
 .face_recognition_features_content pre {
-    text-indent: 32px;
+    text-indent: 0.12rem;
 }
 
 .technological_superiority {
-    width: 1920px;
-    height: 581px;
+    width: 100vw;
+    height: 30vw;
     background-color: #f5f5f5;
 }
 
 .technological_superiority_box_icon {
     margin: 0 auto;
-    width: 1544px;
+    width: 80.4vw;
     display: flex;
     justify-content: space-between;
 }
 
 .technological_superiority_box_icon .list {
-    width: 305px;
+    width: 15.88vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -66,23 +66,23 @@
 
 .icon_title {
     text-align: center;
-    margin-top: 35px;
-    margin-bottom: 23px;
+    margin-top: 1.8vw;
+    margin-bottom: 1.2vw;
     font-family: "SourceHanSansCN-Regular";
-    font-size: 20px;
+    font-size: 0.08rem;
     font-weight: normal;
     font-stretch: normal;
-    line-height: 36px;
+    line-height: 1.875vw;
     letter-spacing: 2px;
     color: #111111;
 }
 
 .icon_content {
     font-family: "SourceHanSansCN-Regular";
-    font-size: 16px;
+    font-size: 0.06rem;
     font-weight: normal;
     font-stretch: normal;
-    line-height: 30px;
+    line-height: 1.5625vw;
     letter-spacing: 0px;
     color: #111111;
     opacity: 0.6;
@@ -90,38 +90,38 @@
 }
 
 .technological_superiority_content {
-    width: 1599px;
+    width: 83.2vw;
     font-family: "MicrosoftYaHei";
-    font-size: 20px;
+    font-size: 0.08rem;
     font-weight: normal;
     font-stretch: normal;
-    line-height: 36px;
+    line-height: 1.875vw;
     letter-spacing: 0px;
     color: #111111;
-    text-indent: 40px;
+    text-indent: 0.16rem;
     margin: 0 auto;
-    margin-top: 38px;
+    margin-top: 2vw;
 }
 
 .guard_trait {
-    width: 1920px;
-    height: 665px;
+    width: 100vw;
+    height: 34.6vw;
     background-color: #ffffff;
 }
 
 .guard_trait_top {
-    width: 1406px;
+    width: 73.2vw;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
 
 .guard_trait_bottom {
-    width: 910px;
+    width: 47.4vw;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    margin-top: 64px;
+    margin-top: 3.3vw;
 }
 
 .guard_trait .list {
@@ -132,16 +132,16 @@
 }
 
 .guard_trait .list .list_title {
-    margin-top: 35px;
+    margin-top: 1.8vw;
 }
 
 .guard_trait .list .list_title,
 .guard_trait .list .list_introductory {
     font-family: "SourceHanSansCN-Regular";
-    font-size: 20px;
+    font-size: 0.08rem;
     font-weight: normal;
     font-stretch: normal;
-    line-height: 36px;
+    line-height: 1.875vw;
     letter-spacing: 2px;
     color: #111111;
 }
@@ -149,21 +149,21 @@
 
 
 .visitor_characteristics {
-    width: 1920px;
-    height: 660px;
+    width: 100vw;
+    height: 34.375vw;
     background-color: #f5f5f5;
 }
 
 .visitor_characteristics_top,
 .visitor_characteristics_bottom {
-    width: 1336px;
+    width: 69.6vw;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
 
 .visitor_characteristics_bottom {
-    margin-top: 64px;
+    margin-top: 3.3vw;
 }
 
 .visitor_characteristics .list {
@@ -171,20 +171,20 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 315px;
+    width: 17.5vw;
 }
 
 .visitor_characteristics .list .list_title {
-    margin-top: 35px;
+    margin-top: 1.8vw;
 }
 
 .visitor_characteristics .list .list_title,
 .visitor_characteristics .list .list_introductory {
     font-family: "SourceHanSansCN-Regular";
-    font-size: 20px;
+    font-size: 0.08rem;
     font-weight: normal;
     font-stretch: normal;
-    line-height: 36px;
+    line-height: 1.875vw;
     letter-spacing: 2px;
     color: #111111;
 }

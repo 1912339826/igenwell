@@ -1,29 +1,29 @@
 .product_overview {
-    width: 1920px;
-    padding-bottom: 73px;
+    width: 100vw;
+    padding-bottom: 3.8vw;
 }
 
 .product_overview .title {
     text-align: center;
-    padding-top: 64px;
+    padding-top: 3.3vw;
     font-family: "SourceHanSansCN-Regular";
-    font-size: 30px;
+    font-size: 0.12rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 3px;
     color: #000000;
-    padding-bottom: 47px;
+    padding-bottom: 2.4vw;
 }
 
 .product_overview pre {
     margin: 0 auto;
-    width: 1598px;
-    text-indent: 32px;
+    width: 83vw;
+    text-indent: 0.12rem;
     font-family: "SourceHanSansCN-Regular";
-    font-size: 16px;
+    font-size: 0.06rem;
     font-weight: normal;
     font-stretch: normal;
-    line-height: 30px;
+    line-height: 1.5625vw;
     letter-spacing: 0px;
     color: #777777;
 }
@@ -31,8 +31,8 @@
 
 .system_features {
     position: relative;
-    width: 1920px;
-    height: 635px;
+    width: 100vw;
+    height: 33vw;
 }
 
 .system_features .back {
@@ -40,16 +40,16 @@
     z-index: -1;
     top: 0;
     left: 0;
-    width: 1920px;
-    height: 635px;
+    width: 100vw;
+    height: 33vw;
 }
 
 .system_features .title {
-    padding-top: 63px;
-    padding-bottom: 49px;
+    padding-top: 3.3vw;
+    padding-bottom: 2.55vw;
     text-align: center;
     font-family: "SourceHanSansCN-Regular";
-    font-size: 30px;
+    font-size: 0.12rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 3px;
@@ -59,33 +59,33 @@
 .system_features .box {
     display: flex;
     justify-content: space-between;
-    width: 1600px;
+    width: 83.33vw;
     margin: 0 auto;
 }
 
 .system_features .box .list {
-    width: 370px;
-    height: 430px;
+    width: 19.27vw;
+    height: 22.4vw;
     background-color: rgba(255, 255, 255, 0.1);
     box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
-    padding-top: 54px;
-    padding-left: 38px;
-    padding-right: 38px;
+    padding-top: 2.8vw;
+    padding-left: 1.97vw;
+    padding-right: 1.97vw;
     text-align: center;
 }
 
 .system_features .box .list img {
-    width: 80px;
-    height: 80px;
+    width: 4.2vw;
+    height: 4.2vw;
 }
 
 
 .system_features .list_title {
-    margin-top: 39px;
-    margin-bottom: 46px;
+    margin-top: 2vw;
+    margin-bottom: 2.4vw;
     font-family: "SourceHanSansCN-Regular";
-    font-size: 22px;
+    font-size: 0.09rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 2px;
@@ -95,11 +95,127 @@
 
 .system_features .list_content {
     font-family: "SourceHanSansCN-Regular";
-	font-size: 16px;
-	font-weight: normal;
-	font-stretch: normal;
-	line-height: 30px;
-	letter-spacing: 0px;
+    font-size: 0.06rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 1.5625vw;
+    letter-spacing: 0px;
     color: #ffffff;
     text-align: left;
+}
+
+
+.technical_advantage {
+    background-color: #f5f5f5;
+    width: 100vw;
+    padding-bottom: 2.6vw;
+}
+
+.technical_advantage .title {
+    text-align: center;
+    font-family: "MicrosoftYaHei";
+    font-size: 0.12rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 3px;
+    color: #000000;
+    padding-top: 3.3vw;
+    padding-bottom: 2.45vw;
+}
+
+
+.technical_advantage pre {
+    width: 83.28vw;
+    text-align: justify;
+    font-family: "SourceHanSansCN-Regular";
+    font-size: 0.06rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 1.5625vw;
+    letter-spacing: 0px;
+    color: #777777;
+    text-indent: 0.12rem;
+    margin: 0 auto;
+}
+
+.technical_advantage .video {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 24.47vw;
+    width: 100vw;
+}
+
+.technical_advantage .video img {
+    position: absolute;
+    margin-top: 2.86vw;
+    margin-bottom: 2.5vw;
+    width: 20.625vw;
+    height: 18.28vw;
+}
+
+
+.technical_advantage .box {
+    width: 83.33vw;
+    height: 21.4vw;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.technical_advantage .box .list {
+    width: 19.79vw;
+    height: 9.27vw;
+    border-radius: 6px;
+    display: flex;
+    padding-top: 0.83vw;
+    padding-left: 0.83vw;
+    padding-right: 3.3vw;
+}
+
+
+.technical_advantage .box .list .left {
+    width: 1.67vw;
+    height: 1.67vw;
+    line-height: 1.67vw;
+    text-align: center;
+    background-color: #2f6897;
+    font-family: "SourceHanSansCN-Bold";
+    font-size: 0.07rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 1.5625vw;
+    letter-spacing: 0px;
+    color: #ffffff;
+    border-radius: 50%;
+    margin-right: 0.88vw;
+}
+
+.technical_advantage .box .list .right {
+    width: 13vw;
+}
+
+.technical_advantage .box .list .list_content {
+    font-family: "SourceHanSansCN-Regular";
+    font-size: 0.06rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 1.5625vw;
+    letter-spacing: 0px;
+    color: #777777;
+}
+
+.technical_advantage .box .list .list_title {
+    font-family: "SourceHanSansCN-Regular";
+    font-size: 0.08rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 2px;
+    color: #111111;
+    padding-bottom: 0.625vw;
+}
+
+.technical_advantage .box .list .list_content span {
+    display: block;
 }

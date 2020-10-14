@@ -1,13 +1,13 @@
 .summarize {
-    width: 1920px;
+    width: 100vw;
 }
 
 .summarize .title {
     text-align: center;
-    padding-top: 63px;
-    padding-bottom: 20px;
+    padding-top: 3.3vw;
+    padding-bottom: 1vw;
     font-family: "SourceHanSansCN-Regular";
-    font-size: 30px;
+    font-size: 0.12rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 3px;
@@ -15,101 +15,101 @@
 }
 
 .summarize .introduction {
-    width: 1600px;
+    width: 83vw;
     margin: 0 auto;
-    text-indent: 32px;
+    text-indent: 0.12rem;
     font-family: "SourceHanSansCN-Regular";
-    font-size: 16px;
+    font-size: 0.06rem;
     font-weight: normal;
     font-stretch: normal;
-    line-height: 30px;
+    line-height: 1.6vw;
     letter-spacing: 0px;
     color: #777777;
 }
 
 .summarize .box {
     margin: 0 auto;
-    margin-top: 64px;
+    margin-top: 3.3vw;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 64px;
-    width: 1260px;
+    margin-bottom: 3.3vw;
+    width: 65.6vw;
 }
 
 .summarize .box img {
-    width: 231px;
-    height: 483px;
+    width: 12vw;
+    height: 25.2vw;
 }
 
 .composition {
-    width: 1920px;
+    width: 100vw;
     background-color: #f5f5f5;
 }
 
 .composition .title{
     text-align: center;
     font-family: "MicrosoftYaHei";
-	font-size: 30px;
+	font-size: 0.12rem;
 	font-weight: normal;
 	font-stretch: normal;
 	letter-spacing: 3px;
 	color: #000000;
-    padding-top: 63px;
-    padding-bottom: 47px;
+    padding-top: 3.3vw;
+    padding-bottom: 2.44vw;
 }
 
 .composition .box{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 1600px;
+    width: 83.3vw;
     margin: 0 auto;
 }
 
 .composition .list{
     margin-bottom: 62px;
     text-align: center;
-    width: 504px;
+    width: 26.25vw;
 }
 
 .composition .list img{
-    width: 278px;
-	height: 244px;
+    width: 14.47vw;
+	height: 12.7vw;
 }
 
 .composition .list .list_title{
     font-family: "SourceHanSansCN-Regular";
-	font-size: 20px;
+	font-size: 0.08rem;
 	font-weight: normal;
 	font-stretch: normal;
 	letter-spacing: 2px;
     color: #111111;
-    margin-top: 25px;
-    margin-bottom: 15px;
+    margin-top: 1.3vw;
+    margin-bottom: 0.78vw;
 }
 
 .composition .list span{
     display: block;
     font-family: "SourceHanSansCN-Regular";
-	font-size: 16px;
+	font-size: 0.06rem;
 	font-weight: normal;
 	font-stretch: normal;
-	line-height: 30px;
+	line-height: 1.6vw;
 	letter-spacing: 0px;
 	color: #777777;
 }
 
 .sketch{
-    width: 1920px;
-    margin-bottom: 64px;
+    width: 100vw;
+    margin-bottom: 3.3vw;
 }
 
 .sketch .title{
     text-align: center;
-    padding-top: 63px;
-    padding-bottom: 47px;
+    padding-top: 3.3vw;
+    padding-bottom: 2.44vw;
     font-family: "SourceHanSansCN-Regular";
-	font-size: 30px;
+	font-size: 0.12rem;
 	font-weight: normal;
 	font-stretch: normal;
 	letter-spacing: 3px;
@@ -121,6 +121,6 @@
 }
 
 .sketch .box img{
-    width: 790px;
-	height: 350px;
+    width: 41vw;
+	height: 18vw;
 }

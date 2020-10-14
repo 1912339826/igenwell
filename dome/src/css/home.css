@@ -133,11 +133,11 @@ html {
 .carousel_son div {
     position: absolute;
     z-index: 2;
-    top: 26.77vw;
+    top: 30.5vw;
     left: 51.56vw;
     width: 4.9vw;
     height: 2.08vw;
-    color: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
 }
 
 .carousel_son div:hover {
@@ -464,7 +464,7 @@ html {
 
 .application_scenarios>.content .box {
     width: 26.25vw;
-    height: 17.71vw;
+    height: 21.5vw;
     background-color: #ffffff;
     border-radius: 6px;
     margin-top: 2.45vw;
@@ -490,4 +490,15 @@ html {
     font-stretch: normal;
     letter-spacing: 1px;
     color: #333333;
+}
+
+.application_scenarios>.content .box pre{
+    font-family: "MicrosoftYaHei";
+    margin-left: 1.09vw;
+	font-size: 0.05rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 1.25vw;
+	letter-spacing: 0px;
+	color: #6e6c6c;
 }

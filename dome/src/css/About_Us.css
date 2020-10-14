@@ -1,159 +1,158 @@
-.introduce{
-    padding-left: 160px;
-    padding-right: 160px;
-    padding-top: 63px;
-    margin-bottom: 87px;
+.introduce {
+    padding-left: 8.3vw;
+    padding-right: 8.3vw;
+    padding-top: 3.3vw;
+    margin-bottom: 4.5vw;
     display: flex;
 }
 
-.introduce .left{
-    margin-right: 89px;
+.introduce .left {
+    margin-right: 4.6vw;
 }
 
-.introduce .name{
+.introduce .name {
     font-family: "MicrosoftYaHei";
-	font-size: 30px;
-	font-weight: normal;
-	font-stretch: normal;
-	letter-spacing: 0px;
+    font-size: 0.12rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
     color: #000000;
-    margin-bottom: 47px;
+    margin-bottom: 2.44vw;
 }
 
-.introduce_content{
-    width: 862px;
+.introduce_content {
+    width: 44.9vw;
 }
 
-.introduce_content pre{
+.introduce_content pre {
     font-family: "MicrosoftYaHei";
-	font-size: 16px;
-	font-weight: normal;
-	font-stretch: normal;
-	line-height: 30px;
-	letter-spacing: 0px;
+    font-size: 0.06rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 1.5625vw;
+    letter-spacing: 0px;
     color: #666666;
-    text-indent: 32px;
+    text-indent: 0.12rem;
     text-align: justify;
-    margin-bottom: 30px;
+    margin-bottom: 1.5625vw;
 }
 
-.enterprise_advantage{
-    width: 1920px;
-    height: 635px;
+.enterprise_advantage {
+    width: 100vw;
+    height: 33vw;
     position: relative;
 }
 
-.enterprise_advantage .back{
+.enterprise_advantage .back {
     position: absolute;
     top: 0;
     left: 0;
     z-index: -1;
-    width: 1920px;
-	height: 635px;
+    width: 100vw;
+    height: 33vw;
 }
 
-.enterprise_advantage .title{
-    padding-top: 63px;
-    padding-bottom: 47px;
+.enterprise_advantage .title {
+    padding-top: 3.3vw;
+    padding-bottom: 2.44vw;
     text-align: center;
     font-family: "MicrosoftYaHei";
-	font-size: 30px;
-	font-weight: normal;
-	font-stretch: normal;
-	letter-spacing: 0px;
-	color: #ffffff;
+    font-size: 0.12rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #ffffff;
 }
 
-.enterprise_advantage .box{
-    width: 1600px;
+.enterprise_advantage .box {
+    width: 83.3vw;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
 
 
-.enterprise_advantage .box .list{
-    width: 370px;
-	height: 430px;
-	background-color: rgba(255, 255, 255, 0.007);
-	box-shadow: 0px 0px 12px 0px 
-		rgba(0, 0, 0, 0.1);
-	border-style: solid;
-	border-width: 1px;
-	border-image-source: linear-gradient(0deg, 
-		#3e4aee 0%, 
-		#4ac9f8 100%);
+.enterprise_advantage .box .list {
+    width: 19.3vw;
+    height: 22.4vw;
+    background-color: rgba(255, 255, 255, 0.007);
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+    border-style: solid;
+    border-width: 1px;
+    border-image-source: linear-gradient(0deg,
+            #3e4aee 0%,
+            #4ac9f8 100%);
     border-image-slice: 1;
     text-align: center;
-    padding-top: 54px;
+    padding-top: 2.8vw;
 }
 
-.enterprise_advantage .box .list .list_title{
+.enterprise_advantage .box .list .list_title {
     font-family: "SourceHanSansCN-Bold";
-	font-size: 22px;
-	font-weight: normal;
-	font-stretch: normal;
-	letter-spacing: 2px;
+    font-size: 0.09rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 2px;
     color: #ffffff;
-    margin-top: 39px;
-    margin-bottom: 46px;
+    margin-top: 2vw;
+    margin-bottom: 2.4vw;
 }
 
-.enterprise_advantage .box .list span{
+.enterprise_advantage .box .list span {
     margin: 0 auto;
     text-align: left;
     font-family: "SourceHanSansCN-Regular";
-	font-size: 16px;
-	font-weight: normal;
-	font-stretch: normal;
-	line-height: 30px;
-	letter-spacing: 0px;
+    font-size: 0.06rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 1.5625vw;
+    letter-spacing: 0px;
     color: #ffffff;
     display: block;
-    width: 295px;
+    width: 15.4vw;
 }
 
-.site{
-    width: 1920px;
-    padding-left: 160px;
-    padding-top: 63px;
-    padding-bottom: 128px;
+.site {
+    width: 100vw;
+    padding-left: 8.3vw;
+    padding-top: 3.3vw;
+    padding-bottom: 6.7vw;
     display: flex;
 }
 
-.site .right{
-    margin-top: 31px;
-    margin-left: 100px;
+.site .right {
+    margin-top: 1.6vw;
+    margin-left: 5.2vw;
 }
 
-.site .name{
+.site .name {
     font-family: "SourceHanSansCN-Bold";
-	font-size: 24px;
-	font-weight: normal;
-	font-stretch: normal;
-	line-height: 33px;
-	letter-spacing: 1px;
+    font-size: 0.09rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 1.7vw;
+    letter-spacing: 1px;
     color: #111111;
-    margin-bottom: 26px;
+    margin-bottom: 1.35vw;
 }
 
-.site .contact_way{
+.site .contact_way {
     font-family: "SourceHanSansCN-Bold";
-	font-size: 24px;
-	font-weight: normal;
-	font-stretch: normal;
-	line-height: 33px;
-	letter-spacing: 1px;
+    font-size: 0.09rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 1.7vw;
+    letter-spacing: 1px;
     color: #1c68be;
-    margin-bottom: 31px;
+    margin-bottom: 1.6vw;
 }
 
-.site .site_detail_URL{
+.site .site_detail_URL {
     font-family: "SourceHanSansCN-Regular";
-	font-size: 16px;
-	font-weight: normal;
-	font-stretch: normal;
-	line-height: 33px;
-	letter-spacing: 1px;
-	color: #111111;
+    font-size: 0.06rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 1.7vw;
+    letter-spacing: 1px;
+    color: #111111;
 }

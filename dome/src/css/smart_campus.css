@@ -6,7 +6,7 @@
     text-align: center;
     padding-top: 3.3vw;
     font-family: "SourceHanSansCN-Regular";
-    font-size: 30px;
+    font-size: 0.12rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 3px;
@@ -18,9 +18,9 @@
     padding-top: 2.44vw;
     padding-bottom: 3.8vw;
     width: 83.22vw;
-    text-indent: 32px;
+    text-indent: 0.12rem;
     font-family: "SourceHanSansCN-Regular";
-    font-size: 16px;
+    font-size: 0.06rem;
     font-weight: normal;
     font-stretch: normal;
     line-height: 1.5625vw;
@@ -36,49 +36,49 @@
 .management_platform .title {
     text-align: center;
     font-family: "MicrosoftYaHei";
-    font-size: 30px;
+    font-size: 0.12rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 3px;
     color: #000000;
-    padding-top: 63px;
+    padding-top: 3.2vw;
     padding-bottom: 2.44vw;
 }
 
 
 .management_platform pre {
-    width: 1599px;
+    width: 83.3vw;
     text-align: justify;
     font-family: "SourceHanSansCN-Regular";
-    font-size: 16px;
+    font-size: 0.06rem;
     font-weight: normal;
     font-stretch: normal;
     line-height: 1.5625vw;
     letter-spacing: 0px;
     color: #777777;
-    text-indent: 32px;
+    text-indent: 0.12rem;
     margin: 0 auto;
 }
 
 .management_platform .video {
     position: relative;
     text-align: center;
-    height: 470px;
+    height: 24.5vw;
     width: 100vw;
 }
 
 .management_platform .video img {
     position: relative;
-    margin-top: 55px;
-    margin-bottom: 48px;
-    width: 396px;
-    height: 351px;
+    margin-top: 2.8vw;
+    margin-bottom: 2.5vw;
+    width: 20.625vw;
+    height: 13.4vw;
 }
 
 
 .management_platform .box {
-    width: 1600px;
-    height: 404px;
+    width: 83.3vw;
+    height: 21vw;
     margin: 0 auto;
     margin-bottom: 3.3vw;
     display: flex;
@@ -86,41 +86,41 @@
 }
 
 .management_platform .box .list {
-    width: 320px;
-    height: 178px;
+    width: 16.7vw;
+    height: 9.27vw;
     border-radius: 6px;
     display: flex;
-    padding-top: 16px;
-    padding-left: 16px;
+    padding-top: 0.8vw;
+    padding-left: 0.8vw;
     padding-right: 3.3vw;
-    margin-right: 106px;
+    margin-right: 5.5vw;
 }
 
 
 .management_platform .box .list .left {
-    width: 32px;
-    height: 32px;
-    line-height: 32px;
+    width: 1.7vw;
+    height: 1.7vw;
+    line-height: 1.7vw;
     text-align: center;
     background-color: #299288;
     font-family: "SourceHanSansCN-Bold";
-    font-size: 18px;
+    font-size: 0.07rem;
     font-weight: normal;
     font-stretch: normal;
     line-height: 1.5625vw;
     letter-spacing: 0px;
     color: #ffffff;
     border-radius: 50%;
-    margin-right: 17px;
+    margin-right: 0.88vw;
 }
 
 .management_platform .box .list .right {
-    width: 200px;
+    width: 10.41vw;
 }
 
 .management_platform .box .list .list_content {
     font-family: "SourceHanSansCN-Regular";
-    font-size: 16px;
+    font-size: 0.06rem;
     font-weight: normal;
     font-stretch: normal;
     line-height: 1.5625vw;
@@ -130,12 +130,12 @@
 
 .management_platform .box .list .list_title {
     font-family: "SourceHanSansCN-Regular";
-    font-size: 20px;
+    font-size: 0.08rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 2px;
     color: #111111;
-    padding-bottom: 23px;
+    padding-bottom: 1.2vw;
 }
 
 .management_platform .box .list .list_content span {
@@ -144,12 +144,12 @@
 
 .control_platform {
     width: 100vw;
-    padding-bottom: 65px;
+    padding-bottom: 3.4vw;
 }
 
 .control_platform .title {
     font-family: "MicrosoftYaHei";
-    font-size: 30px;
+    font-size: 0.12rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 3px;
@@ -161,30 +161,30 @@
 .control_platform>pre {
     margin: 0 auto;
     font-family: "SourceHanSansCN-Regular";
-    font-size: 16px;
+    font-size: 0.06rem;
     font-weight: normal;
     font-stretch: normal;
     line-height: 1.5625vw;
     letter-spacing: 0px;
     color: #777777;
-    text-indent: 32px;
-    width: 1600px;
+    text-indent: 0.12rem;
+    width: 83.3vw;
 }
 
 
 .control_platform .video {
     position: relative;
     text-align: center;
-    height: 470px;
+    height: 24.47vw;
     width: 100vw;
 }
 
 .control_platform .video img {
     position: relative;
-    margin-top: 55px;
-    margin-bottom: 48px;
-    width: 396px;
-    height: 351px;
+    margin-top: 2.8vw;
+    margin-bottom: 2.5vw;
+    width: 20.625vw;
+    height: 13.4vw;
 }
 
 .control_platform .box .lists {
@@ -195,25 +195,27 @@
 }
 
 .control_platform .box .top {
-    width: 1493px;
+    width: 77.76vw;
 }
 
 .control_platform .box .bottom {
-    width: 1493px;
-    padding-top: 48px;
+    width: 77.76vw;
+    padding-top: 2.5vw;
     justify-content: space-around;
 }
 
 .control_platform .box .lists img {
-    margin-bottom: 34px;
+    margin-bottom: 1.77vw;
+    width: 4.48vw;
+	height: 5.21vw;
 }
 
 .control_platform .box .lists pre {
     font-family: "SourceHanSansCN-Regular";
-    font-size: 20px;
+    font-size: 0.08rem;
     font-weight: normal;
     font-stretch: normal;
-    line-height: 36px;
+    line-height: 1.875vw;
     letter-spacing: 2px;
     color: #111111;
 }

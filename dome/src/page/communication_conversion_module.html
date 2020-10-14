@@ -12,7 +12,7 @@
     <meta name="robots" content="index,follow">
     <!-- 禁止百度转码 -->
     <meta http-equiv="Cache-Control" content="no-siteapp" />
-     
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <!-- 360使用Google Chrome Frame -->
     <meta name="renderer" content="webkit">
@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="../../nav.css">
     <link rel="stylesheet" href="../../breadcrumb_navigation.css">
     <link rel="stylesheet" href="../../the_subnavigation.css">
+    <link rel="stylesheet" href="../../table.css">
     <link rel="stylesheet" href="../css/communication_conversion_module.css">
     <link rel="stylesheet" href="../../base.css">
 </head>
@@ -41,7 +42,7 @@
 
 
 
-       <div class="nav" id="fixed">
+        <div class="nav" id="fixed">
             <img src="../images/LOGO-进唯_03.png" alt="" class="logo" title="南京进唯智能科技有限公司">
             <div class="ban">
                 <div class="ban_son" data-name="home" title="首页">首页</div>
@@ -49,7 +50,7 @@
                 <div class="ban_son" data-name="classic_scene" title="典型场景">典型场景</div>
                 <div class="ban_son" data-name="About_Us" title="关于我们">关于我们</div>
             </div>
-           
+
             <div class="tab_control" style="display: none;">
                 <div class="content">
                     <div class="list">
@@ -65,7 +66,7 @@
                             <a href="video_compression_gateway.html">智能视频压缩网关</a>
                         </div>
                         <div class="list_son">
-                            <a id="list_son_active"  href="communication_conversion_module.html">通信转换模件</a>
+                            <a id="list_son_active" href="communication_conversion_module.html">通信转换模件</a>
                         </div>
                         <div class="list_son">
                             <a href="PLS.html">人员定位设备</a>
@@ -129,6 +130,24 @@
                 <li class="layui-nav-item layui-this "><a href="">基本信息</a></li>
             </ul>
         </div>
+
+        <div class="product_overview">
+            <div class="title">
+                产品概述
+            </div>
+            <div class="content">
+                <pre>物联网小模块是一种用于扩展串行设备通信应用的产品，它能够将串行接口（RS485、RS232、RS422、CAN）转换成Ethernet网络接口，实现串行接口与Ethernet网络接口的数据双向转换，使串行设备具备网络接口功能，用户可以很容易通过网络访问网络中的任何串行设备，从而达到连接网络进行数据通信的目的；同时模块带有韦根接口，支持网络读取门禁、IC卡等功能。</pre>
+            </div>
+            <div class="bottom">
+                <div class="son">
+                    <img src="../images/communication_conversion_module/pics_1.png" alt="" style="width: 25.52vw;
+                    height: 13vw;">
+                    <img src="../images/communication_conversion_module/pics_2.png" alt="" style="width: 21vw;
+                    height: 12vw;">
+                </div>
+            </div>
+        </div>
+
         <div class="system_hardware">
             <div class="title">
                 系统硬件
@@ -184,6 +203,146 @@
                 </div>
             </div>
         </div>
+
+        <div class="technical_advantage">
+            <img src="../images/bg_02.png" alt="" class="back">
+            <div class="title">
+                产品功能
+            </div>
+            <div class="box top">
+                <div class="list">
+                    <img src="../images/intelligent_face_visits_on_passenger_planes/icon_03.png" alt="">
+                    <div class="list_title">
+                        <!-- <div class="name">支持双屏异显</div> -->
+                        <div class="content">支持CANOPEN、RS485、RS232、RS422转Ethernet</div>
+                    </div>
+                </div>
+                <div class="list">
+                    <img src="../images/intelligent_face_visits_on_passenger_planes/icon_05.png" alt="">
+                    <div class="list_title">
+                        <!-- <div class="name">业界领先的识别算法</div> -->
+                        <div class="content">支持MODBUS协议、CANOPEN协议、韦根26协议</div>
+                    </div>
+                </div>
+                <div class="list">
+                    <img src="../images/intelligent_face_visits_on_passenger_planes/icon_07.png" alt="">
+                    <div class="list_title">
+                        <!-- <div class="name">支持在离线状态下使用</div> -->
+                        <div class="content">内嵌WEB网页，支持网页监控功能和Smart监控功能</div>
+                    </div>
+                </div>
+            </div>
+            <div class="box bottom">
+                <div class="list">
+                    <img src="../images/intelligent_face_visits_on_passenger_planes/icon_13.png" alt="">
+                    <div class="list_title">
+                        <!-- <div class="name">配备NFC设备</div> -->
+                        <div class="content">支持参数设置功能，包括通讯接口参数和协议选择</div>
+                    </div>
+                </div>
+                <div class="list">
+                    <img src="../images/intelligent_face_visits_on_passenger_planes/icon_15.png" alt="">
+                    <div class="list_title">
+                        <!-- <div class="name">配备热敏打印机</div> -->
+                        <div class="content">具有外部开关量输入接口和继电器输出接口</div>
+                    </div>
+                </div>
+                <div class="list">
+                    <img src="../images/intelligent_face_visits_on_passenger_planes/icon_17.png" alt="">
+                    <div class="list_title">
+                        <!-- <div class="name">支持扩展</div> -->
+                        <div class="content">具有Monitor table功能，可暂存监控的数据，让使用者快速存取</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="specification_parameter" id="specification_parameter">
+            <div class="title">
+                规格参数
+            </div>
+            <table border="1">
+                <caption>规格参数</caption>
+                <tr class="one">
+                    <td rowspan="3" class="th_">硬件接口</td>
+                    <td class="txt">CANOPEN、485、232、42、WG26转Ethernet
+                        （其中CANOPEN、485、232、422、WG接口采用端子台，Ethernet接口采用RJ45）</td>
+                </tr>
+                <tr class="one">
+                    <td class="txt">以太网接口:RJ45接口</td>
+                </tr>
+                <tr class="one">
+                    <td class="txt">串行接口: RS-485、RS232、RS422、CAN</td>
+                </tr>
+                <tr class="two">
+                    <td rowspan="6" class="th_">接入和输入方式</td>
+                    <td class="txt">具有外部开关量输入接口</td>
+                </tr>
+                <tr class="two">
+                    <td class="txt">具有继电器输出接口</td>
+                </tr>
+                <tr class="two">
+                    <td class="txt">支持CANOPEN协议</td>
+                </tr>
+                <tr class="two">
+                    <td class="txt">支持韦根26协议</td>
+                </tr>
+
+                <tr class="two">
+                    <td class="txt">网口速率: 10M/100M自适应</td>
+                </tr>
+
+                <tr class="two">
+                    <td class="txt">支持标准Modbus TCP通讯协议</td>
+                </tr>
+
+                <tr class="one">
+                    <td rowspan="4" class="th_">速率参数</td>
+                    <td class="txt">串口波特率: 600bps~115200bps</td>
+                </tr>
+                <tr class="one">
+                    <td class="txt">CAN接口波特率：最大1M波特率</td>
+                </tr>
+                <tr class="one">
+                    <td class="txt">工作温度:-40°C~+85°C</td>
+                </tr>
+                <tr class="one">
+                    <td class="txt">储存环境:-40°C~+105°C，5~95﹪RH</td>
+                </tr>
+                <tr class="two">
+                    <td rowspan="2" class="th_">工作环境</td>
+                    <td class="txt">尺寸:待定(铝合金金属外壳)</td>
+                </tr>
+                <tr class="two">
+                    <td class="txt">网页监控功能</td>
+                </tr>
+
+                <tr class="one">
+                    <td rowspan="1" class="th_">物理特性</td>
+                    <td class="txt">支持Smart监控功能</td>
+                </tr>
+                <tr class="two">
+                    <td rowspan="6" class="th_">产品功能</td>
+                    <td class="txt">内嵌WEB网页，支持网页监控功能</td>
+                </tr>
+                <tr class="two">
+                    <td class="txt">支持参数设置功能，包括通讯接口参数和协议选择</td>
+                </tr>
+                <tr class="two">
+                    <td class="txt">提供 Monitor table 可暂存监控的数据，让使用者快速存取</td>
+                </tr>
+                <tr class="two">
+                    <td class="txt">接口具有电磁隔离、浪涌保护功能，通讯与电源全隔离，抗干扰能力强</td>
+                </tr>
+                <tr class="two">
+                    <td class="txt">自动检测 10/100 Mbps 传输速率，MDI/MDI-X 自动检测</td>
+                </tr>
+                <tr class="two">
+                    <td class="txt">可由外部设定站号、RS-485 通讯格式、波特率</td>
+                </tr>
+            </table>
+        </div>
+
         <!-- 底部 -->
         <div id="base">
             <div class="top">
