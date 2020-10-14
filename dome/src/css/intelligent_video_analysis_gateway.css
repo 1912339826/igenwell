@@ -1,21 +1,21 @@
 .basic_information {
-    width: 1920px;
-    height: 448px;
+    width: 100vw;
+    height: 23.33vw;
     background-color: #ffffff;
-    padding: 64px 160px 64px 160px;
+    padding: 3.33vw 8.33vw 3.33vw 8.33vw;
     display: flex;
     justify-content: space-between;
 }
 
 .basic_information img {
-    width: 500px;
-    height: 320px;
+    width: 26vw;
+    height: 16.67vw;
     border-radius: 6px;
 }
 
 .basic_information .title {
     font-family: "SourceHanSansCN-Regular";
-    font-size: 36px;
+    font-size: 0.14rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 4px;
@@ -24,52 +24,52 @@
 
 .basic_information .version {
     font-family: "SourceHanSansCN-Normal";
-    font-size: 20px;
+    font-size: 0.08rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 2px;
     color: #999999;
-    margin-top: 8px;
-    margin-bottom: 30px;
+    margin-top: 0.42vw;
+    margin-bottom: 1.5325vw;
 }
 
 .basic_information .introductory {
-    width: 1019px;
+    width: 53vw;
 }
 
 .basic_information .introductory pre {
-    text-indent: 32px;
+    text-indent: 0.06rem;
     font-family: "SourceHanSansCN-Regular";
-    font-size: 16px;
+    font-size: 0.06rem;
     font-weight: normal;
     font-stretch: normal;
-    line-height: 28px;
+    line-height: 1.46vw;
     letter-spacing: 0px;
     color: #777777;
 
 }
 
 .specification_parameter {
-    padding-top: 63px;
-    padding-bottom: 66px;
-    width: 1920px;
+    padding-top: 3.3vw;
+    padding-bottom: 3.4vw;
+    width: 100vw;
 }
 
 .specification_parameter .title {
     font-family: "MicrosoftYaHei";
-    font-size: 30px;
+    font-size: 0.12rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 3px;
     color: #000000;
     text-align: center;
-    padding-bottom: 48px;
+    padding-bottom: 2.5vw;
 }
 
 .video_presentation {
     position: relative;
-    width: 1920px;
-    height: 905px;
+    width: 100vw;
+    height: 47vw;
 }
 
 .video_presentation_back {
@@ -82,11 +82,11 @@
 }
 
 .video_presentation .title {
-    padding-top: 64px;
-    padding-bottom: 47px;
+    padding-top: 3.33vw;
+    padding-bottom: 2.4vw;
     text-align: center;
     font-family: "MicrosoftYaHei";
-    font-size: 30px;
+    font-size: 0.12rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 3px;
@@ -94,8 +94,8 @@
 }
 
 .embed {
-    width: 1200px;
-    height: 700px;
+    width: 62.5vw;
+    height: 36.5vw;
     margin: 0 auto;
 }
 
@@ -104,17 +104,22 @@
     height: 100%;
 }
 
+.embed video {
+    width: 62.5vw;
+    height: 36.46vw;
+}
+
 .solve_problem {
-    padding: 62px 160px 64px 160px;
-    width: 1920px;
+    padding: 3.23vw 8.33vw 3.33vw 8.33vw;
+    width: 100vw;
     background-color: #f5f5f5;
 }
 
 .solve_problem .title {
-    padding-bottom: 64px;
+    padding-bottom: 3.33vw;
     text-align: center;
     font-family: "SourceHanSansCN-Regular";
-    font-size: 30px;
+    font-size: 0.12rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 3px;
@@ -128,8 +133,8 @@
 
 
 .solve_problem .lists .list {
-    width: 492px;
-    height: 342px;
+    width: 22.34vw;
+    height: 17.81vw;
     background-color: #ffffff;
     box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.05);
     border-radius: 6px;
@@ -138,57 +143,57 @@
 
 .colourful {
     width: 100%;
-    height: 8px;
+    height: 0.42vw;
     background-image: linear-gradient(270deg,
             #00a8ff 0%,
             #41e9f5 100%);
 }
 
 .solve_problem .lists .list img {
-    padding-top: 14px;
+    padding-top: 0.73vw;
 }
 
 .solve_problem_content {
     font-family: "SourceHanSansCN-Light";
-    font-size: 20px;
+    font-size: 0.08rem;
     font-weight: normal;
     font-stretch: normal;
-    line-height: 36px;
+    line-height: 1.875vw;
     letter-spacing: 0px;
     color: #111111;
-    padding-left: 47px;
-    padding-right: 46px;
-    padding-top: 57px;
+    padding-left: 2.4vw;
+    padding-right: 2.39vw;
+    padding-top: 2.96vw;
 }
 
 .technological_superiority {
     position: relative;
-    width: 1920px;
-    height: 828px;
+    width: 100vw;
+    height: 43.125vw;
 }
 
 .technological_superiority .title {
     text-align: center;
     font-family: "SourceHanSansCN-Regular";
-    font-size: 30px;
+    font-size: 0.12rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 3px;
     color: #ffffff;
-    padding-top: 64px;
-    padding-bottom: 56px;
+    padding-top: 3.33vw;
+    padding-bottom: 2.917vw;
 }
 
 .technological_superiority .back {
     position: absolute;
     z-index: -1;
-    width: 1920px;
-    height: 828px;
+    width: 100vw;
+    height: 43.125vw;
 }
 
 .technological_superiority_content {
-    padding-left: 224px;
-    padding-right: 224px;
+    padding-left: 11.67vw;
+    padding-right: 11.67vw;
 }
 
 .technological_superiority_content .lists {
@@ -198,8 +203,8 @@
 }
 
 .technological_superiority_content .technological_superiority_list {
-    width: 130px;
-    height: 154px;
+    width: 7.7vw;
+    height: 8.02vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -207,27 +212,27 @@
     position: relative;
 }
 
-.technological_superiority_content .technological_superiority_list:hover{
+.technological_superiority_content .technological_superiority_list:hover {
     cursor: pointer;
 }
 
 .technological_superiority_content .lists .img_ {
-    width: 86px;
-    height: 100px;
+    width: 4.48vw;
+    height: 5.2vw;
 }
 
-.technological_superiority_content .lists .onhover{
-    width: 126px;
-    height: 145px;
+.technological_superiority_content .lists .onhover {
+    width: 6.5625vw;
+    height: 7.55vw;
     position: absolute;
     z-index: 2;
-    top: -22px;
-    filter:contrast(200%)
+    top: -1.145vw;
+    filter: contrast(200%)
 }
 
 .technological_superiority_content .lists .list_title {
     font-family: "SourceHanSansCN-Regular";
-    font-size: 19px;
+    font-size: 0.08rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 2px;
@@ -235,18 +240,18 @@
 }
 
 .technological_superiority_box {
-    height: 226px;
+    height: 11.77vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100%;
     text-align: center;
     font-family: "SourceHanSansCN-Light";
-    font-size: 32px;
+    font-size: 0.13rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 0px;
     color: #ffffff;
-    padding-left: 65px;
-    padding-right: 65px;
+    padding-left: 3.385vw;
+    padding-right: 3.385vw;
 }

@@ -1,21 +1,21 @@
 .basic_information {
-    width: 1920px;
-    height: 448px;
+    width: 100vw;
+    height: 23.33vw;
     background-color: #ffffff;
-    padding: 64px 160px 64px 160px;
+    padding: 3.33vw 8.33vw 3.33vw 8.33vw;
     display: flex;
     justify-content: space-between;
 }
 
 .basic_information img {
-    width: 599px;
-    height: 320px;
+    width: 31.2vw;
+    height: 16.67vw;
     border-radius: 6px;
 }
 
 .basic_information .title {
     font-family: "SourceHanSansCN-Regular";
-    font-size: 36px;
+    font-size: 0.14rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 4px;
@@ -24,33 +24,33 @@
 
 .basic_information .version {
     font-family: "SourceHanSansCN-Normal";
-    font-size: 20px;
+    font-size: 0.08rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 2px;
     color: #999999;
-    margin-top: 8px;
-    margin-bottom: 30px;
+    margin-top: 0.42vw;
+    margin-bottom: 1.5625vw;
 }
 
 .basic_information .introductory {
     font-family: "SourceHanSansCN-Regular";
-    font-size: 16px;
+    font-size: 0.06rem;
     font-weight: normal;
     font-stretch: normal;
-    line-height: 30px;
+    line-height: 1.5625vw;
     letter-spacing: 0px;
     color: #777777;
-    width: 912px;
+    width: 47.5vw;
 }
 
-.basic_information .introductory pre{
-    text-indent: 32px;
+.basic_information .introductory pre {
+    text-indent: 0.06rem;
 }
 
 .product_feature {
-    width: 1920px;
-    height: 777px;
+    width: 100vw;
+    height: 40.46vw;
     position: relative;
 }
 
@@ -65,30 +65,30 @@
 
 .product_feature .title {
     font-family: "SourceHanSansCN-Regular";
-    font-size: 30px;
+    font-size: 0.12rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 3px;
     color: #ffffff;
-    padding-top: 63px;
-    padding-bottom: 49px;
+    padding-top: 3.3vw;
+    padding-bottom: 2.55vw;
     text-align: center;
 }
 
 .product_feature .box {
     display: flex;
     justify-content: space-between;
-    width: 1600px;
+    width: 83.33vw;
     margin: 0 auto;
 }
 
 .product_feature .box .list {
-    width: 370px;
-    height: 420px;
+    width: 19.27vw;
+    height: 21.875vw;
     background-color: rgba(255, 255, 255, 0.871);
     box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
-    padding: 58px 38px 54px 37px;
+    padding: 3vw 1.98vw 2.8125vw 1.92vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -96,49 +96,49 @@
 
 .product_feature .box .list .list_box {
     font-family: "SourceHanSansCN-Regular";
-    font-size: 22px;
+    font-size: 0.09rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 2px;
     color: #111111;
-    padding-top: 41px;
-    padding-bottom: 46px;
+    padding-top: 2.1vw;
+    padding-bottom: 2.4vw;
     font-weight: 600;
     text-align: justify;
 }
 
 .product_feature .box .list .list_content {
     font-family: "SourceHanSansCN-Regular";
-    font-size: 16px;
+    font-size: 0.06rem;
     font-weight: normal;
     font-stretch: normal;
-    line-height: 30px;
+    line-height: 1.5625vw;
     letter-spacing: 0px;
     color: #777777;
     width: 100%;
 }
 
 .specification_parameter {
-    padding-top: 63px;
-    padding-bottom: 66px;
-    width: 1920px;
+    padding-top: 3.3vw;
+    padding-bottom: 3.4vw;
+    width: 100vw;
 }
 
 .specification_parameter .title {
     font-family: "MicrosoftYaHei";
-    font-size: 30px;
+    font-size: 0.12rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 3px;
     color: #000000;
     text-align: center;
-    padding-bottom: 48px;
+    padding-bottom: 2.5vw;
 }
 
 .video_presentation {
     position: relative;
-    width: 1920px;
-    height: 905px;
+    width: 100vw;
+    height: 47.13vw;
 }
 
 .video_presentation_back {
@@ -151,11 +151,11 @@
 }
 
 .video_presentation .title {
-    padding-top: 64px;
-    padding-bottom: 47px;
+    padding-top: 3.33vw;
+    padding-bottom: 2.44vw;
     text-align: center;
     font-family: "MicrosoftYaHei";
-    font-size: 30px;
+    font-size: 0.12rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 3px;
@@ -163,12 +163,17 @@
 }
 
 .embed {
-    width: 1200px;
-    height: 700px;
+    width: 62.5vw;
+    height: 36.45vw;
     margin: 0 auto;
 }
 
-.embed embed{
+.embed embed {
     width: 100%;
     height: 100%;
+}
+
+.embed video {
+    width: 62.5vw;
+    height: 36.46vw;
 }

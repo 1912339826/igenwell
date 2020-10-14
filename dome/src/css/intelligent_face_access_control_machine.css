@@ -1,116 +1,116 @@
 .specification_parameter {
-    padding-top: 63px;
-    padding-bottom: 66px;
-    width: 1920px;
+    padding-top: 3.3vw;
+    padding-bottom: 3.4vw;
+    width: 100vw;
 }
 
 .specification_parameter .title {
     font-family: "MicrosoftYaHei";
-    font-size: 30px;
+    font-size: 0.06rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 3px;
     color: #000000;
     text-align: center;
-    padding-bottom: 48px;
+    padding-bottom: 2.5vw;
 }
 
 .product_overview {
-    width: 1920px;
+    width: 100vw;
 }
 
-.product_overview .title{
+.product_overview .title {
     text-align: center;
-    padding-top: 63px;
-    padding-bottom: 47px;
+    padding-top: 3.3vw;
+    padding-bottom: 2.4vw;
     font-family: "SourceHanSansCN-Regular";
-	font-size: 30px;
-	font-weight: normal;
-	font-stretch: normal;
-	letter-spacing: 3px;
-	color: #111111;
+    font-size: 0.12rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 3px;
+    color: #111111;
 }
 
-.product_overview .content{
-    width: 1586px;
+.product_overview .content {
+    width: 82.6vw;
     margin: 0 auto;
 }
 
-.product_overview .content pre{
-    text-indent: 32px;
+.product_overview .content pre {
+    text-indent: 0.12rem;
     font-family: "SourceHanSansCN-Regular";
-	font-size: 16px;
-	font-weight: normal;
-	font-stretch: normal;
-	line-height: 30px;
-	letter-spacing: 0px;
-	color: #777777;
+    font-size: 0.06rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 1.56vw;
+    letter-spacing: 0px;
+    color: #777777;
 }
 
-.product_overview .bottom{
-    width: 1440px;
+.product_overview .bottom {
+    width: 75vw;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
 }
 
- .product_overview .bottom .son{
-    width: 700px;
+.product_overview .bottom .son {
+    width: 36.48vw;
     text-align: center;
-    padding-top: 40px;
-    height: 361px;
+    padding-top: 2.1vw;
+    height: 18.8vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
 
-.product_overview .bottom .son .son_title{
+.product_overview .bottom .son .son_title {
     font-family: "SourceHanSansCN-Regular";
-	font-size: 20px;
-	font-weight: normal;
-	font-stretch: normal;
-	letter-spacing: 2px;
-	color: #111111;
+    font-size: 0.08rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 2px;
+    color: #111111;
 }
 
-.technical_advantage{
-    width: 1920px;
+.technical_advantage {
+    width: 100vw;
     position: relative;
-    width: 1920px;
-    height: 680px;
-    margin-top: 65px;
+    width: 100vw;
+    height: 35.41vw;
+    margin-top: 3.4vw;
 }
 
 
-.technical_advantage .back{
+.technical_advantage .back {
     position: absolute;
-    width: 1920px;
-	height: 680px;
+    width: 100vw;
+    height: 35.41vw;
     z-index: -1;
     top: 0;
     left: 0;
 }
 
 
-.technical_advantage .title{
-    padding-top: 64px;
-    padding-bottom: 56px;
+.technical_advantage .title {
+    padding-top: 3.3vw;
+    padding-bottom: 2.9vw;
     text-align: center;
     font-family: "SourceHanSansCN-Regular";
-	font-size: 30px;
-	font-weight: normal;
-	font-stretch: normal;
-	letter-spacing: 3px;
-	color: #ffffff;
+    font-size: 0.12rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 3px;
+    color: #ffffff;
 }
 
-.technical_advantage .box{
+.technical_advantage .box {
     display: flex;
     justify-content: space-between;
 }
 
-.technical_advantage .box .list{
+.technical_advantage .box .list {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -118,79 +118,84 @@
 
 .technical_advantage .box .list .list_title {
     font-family: "SourceHanSansCN-Regular";
-	font-size: 20px;
-	font-weight: normal;
-	font-stretch: normal;
-	line-height: 36px;
-	letter-spacing: 2px;
+    font-size: 0.08rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 2vw;
+    letter-spacing: 2px;
     color: #ffffff;
     text-align: center;
-    margin-top: 35px;
+    margin-top: 1vw;
 }
 
-.technical_advantage  .top{
-    padding-left: 251px;
-    padding-right: 263px;
+.technical_advantage .box .list>img{
+    width: 4.48vw;
+	height: 5.21vw;
 }
 
-.technical_advantage  .bottom{
-    padding-left: 551px;
-    padding-right: 459px;
-    margin-top: 64px;
+.technical_advantage .top {
+    padding-left: 13.1vw;
+    padding-right: 13.7vw;
 }
 
-.application_scenarios{
-    padding: 62px 160px 67px 160px;
+.technical_advantage .bottom {
+    padding-left: 28.7vw;
+    padding-right: 23.9vw;
+    margin-top: 3.3vw;
+}
+
+.application_scenarios {
+    padding: 3.3vw 8.3vw 3.5vw 8.3vw;
     background-color: #f5f5f5;
-    width: 1920px;
+    width: 100vw;
 }
 
-.application_scenarios .title{
+.application_scenarios .title {
     text-align: center;
     font-family: "SourceHanSansCN-Regular";
-	font-size: 30px;
-	font-weight: normal;
-	font-stretch: normal;
-	letter-spacing: 3px;
-	color: #111111;
+    font-size: 0.12rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 3px;
+    color: #111111;
 }
 
-.application_scenarios .box{
+.application_scenarios .box {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.application_scenarios .list{
-    margin-top: 62px;
-    width: 740px;
-} 
-
-.application_scenarios .list img{
-    width: 740px;
-	height: 284px;
+.application_scenarios .list {
+    margin-top: 3.2vw;
+    width: 38.5vw;
 }
 
-.application_scenarios .list .list_title{
-    font-family: "SourceHanSansCN-Regular";
-    margin-top: 23px;
-    margin-bottom: 31px;
-	font-size: 20px;
-	font-weight: normal;
-	font-stretch: normal;
-	letter-spacing: 2px;
-	color: #111111;
+.application_scenarios .list img {
+    width: 38.5vw;
+    height: 14.7vw;
 }
 
-.application_scenarios .list  .list_content{
+.application_scenarios .list .list_title {
     font-family: "SourceHanSansCN-Regular";
-	font-size: 16px;
-	font-weight: normal;
-	font-stretch: normal;
-	line-height: 30px;
-	letter-spacing: 0px;
+    margin-top: 1.2vw;
+    margin-bottom: 1.6vw;
+    font-size: 0.08rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 2px;
+    color: #111111;
+}
+
+.application_scenarios .list .list_content {
+    font-family: "SourceHanSansCN-Regular";
+    font-size: 0.06rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 1.5vw;
+    letter-spacing: 0px;
     color: #777777;
-    padding-right: 15px;
+    padding-right: 0.78vw;
     padding-right: 6px;
     text-align: justify;
 }

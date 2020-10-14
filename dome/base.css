@@ -1,58 +1,69 @@
 /* 底部 */
+
+body {
+    overflow-x: hidden;
+}
+
 #base {
-    width: 1920px;
-    height: 367px;
+    width: 100vw;
+    height: 19.11vw;
     background-color: #636060;
-    /* padding-left: 360px; */
 }
 
 #base .top {
     display: flex;
-    height: 290px;
-    width: 1200px;
+    height: 15.10vw;
+    width: 62.5vw;
     margin: 0 auto;
 }
 
 #base .logo_QR_code {
-    width: 139px;
+    width: 7.23vw;
     text-align: center;
-    padding-top: 37px;
-    margin-left: 21px;
+    padding-top: 1.927vw;
+    margin-left: 1.1vw;
+}
+
+#base .logo_QR_code .logo {
+    width: 7.24vw;
+    height: 2.08vw;
 }
 
 #base .logo_QR_code .QR_code {
-    margin-top: 24px;
+    margin-top: 1.25vw;
+    width: 6.25vw;
+    height: 6.25vw;
 }
 
 #base .lists {
-    width: 890px;
-    padding-top: 43px;
-    margin-left: 120px;
+    width: 46.35vw;
+    padding-top: 2.23vw;
+    margin-left: 6.25vw;
     display: flex;
 }
 
 #base .list {
-    width: 180px;
+    width: 9.375vw;
     height: auto;
 }
 
 #base .lists .list p {
     font-family: "SourceHanSansCN-Regular";
-    font-size: 16px;
+    font-size: 0.06rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 0px;
     color: #ffffff;
-    margin-bottom: 29px;
+    margin-bottom: 1.51vw;
 }
 
 #base .lists .list .list_son {
-    margin-bottom: 16px;
+    margin-bottom: 0.83vw;
 }
 
-#base .lists .list .list_son a{
+#base .lists .list .list_son a {
     font-family: "SourceHanSansCN-Regular";
-    font-size: 14px;
+    font-size: 0.05rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 0px;
@@ -61,19 +72,19 @@
 }
 
 #base .bottom {
-    padding-top: 5px;
-    padding-left: 360px;
-    height: 76px;
+    padding-top: 0.3vw;
+    padding-left: 18.75vw;
+    height: 3.95vw;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-#base .bottom p{
-    margin-top: 15px;
+#base .bottom p {
+    margin-top: 0.078125vw;
     font-family: "SourceHanSansCN-Regular";
-	font-size: 12px;
-	font-weight: normal;
-	font-stretch: normal;
-	letter-spacing: 0px;
+    font-size: 0.05rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
     color: #707070;
-    
+
 }

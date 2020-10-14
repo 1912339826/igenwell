@@ -1,14 +1,16 @@
 html {
-    width: 1920px;
+    width: 100vw;
     background-color: #f5f5f5;
 }
 
+
+
 .nav {
-    width: 1920px;
-    height: 70px;
+    width: 100vw;
+    height: 4vw;
     background-color: rgba(27, 27, 27, 0.2);
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    padding-left: 120px;
+    padding-left: 6vw;
     position: relative;
     top: 0;
     z-index: 2;
@@ -18,14 +20,14 @@ html {
 
 .nav .ban {
     display: flex;
-    margin-left: 86px;
+    margin-left: 4.45vw;
 }
 
 .nav .ban div {
     text-align: center;
-    width: 112px;
+    width: 8vw;
     font-family: "SourceHanSansCN-Regular";
-    font-size: 15px;
+    font-size: 0.06rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 0px;
@@ -42,111 +44,53 @@ html {
 }
 
 .nav .logo {
-    width: 139px;
-    height: 40px;
+    width: 7.2vw;
+    height: 2.1vw;
 }
 
 .nav .logo:hover {
     cursor: pointer;
 }
 
-.nav .search {
-    position: absolute;
-    right: 71px;
-
-}
-
-.nav .search .search_button {
-    display: flex;
-    align-items: center;
-    color: #ffffff;
-    font-family: "SourceHanSansCN-Light";
-    font-size: 15px;
-    font-weight: normal;
-    font-stretch: normal;
-    letter-spacing: 0px;
-    color: #ffffff;
-    opacity: 0.6;
-}
-
-.nav .search .search_button img {
-    margin-right: 6px;
-    width: 15px;
-    height: 15px;
-    opacity: 0.6;
-}
-
-.nav .search .search_button:hover {
-    cursor: pointer;
-}
-
-
-.nav .search .search_input {
-    overflow: hidden;
-    width: 247px;
-    height: 34px;
-    border-radius: 4px;
-    border: solid 1px #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.nav .search .search_input img {
-    opacity: 1;
-    width: 15px;
-    height: 15px;
-    margin-left: 11px;
-}
-
-.nav .search .search_input input {
-    height: 100%;
-    width: 212px;
-    background-color: #00000000;
-    color: #ffffff;
-    border: none;
-}
-
-
 .nav .tab_control {
     position: absolute;
-    top: 70px;
+    top: 4vw;
     left: 0;
-    width: 1920px;
-    height: 334px;
+    width: 100vw;
+    height: 13.6vw;
     background-color: rgba(23, 32, 53, 0.91);
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
     opacity: 0.8;
-    padding-top: 32px;
+    padding-top: 1.3vw;
 }
 
 .nav .tab_control .content {
-    margin-left: 385px;
-    width: 900px;
-    height: 208px;
+    margin-left: 15.6vw;
+    width: 47vw;
+    height: 11vw;
     display: flex;
     justify-content: space-between;
 }
 
 .nav .tab_control .content .list {
-    width: 180px;
+    width: 9.3vw;
 }
 
 .nav .tab_control .content .list p {
-    height: 29px;
+    height: 1.5vw;
     font-family: "SourceHanSansCN-Regular";
-    font-size: 16px;
+    font-size: 0.06rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 0px;
     color: #ffffff;
-    margin-bottom: 16px;
+    margin-bottom: 0.56vw;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .nav .tab_control .content .list .list_son a {
     font-family: "SourceHanSansCN-Regular";
-    font-size: 14px;
+    font-size: 0.05rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 0px;
@@ -154,13 +98,13 @@ html {
 }
 
 .nav .tab_control .content .list .list_son img {
-    margin-left: 5px;
-    width: 14px;
-    height: 12px;
+    margin-left: 0.3vw;
+    width: 0.5vw;
+    height: 0.4vw;
 }
 
 .nav .tab_control .content .list .list_son {
-    margin-bottom: 16px;
+    margin-bottom: 0.8vw;
 }
 
 .nav .tab_control .content .list .list_son:last-child {
@@ -174,7 +118,7 @@ html {
 .carousel {
     position: absolute;
     top: 0;
-    height: 900px;
+    height: 47vw;
 }
 
 
@@ -182,15 +126,17 @@ html {
 .carousel_son img {
     position: absolute;
     top: 0;
+    height: 46.88vw;
+    width: 100vw;
 }
 
 .carousel_son div {
     position: absolute;
     z-index: 2;
-    top: 584px;
-    left: 990px;
-    width: 94px;
-    height: 40px;
+    top: 26.77vw;
+    left: 51.56vw;
+    width: 4.9vw;
+    height: 2.08vw;
     color: rgba(255, 255, 255, 0);
 }
 
@@ -200,34 +146,34 @@ html {
 
 /* 产品中心 */
 .product_center {
-    width: 100%;
-    margin-top: 900px;
+    width: 100vw;
+    margin-top: 47vw;
     background-color: #f5f5f5;
 }
 
 .product_center .title {
     text-align: center;
     font-family: "SourceHanSansCN-Light";
-    font-size: 30px;
+    font-size: 0.12rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 3px;
     color: #000000;
     width: 100%;
-    margin-bottom: 48px;
+    margin-bottom: 2.5vw;
 }
 
 .product_center .content {
     display: flex;
     justify-content: space-between;
-    padding-left: 160px;
-    padding-right: 160px;
+    padding-left: 8vw;
+    padding-right: 8vw;
     background-color: #f5f5f5;
 }
 
 .product_center .content>div {
     background-color: #f5f5f5;
-    width: 780px;
+    width: 40.63vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -246,29 +192,29 @@ html {
 }
 
 .product_center .txt {
-    padding: 31px 40px 0px 24px;
+    padding: 1.61vw 2.08vw 0px 1.61vw;
 }
 
 .product_center .left .box:nth-child(2),
 .product_center .left .box:nth-child(3),
 .product_center .right .box:nth-child(3) {
-    margin-top: 40px;
+    margin-top: 2.08vw;
 }
 
 .product_center .left .box:nth-child(1),
 .product_center .right .box:nth-child(3) {
-    width: 780px;
+    width: 40.63vw;
 }
 
 .product_center .left .box:nth-child(1) img,
 .product_center .right .box:nth-child(3) img {
-    width: 780px;
-    height: 360px;
+    width: 40.63vw;
+    height: 18.75vw;
 }
 
 .product_center .left .box:nth-child(1) .txt,
 .product_center .right .box:nth-child(3) .txt {
-    height: 146px;
+    height: 7.6vw;
     width: 100%;
 }
 
@@ -276,52 +222,52 @@ html {
 .product_center .right .box:nth-child(2),
 .product_center .right .box:nth-child(1),
 .product_center .left .box:nth-child(3) {
-    width: 370px;
+    width: 19.27vw;
 }
 
 .product_center .left .box:nth-child(2) img,
 .product_center .right .box:nth-child(2) img,
 .product_center .right .box:nth-child(1) img,
 .product_center .left .box:nth-child(3) img {
-    width: 370px;
-    height: 260px;
+    width: 19.27vw;
+    height: 13.54vw;
 }
 
 .product_center .left .box:nth-child(2) .txt,
 .product_center .right .box:nth-child(2) .txt,
 .product_center .right .box:nth-child(1) .txt,
 .product_center .left .box:nth-child(3) .txt {
-    height: 148px;
+    height: 7.71vw;
     width: 100%;
 }
 
 .product_center .title_son {
     font-family: "SourceHanSansCN-Light";
-    font-size: 20px;
+    font-size: 0.08rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 0px;
     color: #000000;
-    margin-bottom: 13px;
+    margin-bottom: 0.6vw;
 }
 
 .product_center .txt pre {
     font-family: "SourceHanSansCN-Light";
-    font-size: 14px;
+    font-size: 0.05rem;
     font-weight: normal;
     font-stretch: normal;
-    line-height: 22px;
+    line-height: 1.4;
     letter-spacing: 0px;
     color: #a0a0a0;
-    height: 42px;
+    height: 2.19vw;
 }
 
 /* 平台展示 */
 .platform_show {
     position: relative;
-    margin-top: 70px;
-    width: 1920px;
-    height: 904px;
+    margin-top: 4vw;
+    width: 100vw;
+    height: 47.08vw;
 }
 
 .platform_show .platform_show_back {
@@ -329,33 +275,33 @@ html {
     z-index: -1;
     top: 0;
     left: 0;
-    width: 1920px;
-    height: 904px;
+    width: 100vw;
+    height: 47.08vw;
 }
 
 .platform_show>.title {
     text-align: center;
     font-family: "SourceHanSansCN-Light";
-    font-size: 30px;
+    font-size: 0.12rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 3px;
     color: #ffffff;
-    padding-top: 63px;
-    margin-bottom: 48px;
+    padding-top: 3.3vw;
+    margin-bottom: 2.5vw;
 }
 
 .platform_show>.content {
-    padding-left: 160px;
-    padding-right: 160px;
+    padding-left: 8vw;
+    padding-right: 8vw;
     display: flex;
     justify-content: space-between;
 }
 
 .platform_show>.content .box {
     position: relative;
-    width: 504px;
-    height: 260px;
+    width: 26.25vw;
+    height: 13.54vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -373,8 +319,8 @@ html {
 
 .platform_show>.content .box>img {
     border-radius: 6px;
-    width: 504px;
-    height: 260px;
+    width: 26.25vw;
+    height: 13.54vw;
     position: absolute;
     z-index: 1;
     top: 0;
@@ -388,13 +334,13 @@ html {
     left: 0;
     z-index: 2;
     font-family: "SourceHanSansCN-Light";
-    font-size: 24px;
+    font-size: 0.09rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 1px;
     color: #ffffff;
-    width: 504px;
-    height: 260px;
+    width: 26.25vw;
+    height: 13.54vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -403,29 +349,29 @@ html {
 }
 
 .platform_show>.content .box>.platform_show_box_son>div {
-    margin-top: 20px;
+    margin-top: 1vw;
 }
 
 #platform_show_active {
-    width: 504px;
-    height: 260px;
+    width: 26.25vw;
+    height: 13.54vw;
     background-color: rgba(52, 106, 255, 0);
 }
 
 .platform_show .show_ {
-    width: 1520px;
-    height: 351px;
+    width: 79.2vw;
+    height: 18.3vw;
     margin: 0 auto;
-    margin-top: 90px;
+    margin-top: 4.7vw;
     display: flex;
     justify-content: space-between;
 }
 
 
 .platform_show .show_ .title {
-    margin-top: 15px;
+    margin-top: 0.8vw;
     font-family: "SourceHanSansCN-Light";
-    font-size: 32px;
+    font-size: 1.3vw;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 3px;
@@ -433,28 +379,28 @@ html {
 }
 
 .platform_show .show_ .content {
-    width: 913px;
-    height: 106px;
+    width: 47.55vw;
+    height: 5.52vw;
     font-family: "SourceHanSansCN-Light";
-    font-size: 16px;
+    font-size: 0.06rem;
     font-weight: normal;
     font-stretch: normal;
-    line-height: 30px;
+    line-height: 1.56vw;
     letter-spacing: 0px;
     color: #ffffff;
     opacity: 0.8;
-    margin-top: 51px;
+    margin-top: 2.66vw;
 }
 
 .platform_show .show_ .button_ {
-    margin-top: 70px;
+    margin-top: 4vw;
 }
 
 .platform_show .show_ .button_ a {
     display: inline-block;
-    width: 94px;
-    height: 40px;
-    line-height: 40px;
+    width: 4.9vw;
+    height: 2.08vw;
+    line-height: 2.08vw;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.302);
     border-radius: 3px;
@@ -464,64 +410,64 @@ html {
 
 .platform_show .show_ .screen {
     position: relative;
-    width: 396px;
-    height: 351px;
+    width: 20.625vw;
+    height: 19.28vw;
 }
 
 .platform_show .show_ .screen img {
     position: absolute;
     z-index: -1;
-    width: 396px;
-    height: 351px;
+    width: 20.625vw;
+    height: 19.28vw;
 }
 
 .platform_show .show_ .screen .containers {
     position: absolute;
     z-index: 1;
-    width: 365px;
-    height: 220px;
+    width: 19vw;
+    height: 11.46vw;
     left: 4%;
     top: 4%;
     color: #ffffff;
 }
 
-.platform_show .show_ .screen .containers img{
+.platform_show .show_ .screen .containers img {
     width: 100%;
     height: 100%;
 }
 
 /* 应用场景 */
 .application_scenarios {
-    width: 100%;
-    padding-bottom: 128px;
+    width: 100vw;
+    padding-bottom: 6.67vw;
 }
 
 .application_scenarios>.title {
     text-align: center;
     font-family: "SourceHanSansCN-Light";
-    font-size: 30px;
+    font-size: 0.12rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 3px;
     color: #000000;
-    margin-top: 63px;
+    margin-top: 3.28vw;
     margin-bottom: 1px;
 }
 
 .application_scenarios>.content {
-    padding-left: 160px;
-    padding-right: 160px;
+    padding-left: 8vw;
+    padding-right: 8vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .application_scenarios>.content .box {
-    width: 504px;
-    height: 340px;
+    width: 26.25vw;
+    height: 17.71vw;
     background-color: #ffffff;
     border-radius: 6px;
-    margin-top: 47px;
+    margin-top: 2.45vw;
     overflow: hidden;
 }
 
@@ -530,16 +476,16 @@ html {
 }
 
 .application_scenarios>.content .box img {
-    width: 504px;
-    height: 280px;
+    width: 26.25vw;
+    height: 14.58vw;
 }
 
 .application_scenarios>.content .box p {
-    height: 60px;
-    line-height: 60px;
-    padding-left: 21px;
+    height: 3.12;
+    line-height: 3.12vw;
+    padding-left: 1.09vw;
     font-family: "SourceHanSansCN-Light";
-    font-size: 20px;
+    font-size: 0.08rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 1px;

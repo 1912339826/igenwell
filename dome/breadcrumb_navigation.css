@@ -1,12 +1,12 @@
 .breadcrumb_navigation {
-    width: 1920px;
-    height: 28px;
+    width: 100vw;
+    height: 1.46vw;
     background-color: #ffffff;
     display: flex;
     align-items: center;
-    padding-left: 160px;
+    padding-left: 8.33vw;
 }
 
 .breadcrumb_navigation .layui-breadcrumb a{
-    font-size: 12px;
+    font-size: 0.06rem;
 }

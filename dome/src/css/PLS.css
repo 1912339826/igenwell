@@ -1,46 +1,46 @@
 .banner {
-    width: 1920px;
-    height: 480px;
+    width: 100vw;
+    height: 25vw;
 }
 
 .basic_information {
-    width: 1920px;
-    padding-bottom: 65px;
+    width: 100vw;
+    padding-bottom: 3.3vw;
 }
 
 .basic_information .title {
     text-align: center;
     font-family: "SourceHanSansCN-Regular";
-    font-size: 30px;
+    font-size: 0.12rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 3px;
     color: #111111;
-    padding-top: 62px;
-    padding-bottom: 47px;
-    width: 1920px;
+    padding-top: 3.2vw;
+    padding-bottom: 2.4vw;
+    width: 100vw;
 }
 
 .basic_information .brief_introduction {
     font-family: "SourceHanSansCN-Regular";
-    font-size: 16px;
+    font-size: 0.06rem;
     font-weight: normal;
     font-stretch: normal;
-    line-height: 30px;
+    line-height: 1.56vw;
     letter-spacing: 0px;
     color: #777777;
     margin: 0 auto;
-    width: 1587px;
+    width: 82.65vw;
     text-indent: 32px;
 }
 
 .basic_information .lists {
     display: flex;
     justify-content: space-between;
-    width: 1600px;
-    height: 227px;
+    width: 83.33vw;
+    height: 11.82vw;
     margin: 0 auto;
-    padding: 24px 103px 0px 103px;
+    padding: 1.25vw 5.3vw 0px 5.3vw;
 }
 
 .basic_information .lists .list {
@@ -53,7 +53,7 @@
 
 .basic_information .lists .list .list_title {
     font-family: "SourceHanSansCN-Regular";
-    font-size: 20px;
+    font-size: 0.08rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 2px;
@@ -62,8 +62,8 @@
 
 .technology_advantages {
     position: relative;
-    width: 1920px;
-    height: 620px;
+    width: 100vw;
+    height: 32.29vw;
 }
 
 .technology_advantages .back {
@@ -71,15 +71,17 @@
     z-index: -1;
     top: 0;
     left: 0;
+    height: 32.29vw;
+    width: 100%;
 }
 
 
 .technology_advantages .title {
-    padding-top: 64px;
-    padding-bottom: 56px;
+    padding-top: 3.3vw;
+    padding-bottom: 2.9vw;
     text-align: center;
     font-family: "SourceHanSansCN-Regular";
-    font-size: 30px;
+    font-size: 0.12rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 3px;
@@ -90,26 +92,26 @@
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
-    margin-bottom: 65px;
+    margin-bottom: 3.3vw;
     text-align: center;
     color: #ffffff;
-    width: 1412px;
+    width: 73.54vw;
 
 }
 
 .technology_advantages .top img,
 .technology_advantages .bottom img {
-    width: 86px;
-    height: 100px;
-    margin-bottom: 35px;
+    width: 4.4vw;
+    height: 5.2vw;
+    margin-bottom: 1.8vw;
 }
 
 .technology_advantages .top .list div {
     font-family: "SourceHanSansCN-Regular";
-    font-size: 20px;
+    font-size: 0.08rem;
     font-weight: normal;
     font-stretch: normal;
-    line-height: 36px;
+    line-height: 1.9vw;
     letter-spacing: 2px;
 }
 
@@ -119,28 +121,28 @@
     justify-content: space-between;
     text-align: center;
     color: #ffffff;
-    width: 1076px;
+    width: 56vw;
 }
 
 .technology_advantages .bottom .list div {
     font-family: "SourceHanSansCN-Regular";
-    font-size: 20px;
+    font-size: 0.08rem;
     font-weight: normal;
     font-stretch: normal;
-    line-height: 36px;
+    line-height: 1.9vw;
     letter-spacing: 2px;
 }
 
 .software_function{
-    width: 1920px;
-    padding: 62px 160px 65px 160px;
+    width: 100vw;
+    padding: 3.2vw 8.3vw 3.3vw 8.3vw;
 }
 
 .software_function .title{
     width: 100%;
     text-align: center;
     font-family: "SourceHanSansCN-Regular";
-	font-size: 30px;
+	font-size: 0.12rem;
 	font-weight: normal;
 	font-stretch: normal;
 	letter-spacing: 3px;
@@ -154,26 +156,31 @@
 }
 
 .software_function .box .list{
-    width: 740px;
-    height: 200px;
-    margin-top: 48px;
+    width: 38.54vw;
+    height: 10.41vw;
+    margin-top: 2.5vw;
     background-color: #eeeeee;
     display: flex;
     justify-content: space-between;
 }
 
+.software_function .box .list img{
+    width: 9.48vw;
+	height: 10vw;
+}
+
 .software_function .box .list .right{
-    padding-right: 11px;
-    padding-top: 16px;
-    width: 489px;
+    padding-right: 0.57vw;
+    padding-top: 0.83vw;
+    width: 25.46vw;
 }
 
 .software_function .box .list  .list_title{
     font-family: "SourceHanSansCN-Regular";
-	font-size: 20px;
+	font-size: 0.08rem;
 	font-weight: normal;
 	font-stretch: normal;
 	letter-spacing: 2px;
     color: #111111;
-    margin-bottom: 31px;
+    margin-bottom: 1.61vw;
 }

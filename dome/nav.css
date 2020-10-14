@@ -1,9 +1,9 @@
 .nav {
-    width: 1920px;
-    height: 70px;
+    width: 100vw;
+    height: 3.65vw;
     background-color: rgb(255, 255, 255);
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    padding-left: 120px;
+    padding-left: 6.25vw;
     display: flex;
     align-items: center;
     position: relative;
@@ -11,14 +11,14 @@
 
 .nav .ban {
     display: flex;
-    margin-left: 86px;
+    margin-left: 4.479vw;
 }
 
 .nav .ban div {
     text-align: center;
-    width: 112px;
+    width: 5.83vw;
     font-family: "SourceHanSansCN-Regular";
-    font-size: 15px;
+    font-size: 0.06rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 0px;
@@ -36,8 +36,8 @@
 }
 
 .nav .logo {
-    width: 139px;
-    height: 40px;
+    width: 7.23vw;
+    height: 2.08vw;
 }
 
 .nav .logo:hover {
@@ -46,7 +46,7 @@
 
 .nav .search {
     position: absolute;
-    right: 71px;
+    right: 3.7vw;
 
 }
 
@@ -55,7 +55,7 @@
     align-items: center;
     color: #111111;
     font-family: "SourceHanSansCN-Light";
-    font-size: 15px;
+    font-size: 0.06rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 0px;
@@ -63,8 +63,8 @@
 
 .nav .search .search_button img {
     margin-right: 6px;
-    width: 15px;
-    height: 15px;
+    width: 0.78vw;
+    height: 0.78vw;
 }
 
 .nav .search .search_button:hover {
@@ -74,8 +74,8 @@
 
 .nav .search .search_input {
     overflow: hidden;
-    width: 247px;
-    height: 34px;
+    width: 12.86vw;
+    height: 1.77vw;
     border-radius: 4px;
     border: solid 1px #111111;
     display: flex;
@@ -85,14 +85,14 @@
 
 .nav .search .search_input img {
     opacity: 1;
-    width: 15px;
-    height: 15px;
-    margin-left: 11px;
+    width: 0.78vw;
+    height: 0.78vw;
+    margin-left: 0.572vw;
 }
 
 .nav .search .search_input input {
     height: 100%;
-    width: 212px;
+    width: 11.04vw;
     background-color: #fffefe;
     color: #111111;
     border: none;
@@ -101,42 +101,42 @@
 
 .nav .tab_control {
     position: absolute;
-    top: 70px;
+    top: 3.64vw;
     left: 0;
-    width: 1920px;
-    height: 334px;
+    width: 100vw;
+    height: 17.4vw;
     background-color: #ffffff;
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-    padding-top: 32px;
+    padding-top: 1.67vw;
 }
 
 .nav .tab_control .content {
-    margin-left: 385px;
-    width: 900px;
-    height: 208px;
+    margin-left: 20vw;
+    width: 46.875vw;
+    height: 10.83vw;
     display: flex;
     justify-content: space-between;
 }
 
 .nav .tab_control .content .list {
-    width: 180px;
+    width: 9.375vw;
 }
 
 .nav .tab_control .content .list p {
-    height: 29px;
+    height: 1.51vw;
     font-family: "SourceHanSansCN-Regular";
-    font-size: 16px;
+    font-size: 0.06rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 0px;
     color: #777777;
-    margin-bottom: 16px;
+    margin-bottom: 0.83vw;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .nav .tab_control .content .list .list_son a {
     font-family: "SourceHanSansCN-Regular";
-    font-size: 14px;
+    font-size: 0.05rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 0px;
@@ -148,13 +148,13 @@
 }
 
 .nav .tab_control .content .list .list_son img {
-    margin-left: 5px;
-    width: 14px;
-    height: 12px;
+    margin-left: 0.26vw;
+    width: 0.73vw;
+    height: 0.625vw;
 }
 
 .nav .tab_control .content .list .list_son {
-    margin-bottom: 16px;
+    margin-bottom: 0.83vw;
 }
 
 .nav .tab_control .content .list .list_son:last-child {

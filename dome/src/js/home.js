@@ -6,10 +6,10 @@ layui.use('carousel', function () {
         width: '100%',
         arrow: 'always',
         anim: 'fade',
-        autoplay: true,
-        // autoplay: false,
-        height: "900px",
-        width:"1920px"
+        // autoplay: true,
+        autoplay: false,
+        height: "46.88vw",
+        width:"100vw"
     });
 });
 

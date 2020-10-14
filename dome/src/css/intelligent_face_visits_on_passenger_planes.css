@@ -1,30 +1,30 @@
 .specification_parameter {
-    padding-top: 63px;
-    padding-bottom: 66px;
-    width: 1920px;
+    padding-top: 3.2vw;
+    padding-bottom: 3.4vw;
+    width: 100vw;
 }
 
 .specification_parameter .title {
     font-family: "MicrosoftYaHei";
-    font-size: 30px;
+    font-size: 0.12rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 3px;
     color: #000000;
     text-align: center;
-    padding-bottom: 48px;
+    padding-bottom: 2.5vw;
 }
 
 .product_overview {
-    width: 1920px;
+    width: 100vw;
 }
 
 .product_overview .title {
     text-align: center;
-    padding-top: 63px;
-    padding-bottom: 47px;
+    padding-top: 3.2vw;
+    padding-bottom: 2.4vw;
     font-family: "SourceHanSansCN-Regular";
-    font-size: 30px;
+    font-size: 0.12rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 3px;
@@ -32,47 +32,47 @@
 }
 
 .product_overview .content {
-    width: 1586px;
+    width: 82.6vw;
     margin: 0 auto;
 }
 
 .product_overview .content pre {
-    text-indent: 32px;
+    text-indent: 0.12rem;
     font-family: "SourceHanSansCN-Regular";
-    font-size: 16px;
+    font-size: 0.06rem;
     font-weight: normal;
     font-stretch: normal;
-    line-height: 30px;
+    line-height: 1.56vw;
     letter-spacing: 0px;
     color: #777777;
 }
 
 .product_overview .bottom {
-    width: 1440px;
+    width: 75vw;
     display: flex;
     justify-content: center;
     margin: 0 auto;
 }
 
 .product_overview .bottom .son {
-    width: 700px;
+    width: 36.45vw;
     text-align: center;
-    padding-top: 40px;
-    height: 361px;
+    padding-top: 2vw;
+    height: 18.8vw;
 }
 
 .technical_advantage {
     position: relative;
-    width: 1920px;
-    height: 680px;
-    margin-top: 100px;
+    width: 100vw;
+    height: 35.4vw;
+    margin-top: 5.2vw;
 }
 
 
 .technical_advantage .back {
     position: absolute;
-    width: 1920px;
-    height: 680px;
+    width: 100vw;
+    height: 35.4vw;
     z-index: -1;
     top: 0;
     left: 0;
@@ -80,11 +80,11 @@
 
 
 .technical_advantage .title {
-    padding-top: 64px;
-    padding-bottom: 56px;
+    padding-top: 3.3vw;
+    padding-bottom: 2.9vw;
     text-align: center;
     font-family: "SourceHanSansCN-Regular";
-    font-size: 30px;
+    font-size: 0.12rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 3px;
@@ -95,76 +95,81 @@
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    width: 1395px;
+    width: 72.65vw;
 }
 
 .technical_advantage .box .list {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 320px;
+    width: 16.8vw;
+}
+
+.technical_advantage .box .list img{
+    width: 4.48vw;
+	height: 5.21vw;
 }
 
 .technical_advantage .box .list .list_title {
     font-family: "SourceHanSansCN-Regular";
-    font-size: 20px;
+    font-size: 0.08rem;
     font-weight: normal;
     font-stretch: normal;
-    line-height: 36px;
+    line-height: 1.875vw;
     letter-spacing: 2px;
     color: #ffffff;
     text-align: center;
-    margin-top: 35px;
+    margin-top: 1.8vw;
 }
 
 .technical_advantage .bottom {
-    margin-top: 64px;
+    margin-top: 3.3vw;
 }
 
 .application_scenarios {
-    padding: 62px 0 62px 0;
+    padding: 3.2vw 0 3.2vw 0;
     background-color: #f5f5f5;
-    width: 1920px;
+    width: 100vw;
 }
 
 .application_scenarios .title {
     text-align: center;
     font-family: "SourceHanSansCN-Regular";
-    font-size: 30px;
+    font-size: 0.12rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 3px;
     color: #111111;
-    padding-bottom: 43px;
+    padding-bottom: 2.2vw;
 }
 
 .application_scenarios .box {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 1514px;
-    height: 262px;
+    width: 78.85vw;
+    height: 13.46vw;
     margin: 0 auto;
 }
 
 .application_scenarios .list {
-    width: 200px;
+    width: 10.42vw;
 }
 
 .application_scenarios .list img {
-    width: 200px;
-    height: 200px;
+    width: 10.42vw;
+    height: 10.42vw;
     border-radius: 50%;
     overflow: hidden;
 }
 
-.application_scenarios .list .list_title{
+.application_scenarios .list .list_title {
     text-align: center;
-    margin-top: 24px;
+    margin-top: 1.25vw;
     font-family: "SourceHanSansCN-Regular";
-	font-size: 20px;
-	font-weight: normal;
-	font-stretch: normal;
-	letter-spacing: 2px;
-	color: #111111;
+    font-size: 0.08rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 2px;
+    color: #111111;
 }

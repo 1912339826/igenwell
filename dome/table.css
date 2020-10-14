@@ -1,6 +1,6 @@
 table {
     margin: 0 auto;
-    width: 1200px;
+    width: 62.5vw;
     border-color: #ebebeb;
     border-collapse: collapse;
 
@@ -8,10 +8,10 @@ table {
 
 table caption {
     background-color: #505050;
-    height: 48px;
-    line-height: 48px;
+    height: 2.5vw;
+    line-height: 2.5vw;
     font-family: "MicrosoftYaHei";
-    font-size: 16px;
+    font-size: 0.06rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 0px;
@@ -19,11 +19,11 @@ table caption {
 }
 
 table .th_ {
-    width: 200px;
-    height: 189px;
+    width: 10.12vw;
+    height: 9.84vw;
     text-align: center;
     font-family: "MicrosoftYaHei";
-    font-size: 16px;
+    font-size: 0.06rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 0px;
@@ -33,9 +33,9 @@ table .th_ {
 
 table .kernel {
     text-align: center;
-    width: 200px;
+    width: 10.12vw;
     font-family: "MicrosoftYaHei";
-    font-size: 16px;
+    font-size: 0.06rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 0px;
@@ -44,9 +44,9 @@ table .kernel {
 }
 
 table .txt {
-    padding-left: 25px;
+    padding-left: 1.3vw;
     font-family: "MicrosoftYaHei";
-    font-size: 16px;
+    font-size: 0.06rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 0px;
