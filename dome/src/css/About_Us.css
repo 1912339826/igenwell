@@ -156,3 +156,8 @@
     letter-spacing: 1px;
     color: #111111;
 }
+
+#container{
+    width: 47vw;
+	height: 19vw;
+}

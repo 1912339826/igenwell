@@ -60,6 +60,7 @@ table .kernel {
 }
 
 table .txt {
+    text-align: center;
     padding-left: 1.3vw;
     font-family: "MicrosoftYaHei";
     font-size: 0.06rem;

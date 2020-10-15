@@ -32,4 +32,4 @@ wisdom_site  智慧工地
 
 wisdom_warehouse  智慧仓库
 
-Wisdom_park  智慧园区
+wisdom_park  智慧园区
